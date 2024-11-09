@@ -1,0 +1,47 @@
+{
+"name": "zecred",
+"stage": "-1",
+"stagePosition": 20,
+"seed": 1,
+"hasLeaderboards": true,
+"notAffectsStatistics": true,
+"achievementsDisabled": true,
+"forcedDifficulty": "NORMAL",
+"quests": [
+	{
+		"id": "Q:zecred:1",
+		"statisticsType": "SG",
+		"value": 15000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "DAT_PAPER"
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:zecred:2",
+		"statisticsType": "TEK",
+		"value": 200000,
+		"prizes": [
+			{
+				"i": {
+					"type": "TILE",
+					"tile": {
+						"type": "GAME_VALUE",
+						"d": {
+							"gv": "EMOJI_ENEMIES",
+							"d": 1,
+							"o": 0,
+							"f": 0
+						}
+					}
+				}
+			}
+		]
+	}
+],
+"difficultyExpectedPlaytime": 3.2
+}

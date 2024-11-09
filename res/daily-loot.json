@@ -1,0 +1,161 @@
+{
+    "minBonusPerMonth": 20,
+    "maxBonusPerMonth": 200,
+    "days": [
+        {
+            "item": {"type":"GREEN_PAPER"},
+            "count": 2000,
+            "monthlyBonus": 4000
+        },
+        {
+            "item": {"type":"BLUEPRINT","blueprintType":"POWER"},
+            "count": 20,
+            "monthlyBonus": 20
+        },
+        {
+            "item": {"type":"CASE_KEY","caseType":"BLUE"},
+            "count": 8,
+            "monthlyBonus": 4
+        },
+        {
+            "item": {"type":"CASE","caseType":"GREEN","encrypted":false,"containsPapers":false},
+            "count": 2,
+            "monthlyBonus": 2
+        },
+        {
+            "item": {"type":"BLUEPRINT","blueprintType":"SPECIAL_I"},
+            "count": 3,
+            "monthlyBonus": 3
+        },
+        {
+            "item": {"type":"CASE_KEY","caseType":"PURPLE"},
+            "count": 7,
+            "monthlyBonus": 3
+        },
+        {
+            "item": {"type":"ACCELERATOR"},
+            "count": 15,
+            "monthlyBonus": 3
+        },
+
+
+
+        {
+            "item": {"type":"CASE","caseType":"BLUE","encrypted":false,"containsPapers":false},
+            "count": 2,
+            "monthlyBonus": 2
+        },
+        {
+            "item": {"type":"RANDOM_TILE","quality":0.5},
+            "count": 5,
+            "monthlyBonus": 5
+        },
+        {
+            "item": {"type":"GREEN_PAPER"},
+            "count": 10000,
+            "monthlyBonus": 20000
+        },
+        {
+            "item": {"type":"BLUEPRINT","blueprintType":"AGILITY"},
+            "count": 20,
+            "monthlyBonus": 20
+        },
+        {
+            "item": {"type":"CASE","caseType":"PURPLE","encrypted":false,"containsPapers":false},
+            "count": 2,
+            "monthlyBonus": 1.5
+        },
+        {
+            "item": {"type":"ABILITY_TOKEN"},
+            "count": 3,
+            "monthlyBonus": 1
+        },
+        {
+            "item": {"type":"CASE","caseType":"BLUEPRINT","encrypted":false,"containsPapers":false},
+            "count": 2,
+            "monthlyBonus": 1
+        },
+
+
+
+
+        {
+            "item": {"type":"BLUEPRINT","blueprintType":"SPECIAL_II"},
+            "count": 3,
+            "monthlyBonus": 2
+        },
+        {
+            "item": {"type":"ACCELERATOR"},
+            "count": 25,
+            "monthlyBonus": 5
+        },
+        {
+            "item": {"type":"RANDOM_TILE","quality":0.7},
+            "count": 5,
+            "monthlyBonus": 5
+        },
+        {
+            "item": {"type":"CASE_KEY","caseType":"ORANGE"},
+            "count": 8,
+            "monthlyBonus": 8
+        },
+        {
+            "item": {"type":"CASE","caseType":"ORANGE","encrypted":false,"containsPapers":false},
+            "count": 2,
+            "monthlyBonus": 1
+        },
+        {
+            "item": {"type":"CASE_KEY","caseType":"CYAN"},
+            "count": 8,
+            "monthlyBonus": 7
+        },
+        {
+            "item": {"type":"LOOT_BOOST"},
+            "count": 1,
+            "monthlyBonus": 0.5
+        },
+
+
+
+        {
+            "item": {"type":"BLUEPRINT","blueprintType":"EXPERIENCE"},
+            "count": 25,
+            "monthlyBonus": 20
+        },
+        {
+            "item": {"type":"RANDOM_TILE","quality":0.9},
+            "count": 5,
+            "monthlyBonus": 5
+        },
+        {
+            "item": {"type":"BIT_DUST"},
+            "count": 25,
+            "monthlyBonus": 25
+        },
+        {
+            "item": {"type":"CASE","caseType":"CYAN","encrypted":false,"containsPapers":false},
+            "count": 1,
+            "monthlyBonus": 1
+        },
+        {
+            "item": {"type":"GREEN_PAPER"},
+            "count": 20000,
+            "monthlyBonus": 25000
+        },
+        {
+            "item": {"type":"ACCELERATOR"},
+            "count": 40,
+            "monthlyBonus": 8
+        },
+        {
+            "item": {"type":"RARITY_BOOST"},
+            "count": 2,
+            "monthlyBonus": 1
+        }
+    ],
+    "superSecretDay": {
+        "item": {"type":"BIT_DUST"},
+        "count": 100,
+        "conditions": [ 117, 115, 101, 32, 116, 104, 105, 115, 32, 110, 49, 122, 49, 100, 97 ]
+    }
+}

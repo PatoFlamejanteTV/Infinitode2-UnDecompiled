@@ -1,0 +1,6 @@
+https://dev.prineside.com/tdi2_javadocs/1.9.2/overview-tree.html
+https://docs.oracle.com/javase/8/docs/api/overview-tree.html
+https://javadoc.io/static/com.badlogicgames.gdx/gdx/1.12.1/overview-tree.html
+https://javadoc.io/static/com.esotericsoftware/kryo/5.5.0/overview-tree.html
+https://javadoc.io/static/com.badlogicgames.gdx/gdx-ai/1.8.2/overview-tree.html
+https://files.prineside.com/gdx-controllers-2.2.3-javadoc/overview-tree.html

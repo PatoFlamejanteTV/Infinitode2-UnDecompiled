@@ -1,0 +1,27 @@
+{
+"name": "S1",
+"stage": "SECRET",
+"seed": 5219,
+"notAffectsStatistics": true,
+"canNotBeRestarted": true,
+"achievementsDisabled": true,
+"forcedDifficulty": "NORMAL",
+"isBonus": true,
+"difficultyExpectedPlaytime": 1,
+"enemyWaves": [
+	{
+		"enemyGroups": [
+			{
+				"enemyType": "REGULAR",
+				"interval": 0.5,
+				"count": 10,
+				"health": 20,
+				"speed": 1,
+				"bounty": 2,
+				"exp": 1,
+				"score": 10
+			}
+		]
+	}
+]
+}

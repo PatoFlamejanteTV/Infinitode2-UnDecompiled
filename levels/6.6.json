@@ -1,0 +1,854 @@
+{
+"name": "6.6",
+"stage": "6",
+"stagePosition": 60,
+"seed": 435355678,
+"hasLeaderboards": true,
+"openRequirements": [
+	{
+		"type": "STARS",
+		"level": "6.5",
+		"amount": 1
+	}
+],
+"price": [
+	{
+		"type": "RESOURCE",
+		"name": "TENSOR",
+		"amount": 5000
+	},
+	{
+		"type": "RESOURCE",
+		"name": "INFIAR",
+		"amount": 5000
+	}
+],
+"quests": [
+	{
+		"id": "Q:6.6:1",
+		"statisticsType": "TDD",
+		"value": 5000000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "MINERS_SPEED",
+					"delta": 5,
+					"levelName": "6.6"
+				}
+			},
+			{
+				"i": {
+					"type": "RANDOM_TILE",
+					"quality": 0.75
+				},
+				"c": 3
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:2",
+		"statisticsType": "CG",
+		"value": 20000,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 15000
+			},
+			{
+				"i": {
+					"type": "CASE_KEY",
+					"caseType": "CYAN"
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:3",
+		"statisticsType": "SG",
+		"value": 140000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 5
+			},
+			{
+				"i": {
+					"type": "ABILITY_TOKEN"
+				},
+				"c": 2
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:4",
+		"statisticsType": "RG",
+		"value": 1200,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "RESOURCE",
+					"resourceType": "INFIAR"
+				},
+				"c": 2000
+			},
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "MINERS_LOOT_SLOTS",
+					"delta": 1,
+					"levelName": "6.6"
+				},
+				"c": 100
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:5",
+		"statisticsType": "PT",
+		"value": 3600,
+		"prizes": [
+			{
+				"i": {
+					"type": "ABILITY_TOKEN"
+				}
+			},
+			{
+				"i": {
+					"type": "BLUEPRINT",
+					"blueprintType": "SPECIAL_III"
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:6",
+		"statisticsType": "WC",
+		"value": 70,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 20000
+			},
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "PURPLE",
+					"containsPapers": false
+				},
+				"c": 2
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:7",
+		"statisticsType": "TDD",
+		"value": 10000000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "RANDOM_TELEPORT"
+				},
+				"c": 2
+			},
+			{
+				"i": {
+					"type": "LUCKY_SHOT_TOKEN"
+				},
+				"c": 2
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:8",
+		"statisticsType": "SG",
+		"value": 250000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 25000
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:9",
+		"statisticsType": "RG",
+		"value": 4500,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "RESOURCE",
+					"resourceType": "TENSOR"
+				},
+				"c": 1000
+			},
+			{
+				"i": {
+					"type": "RESOURCE",
+					"resourceType": "INFIAR"
+				},
+				"c": 1500
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:10",
+		"statisticsType": "EK",
+		"value": 3200,
+		"prizes": [
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 10
+			},
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "ABILITY_WINDSTORM_RANGE",
+					"delta": 2,
+					"levelName": "6.6"
+				}
+			},
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "ABILITY_WINDSTORM_DURATION",
+					"delta": 2,
+					"levelName": "6.6"
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:11",
+		"statisticsType": "TDD",
+		"value": 100000000,
+		"prizes": [
+			{
+				"i": {
+					"type": "CASE_KEY",
+					"caseType": "BLUE"
+				},
+				"c": 68
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:12",
+		"statisticsType": "CG",
+		"value": 42000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "WAVE_INTERVAL",
+					"delta": 2,
+					"levelName": "6.6"
+				}
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 20000
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:13",
+		"statisticsType": "EK",
+		"value": 4300,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 40000
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:14",
+		"statisticsType": "WCST",
+		"value": 2400,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "CYAN",
+					"containsPapers": false
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:15",
+		"statisticsType": "TDD",
+		"value": 450000000,
+		"prizes": [
+			{
+				"i": {
+					"type": "BIT_DUST"
+				},
+				"c": 50
+			}
+		]
+	},
+	{
+		"id": "Q:6.6:16",
+		"statisticsType": "SG",
+		"value": 800000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "RESEARCH_TOKEN"
+				}
+			}
+		]
+	}
+],
+"waveQuests": [
+	{
+		"id": "W:6.6:1",
+		"waves": 50,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 20000
+			}
+		]
+	},
+	{
+		"id": "W:6.6:2",
+		"waves": 60,
+		"prizes": [
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 10
+			},
+			{
+				"i": {
+					"type": "RESOURCE",
+					"resourceType": "INFIAR"
+				},
+				"c": 4000
+			}
+		]
+	},
+	{
+		"id": "W:6.6:3",
+		"waves": 68,
+		"prizes": [
+			{
+				"i": {
+					"type": "RANDOM_TILE",
+					"quality": 1
+				},
+				"c": 5
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 30000
+			}
+		]
+	},
+	{
+		"id": "W:6.6:S1",
+		"waves": 75,
+		"prizes": [
+			{
+				"i": {
+					"type": "STAR"
+				}
+			},
+			{
+				"i": {
+					"type": "BLUEPRINT",
+					"blueprintType": "SPECIAL_III"
+				},
+				"c": 2
+			}
+		]
+	},
+	{
+		"id": "W:6.6:4",
+		"waves": 83,
+		"prizes": [
+			{
+				"i": {
+					"type": "ABILITY_TOKEN"
+				},
+				"c": 6
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 30000
+			}
+		]
+	},
+	{
+		"id": "W:6.6:5",
+		"waves": 91,
+		"prizes": [
+			{
+				"i": {
+					"type": "CASE_KEY",
+					"caseType": "ORANGE"
+				},
+				"c": 10
+			},
+			{
+				"i": {
+					"type": "CASE_KEY",
+					"caseType": "PURPLE"
+				},
+				"c": 14
+			}
+		]
+	},
+	{
+		"id": "W:6.6:S2",
+		"waves": 100,
+		"prizes": [
+			{
+				"i": {
+					"type": "STAR"
+				}
+			},
+			{
+				"i": {
+					"type": "RARITY_BOOST"
+				}
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 20000
+			}
+		]
+	},
+	{
+		"id": "W:6.6:6",
+		"waves": 109,
+		"prizes": [
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "PURPLE",
+					"containsPapers": false
+				},
+				"c": 3
+			}
+		]
+	},
+	{
+		"id": "W:6.6:7",
+		"waves": 118,
+		"prizes": [
+			{
+				"i": {
+					"type": "RANDOM_TELEPORT"
+				},
+				"c": 4
+			}
+		]
+	},
+	{
+		"id": "W:6.6:S3",
+		"waves": 126,
+		"prizes": [
+			{
+				"i": {
+					"type": "STAR"
+				}
+			},
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 15
+			},
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "ORANGE",
+					"containsPapers": false
+				}
+			}
+		]
+	},
+	{
+		"id": "W:6.6:8",
+		"waves": 134,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 25000
+			},
+			{
+				"i": {
+					"type": "RANDOM_TILE",
+					"quality": 1
+				},
+				"c": 4
+			}
+		]
+	},
+	{
+		"id": "W:6.6:9",
+		"waves": 142,
+		"prizes": [
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "CYAN",
+					"containsPapers": false
+				},
+				"c": 2
+			},
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "BLUEPRINT",
+					"containsPapers": false
+				}
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 30000
+			}
+		]
+	},
+	{
+		"id": "W:6.6:10",
+		"waves": 150,
+		"prizes": [
+			{
+				"i": {
+					"type": "TILE",
+					"tile": {
+						"type": "EQUALIZER",
+						"y": 5,
+						"d": {
+							"bi": 0,
+							"sd": 0.08,
+							"c": 2,
+							"co": 0,
+							"d": 0,
+							"cl": "ad1457ff",
+							"ch": "6a1b9aff",
+							"bw": 11,
+							"bh": 2,
+							"rb": false,
+							"pe": true,
+							"f": [
+								[ 10.8, 34.65 ],
+								[ 32.7, 55 ],
+								[ 55, 77.78 ],
+								[ 77.78, 98 ],
+								[ 98, 123.47 ],
+								[ 123.47, 146.83 ],
+								[ 146.83, 164.81 ],
+								[ 164.81, 185 ],
+								[ 185, 207.65 ],
+								[ 207.65, 233.08 ],
+								[ 233.08, 261.63 ],
+								[ 261.63, 277.18 ],
+								[ 277.18, 293.66 ],
+								[ 293.66, 329.63 ],
+								[ 329.63, 349.23 ],
+								[ 349.23, 369.99 ],
+								[ 369.99, 392 ],
+								[ 392, 415.3 ],
+								[ 415.3, 440 ],
+								[ 440, 466.16 ],
+								[ 466.16, 493.88 ],
+								[ 493.88, 523.25 ],
+								[ 523.25, 554.37 ],
+								[ 554.37, 587.33 ],
+								[ 587.33, 622.25 ],
+								[ 622.25, 659.26 ],
+								[ 659.26, 698.46 ],
+								[ 698.46, 739.99 ],
+								[ 739.99, 783.99 ],
+								[ 783.99, 830.61 ],
+								[ 830.61, 880 ],
+								[ 880, 932.33 ],
+								[ 932.33, 987.77 ],
+								[ 987.77, 1046.5 ],
+								[ 1046.5, 1108.73 ],
+								[ 1108.73, 1174.66 ],
+								[ 1174.66, 1244.51 ],
+								[ 1244.51, 1318.51 ],
+								[ 1318.51, 1396.91 ],
+								[ 1396.91, 1479.98 ],
+								[ 1479.98, 1567.98 ],
+								[ 1567.98, 1661.22 ],
+								[ 1661.22, 1760 ],
+								[ 1760, 1864.66 ],
+								[ 1864.66, 1975.53 ],
+								[ 1975.53, 2093 ],
+								[ 2093, 2217.46 ],
+								[ 2217.46, 2349.32 ],
+								[ 2349.32, 2489.02 ],
+								[ 2489.02, 2637.02 ],
+								[ 2637.02, 2793.83 ],
+								[ 2793.83, 2959.96 ],
+								[ 2959.96, 3135.96 ],
+								[ 3135.96, 3322.44 ],
+								[ 3322.44, 3520 ],
+								[ 3520, 3729.31 ],
+								[ 3729.31, 3951.07 ],
+								[ 3951.07, 4186.01 ],
+								[ 4186.01, 4434.92 ],
+								[ 4434.92, 4698.64 ],
+								[ 4698.64, 4978.03 ],
+								[ 4978.03, 5274.04 ],
+								[ 5274.04, 5587.65 ],
+								[ 5587.65, 5919.91 ],
+								[ 5919.91, 6271.93 ],
+								[ 6271.93, 6644.88 ],
+								[ 6644.88, 7040 ],
+								[ 7040, 7458.62 ],
+								[ 7458.62, 7902.13 ],
+								[ 7902.13, 8372.02 ],
+								[ 8372.02, 8869.84 ],
+								[ 8869.84, 9397.27 ],
+								[ 9397.27, 9956.06 ],
+								[ 9956.06, 10548 ],
+								[ 10548, 11175 ],
+								[ 11175, 11839 ],
+								[ 11839, 12543 ],
+								[ 12543, 13289 ],
+								[ 13289, 14080 ],
+								[ 14080, 14917 ],
+								[ 14917, 15804 ],
+								[ 15804, 16744 ],
+								[ 16744, 17739 ],
+								[ 17739, 18794 ],
+								[ 18794, 19912 ]
+							],
+							"mve": 0.99,
+							"fmv": 0,
+							"bs": 0.2,
+							"sx": 0,
+							"sy": 0
+						}
+					}
+				}
+			},
+			{
+				"i": {
+					"type": "TILE",
+					"tile": {
+						"type": "EQUALIZER",
+						"y": 4,
+						"d": {
+							"bi": 0,
+							"sd": 0.08,
+							"c": 2,
+							"co": 0,
+							"d": 1,
+							"cl": "ad14577f",
+							"ch": "6a1b9a7f",
+							"bw": 11,
+							"bh": 2,
+							"rb": false,
+							"pe": false,
+							"f": [
+								[ 10.8, 34.65 ],
+								[ 32.7, 55 ],
+								[ 55, 77.78 ],
+								[ 77.78, 98 ],
+								[ 98, 123.47 ],
+								[ 123.47, 146.83 ],
+								[ 146.83, 164.81 ],
+								[ 164.81, 185 ],
+								[ 185, 207.65 ],
+								[ 207.65, 233.08 ],
+								[ 233.08, 261.63 ],
+								[ 261.63, 277.18 ],
+								[ 277.18, 293.66 ],
+								[ 293.66, 329.63 ],
+								[ 329.63, 349.23 ],
+								[ 349.23, 369.99 ],
+								[ 369.99, 392 ],
+								[ 392, 415.3 ],
+								[ 415.3, 440 ],
+								[ 440, 466.16 ],
+								[ 466.16, 493.88 ],
+								[ 493.88, 523.25 ],
+								[ 523.25, 554.37 ],
+								[ 554.37, 587.33 ],
+								[ 587.33, 622.25 ],
+								[ 622.25, 659.26 ],
+								[ 659.26, 698.46 ],
+								[ 698.46, 739.99 ],
+								[ 739.99, 783.99 ],
+								[ 783.99, 830.61 ],
+								[ 830.61, 880 ],
+								[ 880, 932.33 ],
+								[ 932.33, 987.77 ],
+								[ 987.77, 1046.5 ],
+								[ 1046.5, 1108.73 ],
+								[ 1108.73, 1174.66 ],
+								[ 1174.66, 1244.51 ],
+								[ 1244.51, 1318.51 ],
+								[ 1318.51, 1396.91 ],
+								[ 1396.91, 1479.98 ],
+								[ 1479.98, 1567.98 ],
+								[ 1567.98, 1661.22 ],
+								[ 1661.22, 1760 ],
+								[ 1760, 1864.66 ],
+								[ 1864.66, 1975.53 ],
+								[ 1975.53, 2093 ],
+								[ 2093, 2217.46 ],
+								[ 2217.46, 2349.32 ],
+								[ 2349.32, 2489.02 ],
+								[ 2489.02, 2637.02 ],
+								[ 2637.02, 2793.83 ],
+								[ 2793.83, 2959.96 ],
+								[ 2959.96, 3135.96 ],
+								[ 3135.96, 3322.44 ],
+								[ 3322.44, 3520 ],
+								[ 3520, 3729.31 ],
+								[ 3729.31, 3951.07 ],
+								[ 3951.07, 4186.01 ],
+								[ 4186.01, 4434.92 ],
+								[ 4434.92, 4698.64 ],
+								[ 4698.64, 4978.03 ],
+								[ 4978.03, 5274.04 ],
+								[ 5274.04, 5587.65 ],
+								[ 5587.65, 5919.91 ],
+								[ 5919.91, 6271.93 ],
+								[ 6271.93, 6644.88 ],
+								[ 6644.88, 7040 ],
+								[ 7040, 7458.62 ],
+								[ 7458.62, 7902.13 ],
+								[ 7902.13, 8372.02 ],
+								[ 8372.02, 8869.84 ],
+								[ 8869.84, 9397.27 ],
+								[ 9397.27, 9956.06 ],
+								[ 9956.06, 10548 ],
+								[ 10548, 11175 ],
+								[ 11175, 11839 ],
+								[ 11839, 12543 ],
+								[ 12543, 13289 ],
+								[ 13289, 14080 ],
+								[ 14080, 14917 ],
+								[ 14917, 15804 ],
+								[ 15804, 16744 ],
+								[ 16744, 17739 ],
+								[ 17739, 18794 ],
+								[ 18794, 19912 ]
+							],
+							"mve": 0.99,
+							"fmv": 0,
+							"bs": 0.2,
+							"sx": 0,
+							"sy": 0
+						}
+					}
+				}
+			}
+		]
+	}
+],
+"difficultyExpectedPlaytime": 0.6,
+"bonusStagesConfig": {
+	"forceImmediateSelection": false,
+	"replaceBonusesWithNotSatisfiedPreconditions": false,
+	"reRollEnabled": true,
+	"maxReRollsPerStage": 1,
+	"maxReRollsAllTime": 0,
+	"reRollPrice": 0.09,
+	"reRollMinPrice": 0.01,
+	"reRollMaxPrice": 0.09,
+	"reRollPricePerStage": 0.09,
+	"immediateBonusesChance": 1,
+	"persistentBonusesChance": 1,
+	"activeBonusesSlotLimit": -1,
+	"chainReRoll": true,
+	"ignoreImpossiblePreconditions": false,
+	"selectedBonusAffectsRandom": true,
+	"stageRequirements": [ 150, 150, 160, 160, 170, 170, 180, 180, 190, 190, 200, 200, 200, 200, 200 ],
+	"seed": 0,
+	"endlessStageRequirement": -1,
+	"endlessStageRequirementPerStage": 0,
+	"fillWithDefaultBonusProviders": false,
+	"bonusProviderList": [
+		"AddAllAbilityCharges$BonusProvider",
+		"DepositCoinsGeneration$BonusProvider",
+		"EnemiesDropResources$BonusProvider",
+		"ExtraDamagePerBuff$BonusProvider",
+		"IncreasedTowerToEnemyEfficiency$BonusProvider",
+		"IncreaseSelectedBonusesPower$BonusProvider",
+		"LastEnemiesInWaveDealNoDamage$BonusProvider",
+		"LowHpEnemiesDealNoDamage$BonusProvider",
+		"MineLegendaryItems$BonusProvider",
+		"DoubleMiningSpeed$BonusProvider",
+		"AllAbilitiesForRandomTower$BonusProvider",
+		"DebuffsLastLonger$BonusProvider",
+		"ReceiveCoins$BonusProvider",
+		"BoostExistingEnemiesWithLoot$BonusProvider",
+		"FirstEnemiesInWaveExplode$BonusProvider",
+		"BaseExplodesOnEnemyPass$BonusProvider",
+		"MinersSpawnEnemies$BonusProvider",
+		"MinedItemsTurnIntoDust$BonusProvider",
+		"TriggerRandomAbility$BonusProvider",
+		"BuildRandomMiner$BonusProvider",
+		"MultiplyMdps$BonusProvider",
+		"AddRandomCoreTile$BonusProvider",
+		"SummonLootBoss$BonusProvider",
+		"SpawnZombiesFromBase$BonusProvider",
+		"AddRandomPlatform$BonusProvider",
+		"MoreBonusVariantsNextTime$BonusProvider",
+		"CriticalDamage$BonusProvider",
+		"SellAllTowers$BonusProvider",
+		"NukeOnBonusStage$BonusProvider",
+		"TowersDamage$BonusProvider",
+		"TowersAttackSpeed$BonusProvider",
+		"MultiplyLootedItems$BonusProvider",
+		"LightningStrikeOnTowerLevelUp$BonusProvider",
+		"GV_AbilitiesEnergy$BonusProvider",
+		"GV_AbilitiesMaxEnergy$BonusProvider",
+		"GV_BountiesNearby$BonusProvider",
+		"GV_DisableBountyModifierHarm$BonusProvider",
+		"GV_MinersMaxUpgradeLevel$BonusProvider",
+		"GV_TowersMaxExpLevel$BonusProvider"
+	],
+	"bonusesConfig": {}
+}
+}

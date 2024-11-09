@@ -1,0 +1,26 @@
+{
+  "reRollEnabled": true,
+  "maxReRollsPerStage":  1,
+  "reRollPrice": 0.15,
+  "reRollMinPrice": 0.05,
+  "reRollMaxPrice": 0.15,
+  "reRollPricePerStage": -0.005,
+  "chainReRoll": true,
+  "selectedBonusAffectsRandom": true,
+  "stageRequirements": [ 31, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220 ],
+  "seed": 0,
+  "fillWithDefaultBonusProviders": false,
+  "bonusProviderList": [
+    "com.prineside.tdi2.gameplayMods.mods.ExtraDamagePerBuff$BonusProvider",
+    "com.prineside.tdi2.gameplayMods.mods.EnemiesDropResources$BonusProvider",
+    "com.prineside.tdi2.gameplayMods.mods.IncreasedTowerToEnemyEfficiency$BonusProvider",
+    "com.prineside.tdi2.gameplayMods.mods.IncreaseSelectedBonusesPower$BonusProvider",
+    "com.prineside.tdi2.gameplayMods.mods.DepositCoinsGeneration$BonusProvider",
+    "com.prineside.tdi2.gameplayMods.mods.GameValueMod$BonusProvider_AbilitiesEnergy",
+    "com.prineside.tdi2.gameplayMods.mods.GameValueMod$BonusProvider_BountiesNearby",
+    "com.prineside.tdi2.gameplayMods.mods.GameValueMod$BonusProvider_DisableBountyModifierHarm"
+  ],
+  "bonusesConfig": {
+
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "atlases": [
+    [
+      {
+        "atlas": "textures/combined.atlas",
+        "textureSize": 4096
+      }
+    ]
+  ],
+  "quads": "quads.json5",
+  "font": {
+    "file": "font.fnt",
+    "textures": [ "font", "font-jp", "font-cjk" ],
+    "resolution": 32
+  },
+  "soundTracks": {
+    "BUTTON": {
+      "file": "sounds/button.mp3",
+      "duration": 149
+    },
+    "ENEMY_DIE": {
+      "file": "sounds/enemy-die.mp3",
+      "duration": 269
+    },
+    "NOTIFICATION": {
+      "file": "sounds/notification.mp3",
+      "duration": 993
+    },
+    "SUCCESS": {
+      "file": "sounds/success.mp3",
+      "duration": 993
+    },
+    "WARNING": {
+      "file": "sounds/warning.mp3",
+      "duration": 1045
+    },
+    "GAME_OVER": {
+      "file": "sounds/game-over.mp3",
+      "duration": 2220
+    },
+    "UPGRADE": {
+      "file": "sounds/upgrade.mp3",
+      "duration": 840
+    },
+    "ENEMY_REACHED": {
+      "file": "sounds/enemy-reached.mp3",
+      "duration": 636
+    },
+    "ABILITY_NUKE": {
+      "file": "sounds/ability-nuke.mp3",
+      "duration": 4049
+    },
+    "ABILITY_BLIZZARD": {
+      "file": "sounds/ability-blizzard.mp3",
+      "duration": 5224
+    },
+    "ABILITY_FIREBALL": {
+      "file": "sounds/ability-fireball.mp3",
+      "duration": 1392
+    },
+    "ABILITY_WINDSTORM": {
+      "file": "sounds/ability-windstorm.mp3",
+      "duration": 2247
+    },
+    "ABILITY_THUNDER": {
+      "file": "sounds/ability-thunder.mp3",
+      "duration": 2377
+    },
+    "ABILITY_SMOKE_BOMB": {
+      "file": "sounds/ability-smoke-bomb.mp3",
+      "duration": 1829
+    },
+    "ABILITY_FIRESTORM": {
+      "file": "sounds/ability-firestorm.mp3",
+      "duration": 1489
+    },
+    "ABILITY_MAGNET": {
+      "file": "sounds/ability-magnet.mp3",
+      "duration": 1515
+    },
+    "ABILITY_BULLET_WALL": {
+      "file": "sounds/ability-bullet-wall.mp3",
+      "duration": 914
+    },
+    "ABILITY_BALL_LIGHTNING": {
+      "file": "sounds/ability-ball-lightning.mp3",
+      "duration": 1437
+    },
+    "ABILITY_LOIC": {
+      "file": "sounds/ability-loic.mp3",
+      "duration": 1985
+    },
+    "ABILITY_OVERLOAD": {
+      "file": "sounds/ability-overload.mp3",
+      "duration": 1358
+    },
+    "ABILITY_LOOP": {
+      "file": "sounds/ability-loop.mp3",
+      "duration": 1195
+    },
+    "LOOT_COMMON": {
+      "file": "sounds/loot-common.mp3",
+      "duration": 366
+    },
+    "LOOT_RARE": {
+      "file": "sounds/loot-rare.mp3",
+      "duration": 418
+    },
+    "LOOT_VERY_RARE": {
+      "file": "sounds/loot-very-rare.mp3",
+      "duration": 496
+    },
+    "LOOT_EPIC": {
+      "file": "sounds/loot-epic-new.mp3",
+      "duration": 914
+    },
+    "LOOT_LEGENDARY": {
+      "file": "sounds/loot-legendary.mp3",
+      "duration": 1202
+    },
+    "RESEARCH": {
+      "file": "sounds/research.mp3",
+      "duration": 1097
+    },
+    "BUILDING_BUILT": {
+      "file": "sounds/building-built.mp3",
+      "duration": 418
+    },
+    "AUTO_FORCE_WAVE": {
+      "file": "sounds/auto-force-wave.mp3",
+      "duration": 784
+    },
+    "FAIL": {
+      "file": "sounds/fail.mp3",
+      "duration": 1280
+    },
+    "TICK": {
+      "file": "sounds/tick.mp3",
+      "duration": 78
+    },
+    "EXPLOSION": {
+      "file": "sounds/explosion.mp3",
+      "duration": 1392
+    },
+    "SHOT_BASIC": {
+      "file": "sounds/shot-basic.mp3",
+      "duration": 264
+    },
+    "SHOT_BLAST": {
+      "file": "sounds/shot-blast.mp3",
+      "duration": 336
+    },
+    "SHOT_BLAST_QUAKE": {
+      "file": "sounds/shot-blast-quake.mp3",
+      "duration": 1704
+    },
+    "SHOT_VENOM": {
+      "file": "sounds/shot-venom.mp3",
+      "duration": 336
+    },
+    "SHOT_TESLA": {
+      "file": "sounds/shot-tesla.mp3",
+      "duration": 888
+    },
+    "SHOT_MISSILE": {
+      "file": "sounds/shot-missile.mp3",
+      "duration": 792
+    },
+    "SHOT_SNIPER": {
+      "file": "sounds/shot-sniper.mp3",
+      "duration": 456
+    },
+    "SHOT_MINIGUN": {
+      "file": "sounds/shot-minigun.mp3",
+      "duration": 288
+    },
+    "SHOT_FLAMETHROWER": {
+      "file": "sounds/shot-flamethrower.mp3",
+      "duration": 1104
+    },
+    "SHOT_MULTISHOT": {
+      "file": "sounds/shot-multishot.mp3",
+      "duration": 600
+    },
+    "SHOT_LASER": {
+      "file": "sounds/shot-laser.mp3",
+      "duration": 240
+    },
+    "SHOT_CANNON": {
+      "file": "sounds/shot-cannon.mp3",
+      "duration": 864
+    },
+    "SHOT_AIR": {
+      "file": "sounds/shot-air.mp3",
+      "duration": 504
+    },
+    "SHOT_SPLASH": {
+      "file": "sounds/shot-splash.mp3",
+      "duration": 216
+    },
+    "SHOT_GAUSS": {
+      "file": "sounds/shot-gauss.mp3",
+      "duration": 816
+    },
+    "SHOT_GAUSS_CHARGE": {
+      "file": "sounds/shot-gauss-charge.mp3",
+      "duration": 792
+    },
+    "SPRING_TENSION_1": {
+      "file": "sounds/spring-tension-1.mp3",
+      "duration": 48
+    },
+    "SPRING_TENSION_2": {
+      "file": "sounds/spring-tension-2.mp3",
+      "duration": 23
+    },
+    "SPRING_TENSION_RELEASE": {
+      "file": "sounds/spring-tension-release.mp3",
+      "duration": 91
+    }
+  },
+  "menuXmSoundTrack": "menu-music.zxm",
+  "colors": {
+    "game_background": "#171717FF",
+    "menu_background": "#171717FF",
+    "screen_border_gradient_normal": "#00000070"
+  }
+}

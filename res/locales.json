@@ -1,0 +1,19 @@
+[
+  "MainBundle.properties",
+  "MainBundle_en_US.properties",
+  "MainBundle_de_DE.properties",
+  "MainBundle_es_ES.properties",
+  "MainBundle_fr_FR.properties",
+  "MainBundle_ja_JP.properties",
+  "MainBundle_it_IT.properties",
+  "MainBundle_ko_KR.properties",
+  "MainBundle_pl_PL.properties",
+  "MainBundle_pt_BR.properties",
+  "MainBundle_ru_RU.properties",
+  "MainBundle_tr_TR.properties",
+  "MainBundle_uk_UA.properties",
+  "MainBundle_zh_TW.properties",
+  "MainBundle_zh_CN.properties",
+  "MainBundle_vi_VN.properties",
+  "MainBundle_id_ID.properties"
+]

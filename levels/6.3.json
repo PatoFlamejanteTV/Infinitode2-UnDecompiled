@@ -1,0 +1,188 @@
+{
+"name": "6.3",
+"stage": "6",
+"stagePosition": 30,
+"seed": 30000,
+"hasLeaderboards": true,
+"notAffectsStatistics": true,
+"fixedQuests": true,
+"openRequirements": [
+	{
+		"type": "STAGE_STARS",
+		"stage": "6",
+		"amount": 3
+	}
+],
+"price": [
+	{
+		"type": "RESOURCE",
+		"name": "VECTOR",
+		"amount": 10000
+	},
+	{
+		"type": "RESOURCE",
+		"name": "MATRIX",
+		"amount": 10000
+	}
+],
+"quests": [
+	{
+		"id": "Q:6.3:S1",
+		"statisticsType": "EK",
+		"value": 5000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "STAR"
+				}
+			},
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 6
+			}
+		]
+	},
+	{
+		"id": "Q:6.3:S2",
+		"statisticsType": "SG",
+		"value": 300000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "STAR"
+				}
+			},
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 8
+			}
+		]
+	},
+	{
+		"id": "Q:6.3:1",
+		"statisticsType": "CG",
+		"value": 50000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 5000
+			},
+			{
+				"i": {
+					"type": "CASE_KEY",
+					"caseType": "CYAN"
+				},
+				"c": 7
+			},
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "LOOT_FREQUENCY",
+					"delta": 5,
+					"levelName": "6.3"
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:6.3:2",
+		"statisticsType": "RG_S",
+		"value": 1200,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "ABILITY_TOKEN"
+				},
+				"c": 2
+			},
+			{
+				"i": {
+					"type": "RARITY_BOOST"
+				},
+				"c": 2
+			}
+		]
+	},
+	{
+		"id": "Q:6.3:3",
+		"statisticsType": "TDD",
+		"value": 8000000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 8
+			},
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "ORANGE",
+					"containsPapers": false
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:6.3:4",
+		"statisticsType": "RG",
+		"value": 9000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "CYAN",
+					"containsPapers": false
+				}
+			},
+			{
+				"i": {
+					"type": "RESOURCE",
+					"resourceType": "SCALAR"
+				},
+				"c": 5000
+			},
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "COINS_GENERATION",
+					"delta": 5,
+					"levelName": "6.3"
+				}
+			}
+		]
+	}
+],
+"waveQuests": [
+	{
+		"id": "W:6.3:S1",
+		"waves": 1,
+		"prizes": [
+			{
+				"i": {
+					"type": "STAR"
+				}
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 5000
+			}
+		]
+	}
+],
+"difficultyExpectedPlaytime": 1
+}

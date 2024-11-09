@@ -1,0 +1,211 @@
+{
+  "SPECIAL_STORYLINE": {
+    "gameValues": {
+      "MINERS_INSTALL_DURATION": -5,
+      "MINER_COUNT_INFIAR": 1
+    }
+  },
+  "SPECIAL_DEVELOPER": {
+    "gameValues": {
+
+    }
+  },
+  "SPECIAL_MILLION": {
+    "gameValues": {
+      "MODIFIER_BOUNTY_COUNT": 1,
+      "MODIFIER_MINING_SPEED_COUNT": 1
+    }
+  },
+  "SPECIAL_MASTER": {
+    "gameValues": {
+      "PRESTIGE_DUST_DROP_RATE": 10,
+      "BIT_DUST_DROP_RATE": 10,
+      "REGULAR_QUESTS_REPLACES": 1
+    }
+  },
+
+  "MODIFIER_BALANCE": {
+    "gameValues": {
+      "FORCED_WAVE_BONUS": 0.5
+    }
+  },
+  "MODIFIER_SEARCH": {
+    "gameValues": {
+      "WAVE_INTERVAL": 1,
+      "ABILITY_MAGNET_COINS": 10
+    }
+  },
+  "MODIFIER_POWER": {
+    "gameValues": {
+      "ABILITY_LOIC_COINS": 5,
+      "ABILITY_NUKE_COINS": 5
+    }
+  },
+  "MODIFIER_DAMAGE": {
+    "gameValues": {
+      "ABILITY_FIREBALL_COINS": 5,
+      "ABILITY_BLIZZARD_BONUS_DAMAGE": 5
+    }
+  },
+  "MODIFIER_ATTACK_SPEED": {
+    "gameValues": {
+      "MODIFIER_ATTACK_SPEED_VALUE": 1
+    }
+  },
+  "MODIFIER_MINING_SPEED": {
+    "gameValues": {
+      "ABILITY_WINDSTORM_RANGE": 1,
+      "ABILITY_THUNDER_COINS": 10
+    }
+  },
+  "MODIFIER_BOUNTY": {
+    "gameValues": {
+      "ABILITY_SMOKE_BOMB_COINS": 10,
+      "ABILITY_FIRESTORM_COINS": 5
+    }
+  },
+  "MODIFIER_EXPERIENCE": {
+    "gameValues": {
+      "ABILITY_BULLET_WALL_COINS": 10,
+      "ABILITY_BALL_LIGHTNING_COINS": 5
+    }
+  },
+
+  "TOWER_BASIC": {
+    "gameValues": {
+      "TOWERS_EXPERIENCE_MULTIPLIER": 2
+    }
+  },
+  "TOWER_SNIPER": {
+    "gameValues": {
+      "TOWERS_EXPERIENCE_GENERATION": 0.05
+    }
+  },
+  "TOWER_CANNON": {
+    "gameValues": {
+      "TOWERS_UPGRADE_PRICE": -0.5
+    }
+  },
+  "TOWER_FREEZING": {
+    "gameValues": {
+      "TOWERS_SELL_REFUND": 1
+    }
+  },
+  "TOWER_VENOM": {
+    "gameValues": {
+      "TOWERS_PROJECTILE_SPEED": 2
+    }
+  },
+  "TOWER_SPLASH": {
+    "gameValues": {
+      "TOWERS_ROTATION_SPEED": 2
+    }
+  },
+  "TOWER_BLAST": {
+    "gameValues": {
+      "TOWERS_RANGE": 2
+    }
+  },
+  "TOWER_MULTISHOT": {
+    "gameValues": {
+      "TOWERS_ATTACK_SPEED": 2
+    }
+  },
+  "TOWER_MINIGUN": {
+    "gameValues": {
+      "TOWERS_DAMAGE": 2
+    }
+  },
+  "TOWER_AIR": {
+    "gameValues": {
+      "TOWER_BASIC_ATTACK_SPEED": 5,
+      "TOWER_SNIPER_DAMAGE": 5
+    }
+  },
+  "TOWER_TESLA": {
+    "gameValues": {
+      "TOWER_CANNON_EXPLOSION_RANGE": 5,
+      "TOWER_FREEZING_CHAIN_LIGHTNING_LENGTH_BONUS": 10
+    }
+  },
+  "TOWER_MISSILE": {
+    "gameValues": {
+      "TOWER_VENOM_PROJECTILE_SPEED": 10,
+      "TOWER_SPLASH_PROJECTILE_COUNT": 5
+    }
+  },
+  "TOWER_FLAMETHROWER": {
+    "gameValues": {
+      "TOWER_BLAST_DAMAGE": 10,
+      "TOWER_MULTISHOT_ATTACK_SPEED": 5
+    }
+  },
+  "TOWER_LASER": {
+    "gameValues": {
+      "TOWER_MINIGUN_ACCELERATION": 5,
+      "TOWER_AIR_BURNING_TIME": 10
+    }
+  },
+
+  "MINER_SCALAR": {
+    "gameValues": {
+      "TOWER_TESLA_CHAIN_LIGHTNING_DAMAGE": 5,
+      "TOWER_MISSILE_EXPLOSION_RANGE": 5
+    }
+  },
+  "MINER_VECTOR": {
+    "gameValues": {
+      "TOWER_FLAMETHROWER_DAMAGE": 5,
+      "TOWER_LASER_CHARGING_SPEED": 5
+    }
+  },
+  "MINER_MATRIX": {
+    "gameValues": {
+      "TOWER_LASER_ROTATION_SPEED": 5,
+      "TOWER_MISSILE_LRM_AIM_SPEED": 5
+    }
+  },
+  "MINER_TENSOR": {
+    "gameValues": {
+      "TOWER_TESLA_CHAIN_LIGHTNING_LENGTH": 5,
+      "TOWER_AIR_DAMAGE": 5
+    }
+  },
+  "MINER_INFIAR": {
+    "gameValues": {
+      "TOWER_BLAST_ATTACK_SPEED": 5,
+      "TOWER_SNIPER_CRIT_MULTIPLIER": 5
+    }
+  },
+
+  "RESOURCE_SCALAR": {
+    "gameValues": {
+      "STARTING_MONEY": 5,
+      "MINER_COUNT_SCALAR": 1
+    }
+  },
+  "RESOURCE_VECTOR": {
+    "gameValues": {
+      "STARTING_HEALTH": 2,
+      "MINER_COUNT_VECTOR": 1
+    }
+  },
+  "RESOURCE_MATRIX": {
+    "gameValues": {
+      "MODIFIER_EXPERIENCE_COUNT": 1,
+      "MINER_COUNT_MATRIX": 1
+    }
+  },
+  "RESOURCE_TENSOR": {
+    "gameValues": {
+      "MODIFIER_POWER_COUNT": 1,
+      "MINER_COUNT_TENSOR": 1
+    }
+  },
+  "RESOURCE_INFIAR": {
+    "gameValues": {
+      "TOWER_FREEZING_FREEZE_PERCENT": 5,
+      "MINER_COUNT_INFIAR": 1
+    }
+  }
+}

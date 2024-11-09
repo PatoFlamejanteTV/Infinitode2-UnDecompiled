@@ -1,0 +1,238 @@
+{
+"v": 2,
+"w": 6,
+"h": 7,
+"tt": [
+	{
+		"type": "TARGET",
+		"d": {
+			"da": true,
+			"usgv": true,
+			"gv": [
+				{
+					"t": "STARTING_MONEY",
+					"v": 0,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "GAME_SAVES",
+					"v": 0,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "AUTO_WAVE_CALL",
+					"v": 0,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "TOWERS_CAN_BE_MANUALLY_DISABLED",
+					"v": 0,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "MINER_COUNT_SCALAR",
+					"v": 1,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "MINERS_INSTALL_DURATION",
+					"v": 5,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "MINER_SCALAR_INSTALL_DURATION",
+					"v": 5,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "TOWERS_MAX_EXP_LEVEL",
+					"v": 20,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "TOWERS_MAX_UPGRADE_LEVEL",
+					"v": 10,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "TOWERS_RANGE",
+					"v": 75,
+					"o": true,
+					"b": true
+				},
+				{
+					"t": "TOWERS_ATTACK_SPEED",
+					"v": 200,
+					"o": true,
+					"b": true
+				}
+			]
+		}
+	},
+	{
+		"type": "SPAWN",
+		"d": {
+			"d": 100,
+			"ae": [
+				{
+					"t": "REGULAR",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "FAST",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "STRONG",
+					"f": 1,
+					"l": 0
+				}
+			]
+		}
+	},
+	{
+		"type": "ROAD"
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "PWR_MULTIPLIER",
+			"bl": 5
+		},
+		"building": {
+			"bType": "TOWER",
+			"type": "BASIC",
+			"as": "FIRST",
+			"e": 255940,
+			"ul": 10,
+			"ia": [
+				true,
+				true,
+				true,
+				true,
+				true,
+				true
+			]
+		}
+	},
+	{
+		"type": "EQUALIZER",
+		"d": {
+			"bi": 1,
+			"sd": 0.15,
+			"c": 1,
+			"co": 0.02,
+			"d": 1,
+			"cl": "ffffff20",
+			"ch": "ffffff20",
+			"bw": 1,
+			"bh": 1,
+			"rb": false,
+			"pe": true,
+			"f": [
+				[ 0, 20 ],
+				[ 20, 55 ],
+				[ 55, 110 ],
+				[ 110, 220 ],
+				[ 220, 440 ],
+				[ 440, 880 ],
+				[ 880, 1760 ],
+				[ 1760, 3520 ],
+				[ 3520, 7040 ],
+				[ 7040, 14080 ],
+				[ 14080, 28160 ]
+			],
+			"mve": 0.998,
+			"fmv": 0,
+			"bs": 2,
+			"sx": 0,
+			"sy": 0
+		}
+	},
+	{
+		"type": "SCRIPT",
+		"d": {
+			"id": 6898274292516103396,
+			"script": "--[[\n0.4\nI18nGenerator {\n    \"tut_04_010_010_in_this_tutorial\",\n    \"tut_04_010_020_lets_make_coins\",\n    \"tut_04_010_030_defeat_first_wave\",\n    \"tut_04_020_010_enemies_can_pass\",\n    \"tut_04_020_020_select_any_teleport\",\n    \"tut_04_020_030_select_teleport\",\n    \"tut_04_030_010_deal_with_second_wave\",\n    \"tut_04_030_020_defeat_one_more_wave\",\n    \"tut_04_040_010_as_you_could_see\",\n    \"tut_04_040_020_barriers_can_block\",\n    \"tut_04_040_030_select_barrier\",\n    \"tut_04_040_040_barriers_can_also\",\n    \"tut_04_050_010_lets_talk_about_resources\",\n    \"tut_04_050_020_resources_are_useful\",\n    \"tut_04_050_030_resources_can_be_obtained\",\n    \"tut_04_050_040_select_source_tile\",\n    \"tut_04_060_010_youll_use_miners\",\n    \"tut_04_060_020_we_have_enough_coins\",\n    \"tut_04_060_030_build_a_miner\",\n    \"tut_04_060_040_you_have_limited\",\n    \"tut_04_070_010_miners_take_time\",\n    \"tut_04_070_020_installation_progress\",\n    \"tut_04_070_030_wait_for_miner\",\n    \"tut_04_070_040_each_next_miner\",\n    \"tut_04_070_050_now_just_watch\",\n    \"tut_04_070_060_defeat_remaining_waves\"\n}\n--]]\n\ndofile(\"scripts/levels/0.4.lua\")\n"
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "SCALAR",
+					"a": 100
+				}
+			]
+		}
+	},
+	{
+		"type": "XM_MUSIC_TRACK",
+		"d": {
+			"id": 4,
+			"track": "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"
+		}
+	},
+	{
+		"type": "EQUALIZER",
+		"d": {
+			"bi": 1,
+			"sd": 0.15,
+			"c": 0,
+			"co": 0.02,
+			"d": 0,
+			"cl": "ffffff20",
+			"ch": "ffffff20",
+			"bw": 1,
+			"bh": 1,
+			"rb": false,
+			"pe": true,
+			"f": [
+				[ 0, 20 ],
+				[ 20, 55 ],
+				[ 55, 110 ],
+				[ 110, 220 ],
+				[ 220, 440 ],
+				[ 440, 880 ],
+				[ 880, 1760 ],
+				[ 1760, 3520 ],
+				[ 3520, 7040 ],
+				[ 7040, 14080 ],
+				[ 14080, 28160 ]
+			],
+			"mve": 0.998,
+			"fmv": 0,
+			"bs": 2,
+			"sx": 0,
+			"sy": 0
+		}
+	}
+],
+"gt": [
+	{
+		"type": "TELEPORT",
+		"index": 0
+	},
+	{
+		"type": "BARRIER_TYPE",
+		"blockedEnemies": [
+			"FAST"
+		]
+	}
+],
+"t": [ 0, 0, 0, 1, 5, 0, 2, 0, 1, 3, 1, 1, 2, 5, 1, 2, 0, 2, 2, 1, 2, 2, 2, 2, 2, 3, 2, 4, 4, 2, 5, 1, 3, 6, 2, 3, 2, 3, 3, 7, 4, 3, 6, 5, 3, 2, 0, 4, 2, 1, 4, 2, 2, 4, 2, 3, 4, 8, 4, 4, 2, 0, 5, 6, 1, 5, 6, 2, 5, 2, 3, 5, 6, 4, 5, 2, 5, 5, 2, 0, 6, 2, 1, 6, 2, 2, 6, 2, 3, 6, 2, 4, 6, 2, 5, 6 ],
+"g": [ 0, 5, 2, 0, 0, 5, 5, 0, 1, 3, 6, 0 ]
+}

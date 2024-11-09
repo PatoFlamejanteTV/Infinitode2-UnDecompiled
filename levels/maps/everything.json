@@ -1,0 +1,6043 @@
+{
+"v": 2,
+"w": 30,
+"h": 33,
+"tt": [
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "DUMMY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "CORES_LEVEL_UP_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_COUNT_SCALAR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITIES_MAX_ENERGY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BULLET_WALL_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_BALANCE_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_BASIC",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_SNIPER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_CANNON",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_FREEZING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_VENOM",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_SPLASH",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_BLAST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_MULTISHOT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_MINIGUN",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_MICROGUN_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_AIR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_TESLA",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_MISSILE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_FLAMETHROWER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_LASER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_GAUSS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TYPE_CRUSHER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "SPAWN",
+		"d": {
+			"d": 500,
+			"ae": [
+				{
+					"t": "REGULAR",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "STRONG",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "HELI",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "TOXIC",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "ICY",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "LIGHT",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "BOSS",
+					"f": 1,
+					"l": 0
+				}
+			]
+		}
+	},
+	{
+		"type": "ROAD"
+	},
+	{
+		"type": "TARGET",
+		"d": {
+			"da": false,
+			"usgv": false,
+			"gv": [
+				{
+					"t": "STARTING_MONEY",
+					"v": 50,
+					"o": false,
+					"b": true
+				},
+				{
+					"t": "STARTING_HEALTH",
+					"v": 10,
+					"o": false,
+					"b": true
+				},
+				{
+					"t": "MINER_COUNT_SCALAR",
+					"v": 3,
+					"o": false,
+					"b": true
+				},
+				{
+					"t": "MINERS_INSTALL_DURATION",
+					"v": -25,
+					"o": false,
+					"b": true
+				},
+				{
+					"t": "TOWERS_EXPERIENCE_MULTIPLIER",
+					"v": 50,
+					"o": false,
+					"b": true
+				},
+				{
+					"t": "TOWERS_EXPERIENCE_GENERATION",
+					"v": 0.3,
+					"o": false,
+					"b": true
+				},
+				{
+					"t": "TOWERS_UPGRADE_PRICE",
+					"v": -5,
+					"o": false,
+					"b": true
+				},
+				{
+					"t": "TOWERS_SELL_REFUND",
+					"v": 99,
+					"o": true,
+					"b": false
+				},
+				{
+					"t": "TOWERS_RANGE",
+					"v": 10,
+					"o": false,
+					"b": true
+				},
+				{
+					"t": "TOWERS_DAMAGE",
+					"v": 10,
+					"o": false,
+					"b": true
+				}
+			]
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "STARTING_MONEY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENEMIES_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_COUNT_VECTOR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITIES_ENERGY_GENERATION_INTERVAL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BULLET_WALL_DENSITY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_BALANCE_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_PPL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "PWR_MULTIPLIER",
+			"bl": 5
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "STARTING_HEALTH",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENEMIES_VULNERABILITY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_COUNT_MATRIX",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIREBALL_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BALL_LIGHTNING_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_SEARCH_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_PPL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "FORCED_WAVE_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "BIT_DUST_DROP_RATE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_COUNT_TENSOR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIREBALL_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BALL_LIGHTNING_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_SEARCH_RANGE_VALUE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "WAVE_INTERVAL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "PRESTIGE_DUST_DROP_RATE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_COUNT_INFIAR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIREBALL_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BALL_LIGHTNING_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_ATTACK_SPEED_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "SCORE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "PRESTIGE_MODE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINERS_INSTALL_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIREBALL_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BALL_LIGHTNING_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_ATTACK_SPEED_VALUE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_STARTING_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "SCORE_WAVE_CALLS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "REGULAR_QUESTS_DIFFICULTY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINERS_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIREBALL_FIRE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BALL_LIGHTNING_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_DAMAGE_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_SELL_REFUND",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_MAX_EXP_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "SCORE_MINING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "REGULAR_QUESTS_PRIZE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINERS_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BLIZZARD_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_LOIC_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_DAMAGE_VALUE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_POWER_PER_LEVEL_TILL_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "SCORE_CLEARED_WAVES",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "REGULAR_QUESTS_SLOTS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINERS_LOOT_SLOTS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BLIZZARD_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_LOIC_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_BOUNTY_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_POWER_PER_LEVEL_AFTER_10",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_EXPERIENCE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "SCORE_ENEMIES_KILLED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "REGULAR_QUESTS_REPLACES",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_SCALAR_INSTALL_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BLIZZARD_BONUS_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_LOIC_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_BOUNTY_VALUE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_POWERFUL_ABILITY_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_EXPERIENCE_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MAX_LEVEL_ENERGY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "LOOT_RARITY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_SCALAR_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BLIZZARD_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_LOIC_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_BOUNTY_PERCENT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_STARTING_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_UPGRADE_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "GAME_SAVES",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "LOOT_FREQUENCY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_SCALAR_LOOT_SLOTS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_WINDSTORM_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_LOIC_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_BOUNTY_NEIGHBORING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MANUAL_GAME_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "FACTORY_MODE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_SCALAR_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_WINDSTORM_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_NUKE_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_BOUNTY_NO_HARM_TO_TOWERS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_FREEZE_PERCENT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "AUTO_WAVE_CALL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "LUCKY_WHEEL_BONUS_X2_CHANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_VECTOR_INSTALL_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_WINDSTORM_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_NUKE_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_EXPERIENCE_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_FREEZE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_RESOURCE_CONSUMPTION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_PROJECTILE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MAP_EDITOR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "EXPLOSIONS_PIERCING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_VECTOR_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_WINDSTORM_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_NUKE_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_EXPERIENCE_VALUE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_POISON_DURATION_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_PROJECTILE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_STUN_CHANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_PROJECTILE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_BURNING_TIME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_BATTERIES_CAPACITY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_UPGRADE_RESOURCE_CONSUMPTION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENDLESS_MODE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "EMOJI_ENEMIES",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_VECTOR_LOOT_SLOTS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_THUNDER_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_NUKE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_MINING_SPEED_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_PROJECTILE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_PROJECTILE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_CRIT_CHANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_PROJECTILE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_CHAIN_LIGHTNING_LENGTH_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_PROJECTILE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_PIERCING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_STUN_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_PROJECTILE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_ACCELERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_BURN_CHANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_CHAIN_LIGHTNING_LENGTH",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_PROJECTILE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_TIME_TO_IGNITE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_CHARGING_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_CHARGING_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_BONUS_EXPERIENCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "USER_MAP_MAX_SIZE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENCOUNTER_BIRD_PROBABILITY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_VECTOR_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_THUNDER_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_MAGNET_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_MINING_SPEED_VALUE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_DAMAGE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_CRIT_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_EXPLOSION_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_EVAPORATION_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_POISON_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_PROJECTILE_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_QUAKE_CHARGE_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_PROJECTILE_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_BULLET_SPREAD",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_BURN_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_CHAIN_LIGHTNING_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_EXPLOSION_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_DIRECT_FIRE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_DAMAGE_PER_SECOND_SHOOTING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_SHOT_DELAY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_A_HEAVY_VICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "CRAFTING_QUEUE_MAX_SIZE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENCOUNTER_BIRD_MIN_WAVE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_MATRIX_INSTALL_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_THUNDER_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_MAGNET_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_POWER_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_A_DOUBLE_GUN_ATTACK_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_AIM_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_SHRAPNEL_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_EVAPORATION_STACK",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_CONCENTRATE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_PENETRATING_DAMAGE_CHAIN",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_HEAVY_SHELL_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_SHOOT_ANGLE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_KEEP_SHOOTING_ANGLE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_BURNING_TIME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_CHAIN_MIN_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_LRM_AIM_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_PLASMA_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_HIGH_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_ENEMY_DETECT_RAY_WIDTH",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_A_INCREASED_CAPACITY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "DECRYPTING_QUEUE_MAX_SIZE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENCOUNTER_BIRD_MAX_VELOCITY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_MATRIX_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_THUNDER_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_MAGNET_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MODIFIER_POWER_VALUE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_A_LARGE_CALIBER_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_PENETRATION_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_SHRAPNEL_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_SLOW_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_HARD_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_FAST_MECHANISM_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_HEAVY_SHELL_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_PENETRATING_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_MAGAZINE_SIZE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_A_HEAVY_WEAPONS_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_CURRENT_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_LRM_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_NAPALM_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_HIGH_ENEMY_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_ATTACK_RAY_WIDTH",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_A_CAREFUL_PROCESSING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "GREEN_PAPERS_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENCOUNTER_BIRD_ACCELERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_MATRIX_LOOT_SLOTS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_THUNDER_CHARGES_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_MAGNET_DAMAGE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_A_FOUNDATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_HEAVY_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_SHRAPNEL_DISTANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_SLOW_PERCENT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_FAST_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_FAST_BULLETS_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_HEAVY_SHELL_CHANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_BUCKSHOT_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_RELOAD_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_A_FAST_MECHANISM_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_BATTERIES_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_VERTICAL_MAX_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_NAPALM_DIRECT_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_HIGH_FIRE_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_NANO_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_A_DISORIENTATION_CHANCE_MIN",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "DEVELOPER_MODE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENCOUNTER_BIRD_LIFE_TIME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_MATRIX_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_SMOKE_BOMB_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_OVERLOAD_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_A_FOUNDATION_RICOCHET_CHANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_SHORT_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_LONG_BARREL_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_MONITORING_XP",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_FAST_DAMAGE_PER_STACK",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_FAST_BULLETS_BONUS_XP",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_FAST_MECHANISM_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_BUCKSHOT_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_HEAVY_WEAPONS_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_A_FAST_MECHANISM_IGNITION_CHANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_BATTERIES_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_VERTICAL_ROTATION_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_NAPALM_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_MIRRORS_BEAM_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_NANO_HP",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_A_DISORIENTATION_CHANCE_MAX",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MDPS_COUNTER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENCOUNTER_BIRD_SCALE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_TENSOR_INSTALL_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_SMOKE_BOMB_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_OVERLOAD_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_A_FOUNDATION_RICOCHET_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_SHORT_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_LONG_EXPLOSION_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_PER_SNOWBALL_PENALTY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_FAST_MAX_DEBUFFS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_FAST_BULLETS_BONUS_XP_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_SONIC_WAVE_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_BUCKSHOT_COINS_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_HEAVY_WEAPONS_VULNERABILITY_MIN",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_A_FOUNDATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_VOLTAGE_LENGTH",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_VERTICAL_LRM_RATE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_NAPALM_FREEZING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_MIRRORS_BEAM_ANGLE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_IMPROVEMENT_BURN",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_A_ULTIMATE_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "SHOP_PURCHASE_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENCOUNTER_BIRD_DIRECTION_CHANGE_DELAY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_TENSOR_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_SMOKE_BOMB_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_OVERLOAD_DIFFICULTY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_A_SPECIAL_PWR_SHARE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_SHORT_CRIT_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_FOUNDATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_SNOWBALL_MIN_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_CLOUD_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_FAST_BULLETS_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_SONIC_WAVE_QUAKE_ENEMIES",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_COMPACT_ARC_SIZE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_HEAVY_WEAPONS_VULNERABILITY_MAX",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_A_FOUNDATION_BURN_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_VOLTAGE_MIN_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_COMPACT_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_NAPALM_COLD_FIRE_DMG",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_MIRRORS_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_IMPROVEMENT_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_A_ULTIMATE_COINS_LIMIT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENEMIES_WALK_ON_PLATFORMS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_TENSOR_LOOT_SLOTS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_SMOKE_BOMB_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_OVERLOAD_MINING_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_A_COPY_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_KILLSHOT_HP",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_FOUNDATION_PIERCING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_SNOWBALL_MAX_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_CLOUD_DAMAGE_COEFF",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_RIFFLED_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_STOPPING_FORCE_MIN_DIST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_COMPACT_DAMAGE_PER_HIT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_HEAVY_MECH_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_A_AIMED_DROP_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_BALL_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_COMPACT_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_COLD_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_LARGE_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_IMPROVEMENT_XP",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_A_ULTIMATE_UNIT_HP",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENEMIES_MAX_PATH_SEARCHES",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_TENSOR_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_SMOKE_BOMB_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_OVERLOAD_BONUS_PER_DIFFICULTY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_A_COPY_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_KILLSHOT_INTERVAL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_FOUNDATION_DAMAGE_PER_DEG",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_ULTIMATE_SNOW_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_CHAIN_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_RIFFLED_SPEED_MARK",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_STOPPING_FORCE_MAX_DIST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_COMPACT_MAX_HIT_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_HEAVY_MECH_MAGAZINE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_A_ULTIMATE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_PER_BALL_PENALTY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_ANTI_AIR_LRM_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_COLD_FREEZING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_LARGE_ROTATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_IMPROVEMENT_XP_PER_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CRUSHER_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "EXTENDED_STATISTICS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_INFIAR_INSTALL_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIRESTORM_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_LOOP_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BASIC_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_ULTIMATE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_PRESSURE_HEALTH",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FREEZING_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_CHAIN_CHANCE_MIN",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_ULTIMATE_SPLINTERS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_STOPPING_FORCE_CHANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_COUNTER_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_HEAVY_MECH_ACCELERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_A_ULTIMATE_EXPL_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_ULTIMATE_SHOT_INTERVAL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_OVERWEIGHT_HP",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_COLD_DAMAGE_TO_BURNING",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_IONIZATION_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_CONDUCTORS_RESOURCE_CONSUMPTION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ENDLESS_MODE_DIFFICULTY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_INFIAR_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIRESTORM_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_LOOP_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_ULTIMATE_EXPL_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_PRESSURE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_CHAIN_CHANCE_MAX",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_ULTIMATE_ON_HIT_CHANCE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_STOPPING_FORCE_ULTIMATE_MIN",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_BACK_SHOT_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_FOUNDATION_ROTATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_AIR_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_ULTIMATE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_OVERWEIGHT_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_SUPPLY_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_IONIZATION_SPEED_REDUCTION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_CONDUCTORS_CHARGING_SPEED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "GAME_TICK_RATE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_INFIAR_LOOT_SLOTS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIRESTORM_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_LOOP_DAMAGE_MULTIPLIER",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_ULTIMATE_EXPL_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_MINE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_CHAIN_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_ULTIMATE_BASE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_STOPPING_FORCE_ULTIMATE_MAX",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_BACK_MAX_STACK",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_FOUNDATION_SPECIAL_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_ULTIMATE_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_ULTIMATE_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_SUPPLY_ARC",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_IONIZATION_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_OVERLOAD_SHOTS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWERS_CAN_BE_MANUALLY_DISABLED",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "MINER_INFIAR_MAX_UPGRADE_LEVEL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIRESTORM_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_LOOP_RESOURCE_AMOUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SNIPER_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_MINE_INTERVAL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_CHAIN_PROLONG",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_ULTIMATE_MAX_CHAIN_LENGTH",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_BLAST_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MULTISHOT_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_HOT_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_TESLA_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MISSILE_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_INSTAKILL_HP_MIN",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_IONIZATION_COINS_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_OVERLOAD_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "CRAFTING_TIME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_FIRESTORM_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_MINE_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_VENOM_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_SPLASH_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_HOT_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_INSTAKILL_HP_MAX",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_ULTIMATE_DAMAGE_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_OVERLOAD_DAMAGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "CRAFTING_MAX_STACK",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BULLET_WALL_MAX_PER_GAME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_CANNON_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_MICROGUN_COUNT",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_INSTAKILL_PAPER_BANK",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_ULTIMATE_DURATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_ULTIMATE_MINING_TIME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "CRAFTING_PRICE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BULLET_WALL_ENERGY_COST",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_MICROGUN_BUILD_DELAY",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_INSTAKILL_BANK_TIME",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_ULTIMATE_PASSIVE_INTERVAL",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_GAUSS_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "COINS_GENERATION",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "ABILITY_BULLET_WALL_COINS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_MINIGUN_A_MICROGUN_RANGE",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_FLAMETHROWER_A_ULTIMATE_CROWD_BONUS",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	},
+	{
+		"type": "GAME_VALUE",
+		"d": {
+			"gv": "TOWER_LASER_A_POWERFUL_PWR",
+			"d": 1,
+			"o": 0,
+			"f": 0
+		}
+	}
+],
+"t": [ 0, 0, 0, 1, 1, 0, 2, 2, 0, 3, 3, 0, 4, 4, 0, 5, 5, 0, 6, 6, 0, 7, 7, 0, 8, 8, 0, 9, 9, 0, 10, 10, 0, 11, 11, 0, 12, 12, 0, 13, 13, 0, 14, 14, 0, 15, 15, 0, 16, 16, 0, 17, 17, 0, 18, 18, 0, 19, 19, 0, 20, 20, 0, 21, 21, 0, 22, 22, 0, 23, 23, 0, 24, 24, 0, 25, 27, 0, 26, 28, 0, 27, 29, 0, 28, 0, 1, 29, 1, 1, 30, 2, 1, 31, 3, 1, 32, 4, 1, 33, 5, 1, 34, 6, 1, 35, 7, 1, 36, 8, 1, 37, 9, 1, 38, 10, 1, 39, 11, 1, 40, 12, 1, 41, 13, 1, 42, 14, 1, 43, 15, 1, 44, 16, 1, 45, 17, 1, 46, 18, 1, 47, 19, 1, 48, 20, 1, 49, 21, 1, 49, 22, 1, 50, 23, 1, 51, 24, 1, 52, 28, 1, 53, 0, 2, 54, 1, 2, 55, 2, 2, 56, 3, 2, 57, 4, 2, 58, 5, 2, 59, 6, 2, 60, 7, 2, 61, 8, 2, 62, 9, 2, 63, 10, 2, 64, 11, 2, 65, 12, 2, 66, 13, 2, 67, 14, 2, 68, 15, 2, 69, 16, 2, 69, 17, 2, 70, 18, 2, 71, 19, 2, 72, 20, 2, 73, 21, 2, 73, 22, 2, 74, 23, 2, 75, 24, 2, 76, 0, 3, 77, 1, 3, 78, 2, 3, 79, 3, 3, 80, 4, 3, 81, 5, 3, 82, 6, 3, 83, 7, 3, 84, 8, 3, 85, 9, 3, 86, 10, 3, 87, 11, 3, 88, 12, 3, 89, 13, 3, 90, 14, 3, 91, 15, 3, 92, 16, 3, 93, 17, 3, 94, 18, 3, 95, 19, 3, 96, 20, 3, 97, 21, 3, 97, 22, 3, 98, 23, 3, 99, 24, 3, 100, 0, 4, 101, 1, 4, 102, 2, 4, 103, 3, 4, 104, 4, 4, 105, 5, 4, 106, 6, 4, 107, 7, 4, 108, 8, 4, 109, 9, 4, 110, 10, 4, 111, 11, 4, 112, 12, 4, 113, 13, 4, 114, 14, 4, 115, 15, 4, 116, 16, 4, 92, 17, 4, 117, 18, 4, 118, 19, 4, 119, 20, 4, 120, 21, 4, 120, 22, 4, 121, 23, 4, 122, 24, 4, 123, 0, 5, 124, 1, 5, 125, 2, 5, 126, 3, 5, 127, 4, 5, 128, 5, 5, 129, 6, 5, 130, 7, 5, 131, 8, 5, 132, 9, 5, 133, 10, 5, 134, 11, 5, 135, 12, 5, 136, 13, 5, 137, 14, 5, 138, 15, 5, 139, 16, 5, 116, 17, 5, 140, 18, 5, 141, 19, 5, 142, 20, 5, 143, 21, 5, 143, 22, 5, 144, 23, 5, 145, 24, 5, 146, 0, 6, 147, 1, 6, 148, 2, 6, 149, 3, 6, 150, 4, 6, 151, 5, 6, 152, 6, 6, 153, 7, 6, 154, 8, 6, 155, 9, 6, 156, 10, 6, 157, 11, 6, 158, 12, 6, 159, 13, 6, 160, 14, 6, 161, 15, 6, 162, 16, 6, 139, 17, 6, 163, 18, 6, 164, 19, 6, 165, 20, 6, 166, 21, 6, 166, 22, 6, 167, 23, 6, 168, 24, 6, 169, 0, 7, 170, 1, 7, 171, 2, 7, 172, 3, 7, 173, 4, 7, 174, 5, 7, 175, 6, 7, 176, 7, 7, 177, 8, 7, 178, 9, 7, 179, 10, 7, 180, 11, 7, 181, 12, 7, 182, 13, 7, 183, 14, 7, 184, 15, 7, 185, 16, 7, 162, 17, 7, 186, 18, 7, 187, 19, 7, 188, 20, 7, 189, 21, 7, 189, 22, 7, 190, 23, 7, 191, 24, 7, 192, 0, 8, 193, 1, 8, 194, 2, 8, 195, 3, 8, 196, 4, 8, 197, 5, 8, 198, 6, 8, 199, 7, 8, 200, 8, 8, 201, 9, 8, 202, 10, 8, 203, 11, 8, 204, 12, 8, 205, 13, 8, 206, 14, 8, 207, 15, 8, 208, 16, 8, 185, 17, 8, 209, 18, 8, 210, 19, 8, 211, 20, 8, 212, 21, 8, 212, 22, 8, 213, 23, 8, 214, 24, 8, 215, 0, 9, 216, 1, 9, 217, 2, 9, 218, 3, 9, 219, 4, 9, 220, 5, 9, 221, 6, 9, 222, 7, 9, 223, 8, 9, 224, 9, 9, 225, 10, 9, 226, 11, 9, 227, 12, 9, 228, 13, 9, 229, 14, 9, 230, 15, 9, 231, 16, 9, 208, 17, 9, 232, 18, 9, 233, 19, 9, 234, 20, 9, 235, 21, 9, 235, 22, 9, 236, 23, 9, 237, 24, 9, 238, 0, 10, 239, 1, 10, 240, 2, 10, 241, 3, 10, 242, 4, 10, 243, 5, 10, 244, 6, 10, 245, 7, 10, 246, 8, 10, 247, 9, 10, 248, 10, 10, 249, 11, 10, 250, 12, 10, 251, 13, 10, 252, 14, 10, 253, 15, 10, 254, 16, 10, 231, 17, 10, 255, 18, 10, 256, 19, 10, 257, 20, 10, 258, 21, 10, 258, 22, 10, 259, 23, 10, 260, 24, 10, 261, 0, 11, 262, 1, 11, 263, 2, 11, 264, 3, 11, 265, 4, 11, 266, 5, 11, 267, 6, 11, 268, 7, 11, 269, 8, 11, 270, 9, 11, 271, 10, 11, 272, 11, 11, 273, 12, 11, 274, 13, 11, 275, 14, 11, 276, 15, 11, 277, 16, 11, 254, 17, 11, 278, 18, 11, 279, 19, 11, 280, 20, 11, 281, 21, 11, 281, 22, 11, 282, 23, 11, 283, 24, 11, 284, 0, 12, 285, 1, 12, 286, 2, 12, 287, 3, 12, 288, 4, 12, 289, 5, 12, 290, 6, 12, 291, 7, 12, 292, 8, 12, 293, 9, 12, 294, 10, 12, 295, 11, 12, 296, 12, 12, 297, 13, 12, 298, 14, 12, 299, 15, 12, 300, 16, 12, 277, 17, 12, 301, 18, 12, 302, 19, 12, 303, 20, 12, 304, 21, 12, 304, 22, 12, 305, 23, 12, 306, 24, 12, 307, 0, 13, 308, 1, 13, 309, 2, 13, 310, 3, 13, 311, 4, 13, 312, 5, 13, 313, 6, 13, 314, 7, 13, 315, 8, 13, 316, 9, 13, 317, 10, 13, 318, 11, 13, 319, 12, 13, 320, 13, 13, 321, 14, 13, 322, 15, 13, 323, 16, 13, 300, 17, 13, 324, 18, 13, 325, 19, 13, 326, 20, 13, 327, 21, 13, 327, 22, 13, 328, 23, 13, 329, 24, 13, 330, 0, 14, 331, 1, 14, 332, 2, 14, 333, 3, 14, 334, 4, 14, 335, 5, 14, 336, 6, 14, 337, 7, 14, 338, 8, 14, 339, 9, 14, 340, 10, 14, 341, 11, 14, 342, 12, 14, 343, 13, 14, 344, 14, 14, 345, 15, 14, 346, 16, 14, 323, 17, 14, 347, 18, 14, 348, 19, 14, 349, 20, 14, 350, 21, 14, 350, 22, 14, 351, 23, 14, 352, 24, 14, 353, 0, 15, 354, 1, 15, 355, 2, 15, 356, 3, 15, 357, 4, 15, 358, 5, 15, 359, 6, 15, 360, 7, 15, 361, 8, 15, 362, 9, 15, 363, 10, 15, 364, 11, 15, 365, 12, 15, 366, 13, 15, 367, 14, 15, 368, 15, 15, 369, 16, 15, 346, 17, 15, 370, 18, 15, 371, 19, 15, 372, 20, 15, 373, 21, 15, 373, 22, 15, 374, 23, 15, 375, 24, 15, 376, 0, 16, 377, 1, 16, 378, 2, 16, 379, 3, 16, 380, 4, 16, 381, 5, 16, 382, 7, 16, 383, 8, 16, 384, 9, 16, 385, 10, 16, 386, 11, 16, 387, 12, 16, 388, 13, 16, 389, 14, 16, 390, 15, 16, 391, 16, 16, 369, 17, 16, 392, 18, 16, 393, 19, 16, 394, 20, 16, 395, 21, 16, 395, 22, 16, 396, 23, 16, 397, 24, 16, 398, 0, 17, 399, 1, 17, 400, 2, 17, 401, 3, 17, 402, 4, 17, 403, 5, 17, 404, 7, 17, 405, 8, 17, 406, 9, 17, 407, 10, 17, 408, 11, 17, 409, 12, 17, 410, 13, 17, 411, 14, 17, 412, 15, 17, 413, 16, 17, 391, 17, 17, 414, 18, 17, 415, 19, 17, 416, 20, 17, 417, 21, 17, 417, 22, 17, 418, 23, 17, 419, 24, 17, 420, 0, 18, 421, 1, 18, 422, 2, 18, 423, 3, 18, 424, 4, 18, 425, 5, 18, 426, 7, 18, 427, 8, 18, 428, 9, 18, 429, 10, 18, 430, 11, 18, 431, 12, 18, 432, 13, 18, 433, 14, 18, 434, 15, 18, 435, 16, 18, 413, 17, 18, 436, 18, 18, 437, 19, 18, 438, 20, 18, 439, 21, 18, 439, 22, 18, 440, 23, 18, 441, 24, 18, 442, 0, 19, 443, 1, 19, 444, 2, 19, 445, 3, 19, 446, 4, 19, 447, 7, 19, 448, 8, 19, 449, 9, 19, 450, 10, 19, 451, 11, 19, 452, 12, 19, 453, 13, 19, 454, 14, 19, 455, 15, 19, 456, 16, 19, 435, 17, 19, 457, 18, 19, 458, 19, 19, 459, 20, 19, 460, 21, 19, 460, 22, 19, 461, 23, 19, 462, 24, 19, 463, 0, 20, 464, 1, 20, 465, 2, 20, 466, 3, 20, 467, 4, 20, 468, 7, 20, 469, 8, 20, 470, 9, 20, 471, 10, 20, 472, 11, 20, 473, 12, 20, 474, 13, 20, 475, 14, 20, 476, 15, 20, 477, 16, 20, 456, 17, 20, 478, 18, 20, 479, 19, 20, 480, 20, 20, 481, 21, 20, 481, 22, 20, 482, 23, 20, 483, 24, 20, 484, 0, 21, 485, 1, 21, 486, 2, 21, 487, 3, 21, 488, 4, 21, 489, 7, 21, 490, 8, 21, 491, 9, 21, 492, 10, 21, 493, 11, 21, 494, 12, 21, 495, 13, 21, 496, 14, 21, 497, 15, 21, 498, 16, 21, 477, 17, 21, 499, 18, 21, 500, 19, 21, 501, 20, 21, 502, 21, 21, 502, 22, 21, 503, 23, 21, 504, 24, 21, 505, 0, 22, 506, 1, 22, 507, 2, 22, 508, 3, 22, 509, 4, 22, 510, 7, 22, 511, 8, 22, 512, 9, 22, 513, 10, 22, 514, 11, 22, 515, 12, 22, 516, 13, 22, 517, 14, 22, 518, 15, 22, 519, 16, 22, 498, 17, 22, 520, 18, 22, 521, 19, 22, 522, 20, 22, 523, 21, 22, 523, 22, 22, 524, 23, 22, 525, 24, 22, 526, 0, 23, 527, 2, 23, 528, 3, 23, 529, 4, 23, 530, 7, 23, 531, 8, 23, 532, 9, 23, 533, 10, 23, 534, 11, 23, 535, 12, 23, 536, 13, 23, 537, 14, 23, 538, 15, 23, 539, 16, 23, 519, 17, 23, 540, 18, 23, 541, 19, 23, 542, 20, 23, 543, 21, 23, 543, 22, 23, 544, 23, 23, 545, 24, 23, 546, 0, 24, 547, 2, 24, 548, 3, 24, 549, 4, 24, 550, 7, 24, 551, 8, 24, 552, 9, 24, 553, 10, 24, 554, 11, 24, 555, 12, 24, 556, 13, 24, 557, 14, 24, 558, 15, 24, 559, 16, 24, 539, 17, 24, 560, 18, 24, 561, 19, 24, 562, 20, 24, 563, 21, 24, 563, 22, 24, 564, 23, 24, 565, 24, 24, 566, 0, 25, 567, 2, 25, 568, 3, 25, 569, 4, 25, 570, 7, 25, 571, 8, 25, 572, 9, 25, 573, 10, 25, 574, 11, 25, 575, 12, 25, 576, 13, 25, 577, 14, 25, 578, 15, 25, 579, 16, 25, 559, 17, 25, 580, 18, 25, 581, 19, 25, 582, 20, 25, 583, 21, 25, 583, 22, 25, 584, 23, 25, 585, 0, 26, 586, 2, 26, 587, 3, 26, 588, 4, 26, 589, 8, 26, 590, 9, 26, 591, 11, 26, 592, 12, 26, 593, 13, 26, 594, 14, 26, 595, 15, 26, 596, 16, 26, 579, 17, 26, 597, 18, 26, 598, 19, 26, 599, 20, 26, 600, 21, 26, 600, 22, 26, 601, 23, 26, 602, 0, 27, 603, 2, 27, 604, 3, 27, 605, 4, 27, 606, 8, 27, 607, 9, 27, 608, 11, 27, 609, 12, 27, 610, 13, 27, 611, 14, 27, 612, 15, 27, 596, 17, 27, 613, 18, 27, 614, 19, 27, 615, 20, 27, 616, 21, 27, 616, 22, 27, 617, 23, 27, 618, 0, 28, 619, 2, 28, 620, 3, 28, 621, 4, 28, 622, 8, 28, 623, 9, 28, 624, 11, 28, 625, 12, 28, 626, 13, 28, 627, 14, 28, 628, 15, 28, 629, 18, 28, 630, 19, 28, 631, 20, 28, 632, 21, 28, 632, 22, 28, 633, 23, 28, 634, 0, 29, 635, 3, 29, 636, 9, 29, 637, 11, 29, 638, 12, 29, 639, 15, 29, 640, 20, 29, 641, 21, 29, 641, 22, 29, 642, 23, 29, 643, 0, 30, 644, 3, 30, 645, 9, 30, 646, 15, 30, 647, 20, 30, 648, 21, 30, 648, 22, 30, 649, 23, 30, 650, 0, 31, 651, 3, 31, 652, 15, 31, 653, 20, 31, 654, 21, 31, 654, 22, 31, 655, 23, 31, 656, 0, 32, 657, 3, 32, 658, 15, 32, 659, 20, 32, 660, 21, 32, 660, 22, 32 ]
+}

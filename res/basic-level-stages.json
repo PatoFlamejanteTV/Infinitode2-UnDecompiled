@@ -1,0 +1,146 @@
+[
+{
+	"name": "tb",
+	"title": "BENCHMARKS",
+	"regular": false,
+	"color": "#44aaff",
+	"showRequirements": [
+		{
+			"type": "RESEARCH",
+			"name": "ROOT",
+			"level": 2
+		}
+	]
+},
+{
+	"name": "SECRET",
+	"title": "secret",
+	"regular": false,
+	"color": "#ffffff",
+	"showRequirements": [
+		{
+			"type": "ALL_TIME_STATISTIC",
+			"name": "WIP",
+			"value": 1
+		}
+	]
+},
+{
+	"name": "-1",
+	"title": "levels_stage_title_DEVELOPMENT",
+	"regular": false,
+	"color": "#808080",
+	"showRequirements": [
+		{
+			"type": "RESEARCH",
+			"name": "ROOT",
+			"level": 2
+		}
+	]
+},
+{
+	"name": "0",
+	"title": "levels_stage_title_HELLO_WORLD",
+	"regular": false,
+	"color": "#00bcd4",
+	"showRequirements": []
+},
+{
+	"name": "1",
+	"title": "levels_stage_title_RESPONSIBILITIES",
+	"regular": true,
+	"color": "#2196f3",
+	"showRequirements": []
+},
+{
+	"name": "2",
+	"title": "levels_stage_title_BEGINNING",
+	"regular": true,
+	"color": "#ffc107",
+	"showRequirements": [
+		{
+			"type": "STAGE_STARS",
+			"stage": "1",
+			"amount": 9
+		}
+	]
+},
+{
+	"name": "3",
+	"title": "levels_stage_title_RESISTANCE",
+	"regular": true,
+	"color": "#8bc34a",
+	"showRequirements": [
+		{
+			"type": "STAGE_STARS",
+			"stage": "2",
+			"amount": 15
+		}
+	]
+},
+{
+	"name": "4",
+	"title": "levels_stage_title_EVOLVEMENT",
+	"regular": true,
+	"color": "#9c27b0",
+	"showRequirements": [
+		{
+			"type": "STAGE_STARS",
+			"stage": "3",
+			"amount": 15
+		}
+	]
+},
+{
+	"name": "5",
+	"title": "levels_stage_title_DENOUEMENT",
+	"regular": true,
+	"color": "#f44336",
+	"showRequirements": [
+		{
+			"type": "STAGE_STARS",
+			"stage": "4",
+			"amount": 15
+		}
+	]
+},
+{
+	"name": "6",
+	"title": "levels_stage_title_UNKNOWN",
+	"regular": true,
+	"color": "#ffffff",
+	"showRequirements": [
+		{
+			"type": "STAGE_STARS",
+			"stage": "5",
+			"amount": 15
+		}
+	]
+},
+{
+	"name": "A",
+	"title": "levels_stage_title_ENDGAME",
+	"regular": false,
+	"color": "#ff5722",
+	"showRequirements": [
+		{
+			"type": "STARS",
+			"level": "5.8",
+			"amount": 2
+		}
+	]
+},
+{
+	"name": "1000",
+	"title": "levels_stage_title_DAILY_QUESTS",
+	"regular": false,
+	"color": "#ffffff",
+	"showRequirements": [
+		{
+			"type": "RESEARCH",
+			"name": "ROOT",
+			"level": 2
+		}
+	]
+}
+]

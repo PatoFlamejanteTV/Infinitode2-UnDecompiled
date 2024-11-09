@@ -1,0 +1,10 @@
+# Some classes have the same name and can not be aliased automatically (see scripts/.definitions/class-aliases.lua and scripts/.definitions/global-c.lua)
+# This file tells Lua def generator which class to use if there's a class name conflict
+# Classes listed here will be aliased by their simple name and will appear in the global C table
+# Also these aliases are not likely to be changed in the future, so they are safer to use than the automatically generated ones
+
+Game = com.prineside.tdi2.Game
+Config = com.prineside.tdi2.Config
+Listener = com.prineside.tdi2.events.Listener
+Color = com.badlogic.gdx.graphics.Color
+Label = com.prineside.tdi2.ui.actors.Label

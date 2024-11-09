@@ -1,0 +1,174 @@
+{
+  // Too late to migrate to Json5 - LibGDX has its own interpretation of a "compact" json which may cause loss of progress when read by Jackson.
+  // In-level bonus stage configs must be declared in a valid json format. This is just an example which describes default parameters of bonus stages / mods.
+  "reRollEnabled": false,
+  // 0 = unlimited
+  "maxReRollsPerStage":  0,
+  // multiplier for total coins gained
+  "reRollPrice": 0.15,
+  "reRollMinPrice": 0.05,
+  "reRollMaxPrice": 0.15,
+  "reRollPricePerStage": -0.005,
+  "chainReRoll": false,
+  "selectedBonusAffectsRandom": false,
+  "stageRequirements": [ 200, 300, 400 ],
+  "seed": 0, // TODO constants (-1 / -2...) to get seed from map / daily quest / timestamp / game state etc
+  "fillWithDefaultBonusProviders": false, // TODO
+  // "Include list" if fillWithDefaultBonusProviders is false, "exclude list" otherwise
+  "bonusProviderList": [
+    "com.prineside.tdi2.gameplayMods.mods.ExtraDamagePerBuff$BonusProvider",
+    // ...
+  ],
+  "bonusesConfig": {
+
+    "DepositCoinsGeneration": {
+      // Generic mod params
+      "maxPower": 1000,
+      "power": 1,
+      "multipleInstances": true,
+
+      // Mod-specific params
+      // "coinsPerMinute": 1, - BonusProvider always overwrites this - only useful for regular mods
+
+      // BonusProvider params
+      "probability": 1,
+      "dependsOnPlayerCpm": true,
+      // -- If dependsOnPlayerCpm
+      "playerCpmMultiplier": 0.02,
+      // -- If not dependsOnPlayerCpm
+      "baseBonusCpm": 10,
+      "bonusCpmPerStage": 10
+    },
+
+    "EnemiesDropResources": {
+      // Generic mod params
+      "maxPower": 3,
+      "power": 1,
+      "multipleInstances": false,
+
+      // Mod-specific params
+      "resourceCountMultiplier": 0.025,
+      "resourceCountDispersion": 0.25,
+      "maxResourcesPerPower": 50,
+      "baseEnemyInterval": 5,
+      "enemyIntervalDeltaPerPower": -1,
+      "minEnemyInterval": 3,
+
+      // BonusProvider params
+      "probability": 1,
+      "powerUpProbabilityDelta": 0
+    },
+
+    "ExtraDamagePerBuff": {
+      // Generic mod params
+      "maxPower": 5,
+      "power": 1,
+      "multipleInstances": true,
+
+      // Mod-specific params
+      "bonusDamagePerPwr": 5,
+
+      // BonusProvider params
+      "probability": 1,
+      "powerUpProbabilityDelta": 0
+    },
+
+    // Reference for mod itself (ignored by bonus providers)
+//    "GameValueMod": {
+//      // Generic mod params
+//      "maxPower": 5,
+//      "power": 1,
+//      "multipleInstances": true,
+
+//      Mod-specific params
+//      "gvType": "DUMMY",
+//      "deltaPerPower": 1,
+//      "roundToInt": false
+//    },
+
+    "GameValueMod_AbilitiesEnergy": {
+      // Generic mod params
+      // "maxPower": 5, - overwritten by bonus provider, equals to energy requirement - minAbilityEnergy
+      "power": 1,
+      "multipleInstances": true,
+
+      // Mod-specific params
+      // "gvType": "DUMMY", - overwritten by bonus provider, set to specific ability energy gv
+      "deltaPerPower": -1,
+      "roundToInt": true,
+
+      // BonusProvider params
+      "probability": 0.2, // Use 0 to disable all abilities and overwrite in ability config to make it appear
+      "minAbilityEnergy": 0, // Global parameter for every ability, will be overwritten by variants
+      "depletedAbilityChanceMultiplier": 0.1, // When ability has 0 charges left
+      "powerUpProbabilityDelta": 0,
+
+      "abilities": { // Overwrites globals with per-ability config
+        "NUKE": {
+          "minAbilityEnergy": 1,
+          "powerUpProbabilityDelta": 0.5,
+          "probability": 0.15
+        }
+      }
+    },
+
+    "GameValueMod_BountiesNearby": {
+      "probability": 0.5
+    },
+
+    "GameValueMod_DisableBountyModifierHarm": {
+      "probability": 1
+    },
+
+    "IncreasedTowerToEnemyEfficiency": {
+      // Generic mod params
+      "maxPower": 3,
+      "power": 1,
+      // "multipleInstances": false - forced to "false", may be changed later if needed
+
+      // Mod-specific params (global params per combo, can be overwritten in towerEnemyCombos)
+      "bonusDamagePerPwr": 50, // Percentage bonus per 1x power
+//      "tower": "BASIC", - BonusProvider always overwrites this depending on combo - only useful for regular mods
+//      "enemy": "REGULAR",
+
+      // BonusProvider params
+      "probability": 0.1,
+      "powerUpProbabilityDelta": 0,
+      // -- Fill with default combos (50+ combos, see IncreasedTowerToEnemyEfficiency.DEFAULT_PAIRS)
+      "useDefaultTowerEnemyCombos": true,
+      // -- Additional combos
+      "towerEnemyCombos": [
+        {
+          "tower": "BASIC",
+          "enemy": "REGULAR",
+          "probability": 0.01,
+          // "bonusDamagePerPwr": 50 - can be used to change bonus power per combo, overwrites global mod param
+        }
+        // ...
+      ]
+    },
+
+    "IncreaseSelectedBonusesPower": {
+      // Base probability: 100,000
+      // Not stored in active mod list, use-and-forget
+      // Only increases power of mods enabled by bonus system, only used by bonus system and
+
+      // Generic mod params (not used)
+      // "maxPower": 1,
+      // "power": 1,
+      // "multipleInstances": true
+
+      // Mod-specific params
+      // "percentage": 50, - always gets overwritten by BonusProvider
+
+      // BonusProvider params
+      "probability": 1,
+      "minStage": 3,
+      "maxStage": 10,
+      "basePercentage": 60,
+      "minPercentage": 10,
+      "percentageMultiplierPerStage": 0.65,
+      "probabilityMultiplierPerStage": 0.95
+    }
+  }
+}

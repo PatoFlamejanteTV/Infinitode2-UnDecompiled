@@ -1,0 +1,58 @@
+# These classes are registered and serializable by Kryo too, in addition to kryo-registry.txt
+# This file does not affect the game, use it for a reference
+# Kryo default registry
+int
+String
+float
+boolean
+byte
+char
+short
+long
+double
+# Arrays (if you need them deeper, use regular Lua tables or Array<T> instead)
+Class
+Class[]
+float[]
+float[][]
+double[]
+double[][]
+int[]
+int[][]
+boolean[]
+boolean[][]
+byte[]
+byte[][]
+long[]
+long[][]
+short[]
+short[][]
+Object
+Object[]
+Object[][]
+String[]
+String[][]
+# Custom serializers for some classes we are unable to modify
+com.badlogic.gdx.utils.Array
+com.badlogic.gdx.utils.IntArray
+com.badlogic.gdx.utils.FloatArray
+com.badlogic.gdx.math.Vector2
+com.badlogic.gdx.math.Vector2[]
+com.badlogic.gdx.math.Vector3
+com.badlogic.gdx.math.Vector3[]
+com.badlogic.gdx.math.Rectangle
+com.badlogic.gdx.utils.IntIntMap
+com.badlogic.gdx.utils.IntFloatMap
+com.badlogic.gdx.utils.IntSet
+com.badlogic.gdx.utils.ObjectSet
+com.badlogic.gdx.utils.ObjectMap
+com.badlogic.gdx.utils.ObjectIntMap
+com.badlogic.gdx.utils.IntMap
+com.badlogic.gdx.utils.DelayedRemovalArray
+com.badlogic.gdx.math.RandomXS128
+com.badlogic.gdx.utils.DelayedRemovalArray[]
+com.badlogic.gdx.utils.Array[]
+java.lang.reflect.InvocationHandler
+java.lang.ref.WeakReference
+com.badlogic.gdx.graphics.Color
+com.badlogic.gdx.utils.JsonValue

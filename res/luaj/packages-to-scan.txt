@@ -1,0 +1,14 @@
+java.lang
+java.util
+java.io
+java.nio
+java.math
+com.prineside
+com.badlogic
+com.crashinvaders
+com.esotericsoftware
+com.fasterxml
+com.google
+com.github
+org.objenesis
+net.bytebuddy

@@ -1,0 +1,8 @@
+[
+    {
+        "settings": {
+            "IAP_GREEN_PAPER_MAX_PER_HOUR": "4000000",
+            "IAP_OFFERS": "{\"paperTinyAmount\":1,\"paperSmallAmount\":3,\"paperMediumAmount\":10,\"paperLargeAmount\":25,\"paperHugeAmount\":50,\"paperTinyBonus\":0,\"paperSmallBonus\":15,\"paperMediumBonus\":35,\"paperLargeBonus\":50,\"paperHugeBonus\":100,\"accTinyAmount\":100,\"accSmallAmount\":300,\"accMediumAmount\":1000,\"accLargeAmount\":2500,\"accHugeAmount\":5000,\"accTinyBonus\":0,\"accSmallBonus\":15,\"accMediumBonus\":35,\"accLargeBonus\":50,\"accHugeBonus\":100}"
+        }
+    }
+]

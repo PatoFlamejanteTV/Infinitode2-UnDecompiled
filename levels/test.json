@@ -1,0 +1,34 @@
+{
+"name": "test",
+"stage": "-1",
+"seed": 6290,
+"hasLeaderboards": true,
+"difficultyExpectedPlaytime": 1,
+"bonusStagesConfig": {
+	"forceImmediateSelection": false,
+	"replaceBonusesWithNotSatisfiedPreconditions": true,
+	"reRollEnabled": true,
+	"maxReRollsPerStage": 1,
+	"maxReRollsAllTime": 0,
+	"reRollPrice": 0.09,
+	"reRollMinPrice": 0.01,
+	"reRollMaxPrice": 0.09,
+	"reRollPricePerStage": 0.09,
+	"immediateBonusesChance": 1,
+	"persistentBonusesChance": 1,
+	"activeBonusesSlotLimit": -1,
+	"chainReRoll": true,
+	"ignoreImpossiblePreconditions": false,
+	"selectedBonusAffectsRandom": true,
+	"stageRequirements": [ 20, 20 ],
+	"seed": -1,
+	"endlessStageRequirement": 10,
+	"endlessStageRequirementPerStage": 0,
+	"fillWithDefaultBonusProviders": false,
+	"bonusProviderList": [
+		"IncreasedTowerToEnemyEfficiency$BonusProvider",
+		"SummonLootBoss$BonusProvider"
+	],
+	"bonusesConfig": {}
+}
+}

@@ -1,0 +1,11 @@
+{
+  "classPath": [
+    "infinitode-2.jar"
+  ],
+  "mainClass": "com.prineside.tdi2.desktop.DesktopLauncher",
+  "useZgcIfSupportedOs": true,
+  "vmArgs": [
+    "-Dfile.encoding=UTF-8",
+    "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED"
+  ]
+}

@@ -1,0 +1,440 @@
+{
+"name": "6.5",
+"stage": "6",
+"stagePosition": 50,
+"seed": 16713,
+"hasLeaderboards": true,
+"fixedQuests": true,
+"openRequirements": [
+	{
+		"type": "STAGE_STARS",
+		"stage": "6",
+		"amount": 6
+	},
+	{
+		"type": "STARS",
+		"level": "6.4",
+		"amount": 1
+	}
+],
+"price": [
+	{
+		"type": "RESOURCE",
+		"name": "TENSOR",
+		"amount": 10000
+	}
+],
+"quests": [
+	{
+		"id": "Q:6.5:1",
+		"statisticsType": "TDD",
+		"value": 50000000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "SCORE_CLEARED_WAVES",
+					"delta": 5,
+					"levelName": "6.5"
+				}
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 15000
+			}
+		]
+	},
+	{
+		"id": "Q:6.5:2",
+		"statisticsType": "CG",
+		"value": 50000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "RANDOM_TILE",
+					"quality": 1
+				},
+				"c": 5
+			},
+			{
+				"i": {
+					"type": "BLUEPRINT",
+					"blueprintType": "POWER"
+				},
+				"c": 30
+			}
+		]
+	},
+	{
+		"id": "Q:6.5:3",
+		"statisticsType": "EK",
+		"value": 3000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "ABILITIES_MAX_ENERGY",
+					"delta": 1,
+					"levelName": "6.5"
+				}
+			},
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 5
+			}
+		]
+	},
+	{
+		"id": "Q:6.5:4",
+		"statisticsType": "SG",
+		"value": 390000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "LUCKY_SHOT_TOKEN"
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:6.5:5",
+		"statisticsType": "RG",
+		"value": 3000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "BLUEPRINT",
+					"containsPapers": false
+				},
+				"c": 2
+			},
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "ABILITY_OVERLOAD_DIFFICULTY",
+					"delta": -1,
+					"levelName": "6.5"
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:6.5:6",
+		"statisticsType": "WC",
+		"value": 110,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "LUCKY_SHOT_TOKEN"
+				},
+				"c": 3
+			}
+		]
+	},
+	{
+		"id": "Q:6.5:7",
+		"statisticsType": "WCST",
+		"value": 2400,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "ABILITY_TOKEN"
+				},
+				"c": 5
+			},
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 5
+			}
+		]
+	},
+	{
+		"id": "Q:6.5:8",
+		"statisticsType": "WCGC",
+		"value": 2600,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "BLUEPRINT",
+					"blueprintType": "SPECIAL_IV"
+				},
+				"c": 3
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 25000
+			},
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "TOWERS_UPGRADE_PRICE",
+					"delta": -3,
+					"levelName": "6.5"
+				},
+				"c": 100
+			}
+		]
+	},
+	{
+		"id": "Q:6.5:9",
+		"statisticsType": "TDD",
+		"value": 150000000,
+		"prizes": [
+			{
+				"i": {
+					"type": "RESEARCH_TOKEN"
+				}
+			}
+		]
+	}
+],
+"waveQuests": [
+	{
+		"id": "W:6.5:1",
+		"waves": 25,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 20000
+			},
+			{
+				"i": {
+					"type": "RESOURCE",
+					"resourceType": "VECTOR"
+				},
+				"c": 5000
+			}
+		]
+	},
+	{
+		"id": "W:6.5:2",
+		"waves": 40,
+		"prizes": [
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "ORANGE",
+					"containsPapers": false
+				},
+				"c": 4
+			}
+		]
+	},
+	{
+		"id": "W:6.5:3",
+		"waves": 50,
+		"prizes": [
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 5
+			},
+			{
+				"i": {
+					"type": "RANDOM_TELEPORT"
+				},
+				"c": 2
+			}
+		]
+	},
+	{
+		"id": "W:6.5:4",
+		"waves": 60,
+		"prizes": [
+			{
+				"i": {
+					"type": "LOOT_BOOST"
+				},
+				"c": 2
+			}
+		]
+	},
+	{
+		"id": "W:6.5:S1",
+		"waves": 70,
+		"prizes": [
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "ENEMIES_SPEED",
+					"delta": -2,
+					"levelName": "6.5"
+				}
+			},
+			{
+				"i": {
+					"type": "STAR"
+				}
+			}
+		]
+	},
+	{
+		"id": "W:6.5:5",
+		"waves": 80,
+		"prizes": [
+			{
+				"i": {
+					"type": "RESOURCE",
+					"resourceType": "INFIAR"
+				},
+				"c": 2000
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 40000
+			}
+		]
+	},
+	{
+		"id": "W:6.5:6",
+		"waves": 90,
+		"prizes": [
+			{
+				"i": {
+					"type": "CASE_KEY",
+					"caseType": "CYAN"
+				},
+				"c": 15
+			},
+			{
+				"i": {
+					"type": "BLUEPRINT",
+					"blueprintType": "SPECIAL_IV"
+				}
+			}
+		]
+	},
+	{
+		"id": "W:6.5:S2",
+		"waves": 100,
+		"prizes": [
+			{
+				"i": {
+					"type": "TILE",
+					"tile": {
+						"type": "GAME_VALUE",
+						"d": {
+							"gv": "STARTING_MONEY",
+							"d": 1.05,
+							"o": 0,
+							"f": 1
+						}
+					}
+				}
+			},
+			{
+				"i": {
+					"type": "STAR"
+				}
+			}
+		]
+	},
+	{
+		"id": "W:6.5:7",
+		"waves": 110,
+		"prizes": [
+			{
+				"i": {
+					"type": "GAME_VALUE_LEVEL",
+					"gameValueType": "LOOT_RARITY",
+					"delta": 10,
+					"levelName": "6.5"
+				}
+			},
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "CYAN",
+					"containsPapers": false
+				},
+				"c": 2
+			}
+		]
+	},
+	{
+		"id": "W:6.5:S3",
+		"waves": 120,
+		"prizes": [
+			{
+				"i": {
+					"type": "TILE",
+					"tile": {
+						"type": "EQUALIZER",
+						"d": {
+							"bi": 1,
+							"sd": 0.15,
+							"c": 2,
+							"co": 0.02,
+							"d": 0,
+							"cl": "e91e63ff",
+							"ch": "039be5ff",
+							"bw": 1,
+							"bh": 2,
+							"rb": false,
+							"pe": true,
+							"f": [
+								[ 0, 20 ],
+								[ 20, 55 ],
+								[ 55, 110 ],
+								[ 110, 220 ],
+								[ 220, 440 ],
+								[ 440, 880 ],
+								[ 880, 1760 ],
+								[ 1760, 3520 ],
+								[ 3520, 7040 ],
+								[ 7040, 14080 ],
+								[ 14080, 28160 ]
+							],
+							"mve": 0.998,
+							"fmv": 0,
+							"bs": 2,
+							"sx": 0,
+							"sy": 0
+						}
+					}
+				}
+			},
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 20
+			},
+			{
+				"i": {
+					"type": "RANDOM_TELEPORT"
+				},
+				"c": 4
+			},
+			{
+				"i": {
+					"type": "STAR"
+				}
+			}
+		]
+	}
+],
+"difficultyExpectedPlaytime": 0.8
+}

@@ -1,0 +1,1822 @@
+{
+  "AIR": {
+    "prices": [
+      21,
+      31,
+      47,
+      73,
+      130,
+      180,
+      305,
+      480,
+      820,
+      1400
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_AIR_RANGE"
+        ],
+        "values": [
+          3.5,
+          3.7,
+          3.95,
+          4.2,
+          4.5,
+          4.8,
+          5.05,
+          5.3,
+          5.55,
+          5.8,
+          6
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_AIR_DAMAGE"
+        ],
+        "values": [
+          4.6,
+          7.2,
+          11.2,
+          17.6,
+          27.1,
+          41.2,
+          71.5,
+          102,
+          156,
+          235,
+          365
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_AIR_ATTACK_SPEED"
+        ],
+        "values": [
+          1.62,
+          1.71,
+          1.8,
+          1.89,
+          1.98,
+          2.07,
+          2.16,
+          2.25,
+          2.34,
+          2.43,
+          2.52
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_AIR_ROTATION_SPEED"
+        ],
+        "values": [
+          75,
+          80,
+          85,
+          90,
+          95,
+          100,
+          105,
+          110,
+          115,
+          120,
+          125
+        ]
+      },
+      "PROJECTILE_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_PROJECTILE_SPEED",
+          "TOWER_AIR_PROJECTILE_SPEED"
+        ],
+        "values": [
+          2.2,
+          2.3,
+          2.4,
+          2.55,
+          2.7,
+          2.9,
+          2.9,
+          3.1,
+          3.3,
+          3.6,
+          3.9
+        ],
+        "max": 16
+      },
+      "U_BURN_CHANCE": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_AIR_BURN_CHANCE"
+        ],
+        "startValue": 5,
+        "valueDelta":  0.2,
+        "max": 100
+      },
+      "U_BURN_DAMAGE": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_AIR_BURN_DAMAGE"
+        ],
+        "startValue": 100,
+        "valueDelta":  2.5,
+        "deltaPower": 1.05
+      },
+      "U_BURNING_TIME": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_AIR_BURNING_TIME"
+        ],
+        "startValue": 5,
+        "valueDelta":  0.15
+      }
+    }
+  },
+  "BASIC": {
+    "prices": [
+      20,
+      27,
+      44,
+      64,
+      101,
+      176,
+      320,
+      580,
+      1030,
+      1770
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_BASIC_RANGE"
+        ],
+        "values": [
+          2,
+          2.2,
+          2.3,
+          2.3,
+          2.5,
+          2.5,
+          2.6,
+          2.7,
+          2.7,
+          2.9,
+          3
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_BASIC_DAMAGE"
+        ],
+        "values": [
+          8.5,
+          10.9,
+          14.1,
+          18,
+          23.8,
+          32.9,
+          41.6,
+          57.5,
+          77.8,
+          102.6,
+          131
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_BASIC_ATTACK_SPEED"
+        ],
+        "pwrFactor": 0.75,
+        "values": [
+          1.25,
+          1.4,
+          1.4,
+          1.55,
+          1.55,
+          1.7,
+          1.7,
+          1.95,
+          2.05,
+          2.05,
+          2.3
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_BASIC_ROTATION_SPEED"
+        ],
+        "values": [
+          90,
+          90,
+          110,
+          120,
+          120,
+          135,
+          145,
+          145,
+          170,
+          180,
+          180
+        ]
+      },
+      "PROJECTILE_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_PROJECTILE_SPEED",
+          "TOWER_BASIC_PROJECTILE_SPEED"
+        ],
+        "values": [
+          2.8,
+          3.0,
+          3.2,
+          3.3,
+          3.5,
+          3.5,
+          3.7,
+          3.8,
+          3.9,
+          4.0,
+          4.2
+        ],
+        "max": 16
+      },
+      "U_DAMAGE_MULTIPLY": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_BASIC_DAMAGE_MULTIPLIER"
+        ],
+        "startValue": 100,
+        "valueDelta":  3.4
+      }
+    }
+  },
+  "BLAST": {
+    "prices": [
+      34,
+      65,
+      115,
+      203,
+      338,
+      560,
+      950,
+      1300,
+      2100,
+      3400
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_BLAST_RANGE"
+        ],
+        "values": [
+          1.65,
+          1.65,
+          1.65,
+          1.65,
+          1.65,
+          1.65,
+          1.8,
+          1.8,
+          1.8,
+          1.8,
+          1.8
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_BLAST_DAMAGE"
+        ],
+        "values": [
+          22.6,
+          31.9,
+          41.8,
+          56,
+          75.9,
+          101,
+          134,
+          177,
+          251,
+          327,
+          455
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_BLAST_ATTACK_SPEED"
+        ],
+        "values": [
+          0.35,
+          0.38,
+          0.43,
+          0.5,
+          0.56,
+          0.56,
+          0.56,
+          0.63,
+          0.7,
+          0.8,
+          0.87
+        ]
+      },
+      "STUN_CHANCE": {
+        "gvMultipliers": [
+          "TOWER_BLAST_STUN_CHANCE"
+        ],
+        "startValue": 10,
+        "valueDelta":  0.8,
+        "max": 75
+      },
+      "U_STUN_DURATION": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_BLAST_STUN_DURATION"
+        ],
+        "startValue": 1.5,
+        "valueDelta":  0.065
+      },
+      "U_QUAKE_CHARGE_SPEED": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_BLAST_QUAKE_CHARGE_SPEED"
+        ],
+        "startValue": 4.5,
+        "valueDelta":  0.15,
+        "max": 50
+      }
+    }
+  },
+  "CANNON": {
+    "prices": [
+      42,
+      63,
+      115,
+      210,
+      300,
+      420,
+      850,
+      1200,
+      1950,
+      3000
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_CANNON_RANGE"
+        ],
+        "values": [
+          1.7,
+          1.9,
+          2,
+          2.15,
+          2.15,
+          2.3,
+          2.45,
+          2.6,
+          2.9,
+          3.2,
+          3.2
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_CANNON_DAMAGE"
+        ],
+        "values": [
+          16.3,
+          26.6,
+          35.5,
+          47,
+          62.8,
+          81,
+          112,
+          147,
+          187,
+          247,
+          299
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_CANNON_ATTACK_SPEED"
+        ],
+        "pwrFactor": 0.5,
+        "values": [
+          0.6,
+          0.7,
+          0.7,
+          0.85,
+          1,
+          1.1,
+          1.1,
+          1.25,
+          1.35,
+          1.35,
+          1.4
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_CANNON_ROTATION_SPEED"
+        ],
+        "values": [
+          40,
+          50,
+          60,
+          70,
+          80,
+          80,
+          90,
+          100,
+          100,
+          110,
+          120
+        ]
+      },
+      "PROJECTILE_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_PROJECTILE_SPEED",
+          "TOWER_CANNON_PROJECTILE_SPEED"
+        ],
+        "values": [
+          2.2,
+          2.4,
+          2.6,
+          2.6,
+          2.7,
+          2.9,
+          3.0,
+          3.1,
+          3.2,
+          3.2,
+          3.2
+        ],
+        "max": 16
+      },
+      "U_EXPLOSION_RANGE": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_CANNON_EXPLOSION_RANGE"
+        ],
+        "startValue": 0.6,
+        "valueDelta":  0.025,
+        "deltaPower": 0.95,
+        "max": 3.0
+      }
+    }
+  },
+  "FLAMETHROWER": {
+    "prices": [
+      44,
+      62,
+      129,
+      196,
+      295,
+      540,
+      745,
+      1180,
+      2280,
+      3710
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_FLAMETHROWER_RANGE"
+        ],
+        "values": [
+          1.91,
+          1.91,
+          2,
+          2.1,
+          2.1,
+          2.25,
+          2.25,
+          2.33,
+          2.42,
+          2.42,
+          2.5
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_FLAMETHROWER_DAMAGE"
+        ],
+        "pwrFactor": 1.6,
+        "values": [
+          7.8,
+          12.0,
+          19.9,
+          26.9,
+          40.6,
+          62.2,
+          92.6,
+          136,
+          212,
+          328,
+          504
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_FLAMETHROWER_ROTATION_SPEED"
+        ],
+        "values": [
+          45,
+          47,
+          50,
+          55,
+          55,
+          60,
+          65,
+          65,
+          70,
+          70,
+          70
+        ]
+      },
+      "U_BURNING_TIME": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_FLAMETHROWER_BURNING_TIME"
+        ],
+        "startValue": 3,
+        "valueDelta":  0.2
+      },
+      "U_DIRECT_FIRE_DAMAGE": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_FLAMETHROWER_DIRECT_FIRE_DAMAGE"
+        ],
+        "startValue": 100,
+        "valueDelta": 3,
+        "deltaPower": 1.1
+      }
+    }
+  },
+  "FREEZING": {
+    "prices": [
+      42,
+      70,
+      110,
+      170,
+      270,
+      420,
+      650,
+      1050,
+      1700,
+      2700
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_FREEZING_RANGE"
+        ],
+        "values": [
+          2,
+          2.125,
+          2.25,
+          2.4,
+          2.4,
+          2.55,
+          2.65,
+          2.8,
+          3,
+          3,
+          3.2
+        ]
+      },
+      "FREEZE_PERCENT": {
+        "gvMultipliers": [
+          "TOWER_FREEZING_FREEZE_PERCENT"
+        ],
+        "values": [
+          15,
+          18,
+          20,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          38
+        ],
+        "max": 65
+      },
+      "FREEZE_SPEED": {
+        "gvMultipliers": [
+          "TOWER_FREEZING_FREEZE_SPEED"
+        ],
+        "values": [
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32
+        ]
+      },
+      "U_POISON_DURATION_BONUS": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_FREEZING_POISON_DURATION_BONUS"
+        ],
+        "startValue": 20,
+        "valueDelta":  2.5
+      },
+      "U_CHAIN_LIGHTNING_BONUS_LENGTH": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_FREEZING_CHAIN_LIGHTNING_LENGTH_BONUS"
+        ],
+        "startValue": 15,
+        "valueDelta":  2
+      }
+    }
+  },
+  "LASER": {
+    "prices": [
+      36,
+      64,
+      120,
+      160,
+      260,
+      410,
+      600,
+      900,
+      1580,
+      2400
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_LASER_RANGE"
+        ],
+        "values": [
+          2.75,
+          2.95,
+          2.95,
+          3.2,
+          3.45,
+          3.55,
+          3.55,
+          3.8,
+          4.1,
+          4.4,
+          4.75
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_LASER_DAMAGE"
+        ],
+        "pwrFactor": 1.1,
+        "values": [
+          98.8,
+          150,
+          232,
+          307,
+          427,
+          592,
+          787,
+          1051,
+          1426,
+          1876,
+          2552
+        ]
+      },
+      "CHARGING_SPEED": {
+        "gvMultipliers": [
+          "TOWER_LASER_CHARGING_SPEED"
+        ],
+        "pwrPowerFactor": 0.95,
+        "pwrFactor": 0.75,
+        "values": [
+          10,
+          11,
+          12,
+          12,
+          15,
+          16,
+          17,
+          17,
+          17,
+          20,
+          20
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_LASER_ROTATION_SPEED"
+        ],
+        "values": [
+          40,
+          40,
+          48,
+          48,
+          56,
+          56,
+          64,
+          64,
+          72,
+          72,
+          80
+        ]
+      },
+      "U_BATTERIES_CAPACITY": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_LASER_BATTERIES_CAPACITY"
+        ],
+        "startValue": 1.5,
+        "valueDelta":  0.07,
+        "deltaPower": 1.2
+      }
+    }
+  },
+  "MINIGUN": {
+    "prices": [
+      42,
+      60,
+      115,
+      175,
+      280,
+      450,
+      740,
+      1300,
+      2000,
+      3200
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_MINIGUN_RANGE"
+        ],
+        "values": [
+          3.5,
+          3.65,
+          3.8,
+          4,
+          4,
+          4,
+          4.2,
+          4.5,
+          4.8,
+          5.15,
+          5.5
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_MINIGUN_DAMAGE"
+        ],
+        "values": [
+          12.2,
+          15.8,
+          22.7,
+          27.7,
+          39.7,
+          50.7,
+          70,
+          90,
+          120,
+          168,
+          209
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_MINIGUN_ATTACK_SPEED"
+        ],
+        "values": [
+          4.5,
+          4.7,
+          4.95,
+          4.95,
+          5.2,
+          5.8,
+          6.3,
+          6.7,
+          7.8,
+          8.2,
+          9.1
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_MINIGUN_ROTATION_SPEED"
+        ],
+        "values": [
+          40,
+          43,
+          43,
+          48,
+          50,
+          55,
+          55,
+          57,
+          60,
+          60,
+          60
+        ]
+      },
+      "U_ACCELERATION": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_MINIGUN_ACCELERATION"
+        ],
+        "startValue": 8,
+        "valueDelta":  0.5,
+        "deltaPower": 1.3
+      },
+      "U_MAGAZINE_SIZE": {
+        "unique":true,
+        "rounding": "middle",
+        "gvMultipliers": [
+          "TOWER_MINIGUN_MAGAZINE_SIZE"
+        ],
+        "startValue": 100,
+        "valueDelta":  2.5
+      }
+    }
+  },
+  "MISSILE": {
+    "prices": [
+      80,
+      135,
+      200,
+      320,
+      520,
+      745,
+      1110,
+      1700,
+      2810,
+      4530
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_MISSILE_RANGE"
+        ],
+        "values": [
+          4.7,
+          5,
+          5,
+          5.6,
+          5.7,
+          6.2,
+          6.2,
+          6.8,
+          7.1,
+          7.3,
+          7.5
+        ]
+      },
+      "MIN_RANGE": {
+        "startValue": 2,
+        "valueDelta": 0
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_MISSILE_DAMAGE"
+        ],
+        "values": [
+          55.1,
+          80.4,
+          121,
+          170,
+          226,
+          309,
+          404,
+          521,
+          666,
+          849,
+          1070
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_MISSILE_ATTACK_SPEED"
+        ],
+        "pwrFactor": 0.6,
+        "values": [
+          0.28,
+          0.31,
+          0.34,
+          0.34,
+          0.38,
+          0.38,
+          0.43,
+          0.45,
+          0.45,
+          0.50,
+          0.52
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_MISSILE_ROTATION_SPEED"
+        ],
+        "values": [
+          45,
+          50,
+          55,
+          60,
+          65,
+          70,
+          75,
+          80,
+          85,
+          90,
+          90
+        ]
+      },
+      "PROJECTILE_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_PROJECTILE_SPEED",
+          "TOWER_MISSILE_PROJECTILE_SPEED"
+        ],
+        "values": [
+          1.8,
+          1.85,
+          1.95,
+          2.1,
+          2.1,
+          2.2,
+          2.3,
+          2.3,
+          2.4,
+          2.4,
+          2.5
+        ],
+        "max": 16
+      },
+      "U_EXPLOSION_RANGE": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_MISSILE_EXPLOSION_RANGE"
+        ],
+        "startValue": 0.7,
+        "valueDelta":  0.03,
+        "deltaPower": 0.94,
+        "max": 3.2
+      },
+      "U_LRM_AIM_SPEED": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_MISSILE_LRM_AIM_SPEED"
+        ],
+        "startValue": 12,
+        "valueDelta":  0.4
+      }
+    }
+  },
+  "MULTISHOT": {
+    "prices": [
+      35,
+      68,
+      120,
+      170,
+      280,
+      460,
+      660,
+      1150,
+      1750,
+      2650
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_MULTISHOT_RANGE"
+        ],
+        "values": [
+          3,
+          3.2,
+          3.3,
+          3.45,
+          3.45,
+          3.65,
+          3.85,
+          4.1,
+          4.1,
+          4.35,
+          4.5
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_MULTISHOT_DAMAGE"
+        ],
+        "values": [
+          9.98,
+          12.9,
+          17.3,
+          23.4,
+          30.6,
+          38,
+          52.6,
+          72.3,
+          92.5,
+          114.7,
+          152
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_MULTISHOT_ATTACK_SPEED"
+        ],
+        "values": [
+          0.68,
+          0.75,
+          0.85,
+          0.85,
+          0.95,
+          1.05,
+          1.08,
+          1.16,
+          1.22,
+          1.22,
+          1.29
+        ],
+        "pwrFactor": 0.75
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_MULTISHOT_ROTATION_SPEED"
+        ],
+        "values": [
+          50,
+          55,
+          60,
+          68,
+          70,
+          70,
+          74,
+          80,
+          85,
+          90,
+          90
+        ]
+      },
+      "PROJECTILE_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_PROJECTILE_SPEED",
+          "TOWER_MULTISHOT_PROJECTILE_SPEED"
+        ],
+        "values": [
+          2,
+          2.2,
+          2.4,
+          2.6,
+          2.6,
+          2.8,
+          3,
+          3,
+          3.25,
+          3.4,
+          3.5
+        ],
+        "max": 16
+      },
+      "U_PROJECTILE_COUNT": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_MULTISHOT_PROJECTILE_COUNT"
+        ],
+        "startValue": 5,
+        "valueDelta":  0.14
+      },
+      "U_SHOOT_ANGLE": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_MULTISHOT_SHOOT_ANGLE"
+        ],
+        "startValue": 65,
+        "valueDelta":  1
+      }
+    }
+  },
+  "SNIPER": {
+    "prices": [
+      43,
+      75,
+      117,
+      190,
+      420,
+      610,
+      875,
+      1330,
+      2140,
+      3630
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_SNIPER_RANGE"
+        ],
+        "values": [
+          4.5,
+          4.9,
+          5.3,
+          5.3,
+          5.7,
+          6.1,
+          6.1,
+          6.5,
+          6.9,
+          7.3,
+          7.8
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_SNIPER_DAMAGE"
+        ],
+        "pwrFactor": 1.4,
+        "values": [
+          61.8,
+          86,
+          111,
+          171,
+          241,
+          336,
+          416,
+          578,
+          753,
+          942,
+          1234
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_SNIPER_ATTACK_SPEED"
+        ],
+        "values": [
+          0.266,
+          0.304,
+          0.361,
+          0.361,
+          0.418,
+          0.475,
+          0.503,
+          0.503,
+          0.55,
+          0.59,
+          0.61
+        ],
+        "pwrPowerFactor": 0.95,
+        "pwrFactor": 0.35
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_SNIPER_ROTATION_SPEED"
+        ],
+        "values": [
+          45,
+          49.5,
+          54,
+          57.6,
+          65.7,
+          65.7,
+          72.9,
+          77.4,
+          77.4,
+          77.4,
+          81
+        ],
+        "pwrFactor": 0.8
+      },
+      "AIM_SPEED": {
+        "gvMultipliers": [
+          "TOWER_SNIPER_AIM_SPEED"
+        ],
+        "values": [
+          90,
+          100,
+          105,
+          110,
+          120,
+          135,
+          135,
+          150,
+          170,
+          180,
+          200
+        ]
+      },
+      "U_CRIT_CHANCE": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_SNIPER_CRIT_CHANCE"
+        ],
+        "startValue": 7.5,
+        "valueDelta":  0.65,
+        "deltaPower": 0.63,
+        "max": 100
+      },
+      "U_CRIT_MULTIPLIER": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_SNIPER_CRIT_MULTIPLIER"
+        ],
+        "startValue": 200,
+        "valueDelta":  10
+      }
+    }
+  },
+  "SPLASH": {
+    "prices": [
+      55,
+      85,
+      135,
+      220,
+      365,
+      625,
+      1015,
+      1965,
+      2800,
+      3890
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_SPLASH_RANGE"
+        ],
+        "values": [
+          2,
+          2.125,
+          2.25,
+          2.35,
+          2.45,
+          2.45,
+          2.6,
+          2.7,
+          2.85,
+          2.85,
+          3
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_SPLASH_DAMAGE"
+        ],
+        "values": [
+          21.3,
+          31.9,
+          41,
+          59.2,
+          82.4,
+          119,
+          159,
+          214,
+          283,
+          358,
+          580
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_SPLASH_ATTACK_SPEED"
+        ],
+        "values": [
+          0.612,
+          0.68,
+          0.748,
+          0.748,
+          0.841,
+          0.90,
+          0.960,
+          1.02,
+          1.07,
+          1.09,
+          1.13
+        ],
+        "pwrFactor": 0.5
+      },
+      "PROJECTILE_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_PROJECTILE_SPEED",
+          "TOWER_SPLASH_PROJECTILE_SPEED"
+        ],
+        "values": [
+          1.5,
+          1.7,
+          1.9,
+          2,
+          2,
+          2.1,
+          2.1,
+          2.25,
+          2.4,
+          2.5,
+          2.7
+        ],
+        "max": 16
+      },
+      "U_PIERCING": {
+        "gvMultipliers": [
+          "TOWER_SPLASH_PIERCING"
+        ],
+        "unique":true,
+        "startValue": 32.9,
+        "valueDelta":  0.2,
+        "max": 90
+      },
+      "U_PROJECTILE_COUNT": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_SPLASH_PROJECTILE_COUNT"
+        ],
+        "startValue": 6,
+        "valueDelta":  0.18,
+        "max": 20
+      }
+    }
+  },
+  "TESLA": {
+    "prices": [
+      54,
+      79,
+      140,
+      220,
+      300,
+      495,
+      750,
+      1090,
+      1800,
+      2500
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_TESLA_RANGE"
+        ],
+        "values": [
+          3.15,
+          3.15,
+          3.4,
+          3.7,
+          4.2,
+          4.2,
+          4.7,
+          4.7,
+          5.1,
+          5.1,
+          5.5
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_TESLA_DAMAGE"
+        ],
+        "values": [
+          12.1,
+          16.6,
+          21.4,
+          27.5,
+          35.8,
+          45.5,
+          53.3,
+          65.1,
+          80.2,
+          102,
+          132
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_TESLA_ATTACK_SPEED"
+        ],
+        "values": [
+          0.82,
+          0.91,
+          0.96,
+          1.01,
+          1.01,
+          1.07,
+          1.15,
+          1.15,
+          1.31,
+          1.38,
+          1.48
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_TESLA_ROTATION_SPEED"
+        ],
+        "values": [
+          60,
+          65,
+          80,
+          80,
+          85,
+          95,
+          95,
+          105,
+          110,
+          115,
+          120
+        ]
+      },
+      "CHAIN_LIGHTNING_DAMAGE": {
+        "gvMultipliers": [
+          "TOWER_TESLA_CHAIN_LIGHTNING_DAMAGE"
+        ],
+        "values": [
+          45,
+          48,
+          50,
+          53,
+          55,
+          58,
+          60,
+          63,
+          65,
+          68,
+          70
+        ],
+        "max": 95,
+        "pwrFactor": 0.4
+      },
+      "U_CHAIN_LIGHTNING_LENGTH": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_TESLA_CHAIN_LIGHTNING_LENGTH"
+        ],
+        "startValue": 4,
+        "valueDelta":  0.25
+      }
+    }
+  },
+  "VENOM": {
+    "prices": [
+      50,
+      85,
+      115,
+      180,
+      330,
+      560,
+      810,
+      1180,
+      2250,
+      3330
+    ],
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_VENOM_RANGE"
+        ],
+        "values": [
+          2.125,
+          2.25,
+          2.25,
+          2.4,
+          2.5,
+          2.65,
+          2.75,
+          2.9,
+          2.9,
+          3.1,
+          3.3
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_VENOM_DAMAGE"
+        ],
+        "pwrFactor": 1.4,
+        "pwrPowerFactor": 1.05,
+        "values": [
+          9.2,
+          12.7,
+          16.4,
+          22.6,
+          30.8,
+          41.7,
+          58.4,
+          79.4,
+          106.2,
+          142.3,
+          186.6
+        ]
+      },
+      "ATTACK_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ATTACK_SPEED",
+          "TOWER_VENOM_ATTACK_SPEED"
+        ],
+        "pwrFactor": 0.75,
+        "pwrPowerFactor": 0.95,
+        "values": [
+          0.45,
+          0.48,
+          0.54,
+          0.54,
+          0.62,
+          0.7,
+          0.7,
+          0.8,
+          0.92,
+          1.05,
+          1.15
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_VENOM_ROTATION_SPEED"
+        ],
+        "values": [
+          75,
+          80,
+          80,
+          90,
+          95,
+          100,
+          105,
+          105,
+          115,
+          120,
+          120
+        ]
+      },
+      "PROJECTILE_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_PROJECTILE_SPEED",
+          "TOWER_VENOM_PROJECTILE_SPEED"
+        ],
+        "values": [
+          1.25,
+          1.25,
+          1.35,
+          1.45,
+          1.6,
+          1.6,
+          1.75,
+          1.9,
+          2.1,
+          2.3,
+          2.55
+        ],
+        "max": 16
+      },
+      "U_POISON_DURATION": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_VENOM_POISON_DURATION"
+        ],
+        "startValue": 5,
+        "valueDelta":  0.3,
+        "deltaPower": 1.1
+      }
+    }
+  },
+  "GAUSS": {
+    "prices": [
+      250,
+      355,
+      570,
+      830,
+      1550,
+      2610,
+      3800,
+      5460,
+      8550,
+      14200
+    ],
+    "stats": {
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_GAUSS_DAMAGE"
+        ],
+        "pwrFactor": 1.5,
+        "pwrPowerFactor": 1.15,
+        "values": [
+          2000,
+          3175,
+          4830,
+          9300,
+          14900,
+          25920,
+          47520,
+          85140,
+          151200,
+          258300,
+          432000
+        ]
+      },
+      "ROTATION_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_ROTATION_SPEED",
+          "TOWER_GAUSS_ROTATION_SPEED"
+        ],
+        "values": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      "RESOURCE_CONSUMPTION": {
+        "gvMultipliers": [
+          "TOWER_GAUSS_RESOURCE_CONSUMPTION"
+        ],
+        "rounding": "middle",
+        "pwrFactor": 0.95,
+        "values": [
+          10,
+          13,
+          15,
+          18,
+          22,
+          23,
+          26,
+          32,
+          37,
+          46,
+          56
+        ]
+      },
+      "CHARGING_SPEED": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_GAUSS_CHARGING_SPEED"
+        ],
+        "startValue": 9,
+        "valueDelta":  0.22
+      }
+    }
+  },
+  "CRUSHER": {
+    "prices": [
+      42,
+      63,
+      115,
+      210,
+      300,
+      420,
+      850,
+      1200,
+      1950,
+      3000
+    ],
+    "upgradePriceMultiplier": 1.2,
+    "stats": {
+      "RANGE": {
+        "gvMultipliers": [
+          "TOWERS_RANGE",
+          "TOWER_CRUSHER_RANGE"
+        ],
+        "values": [
+          1.4,
+          1.4,
+          1.5,
+          1.5,
+          1.6,
+          1.6,
+          1.6,
+          1.7,
+          1.7,
+          1.8,
+          1.9
+        ]
+      },
+      "DAMAGE": {
+        "gvMultipliers": [
+          "TOWERS_DAMAGE",
+          "TOWER_CRUSHER_DAMAGE"
+        ],
+        "pwrFactor": 1.2,
+        "pwrPowerFactor": 1.05,
+        "values": [
+          327,
+          408,
+          500,
+          648,
+          800,
+          1080,
+          1400,
+          1832,
+          2376,
+          3000,
+          3840
+        ]
+      },
+      "PROJECTILE_SPEED": {
+        "gvMultipliers": [
+          "TOWERS_PROJECTILE_SPEED",
+          "TOWER_CRUSHER_PROJECTILE_SPEED"
+        ],
+        "values": [
+          1.2,
+          1.4,
+          1.5,
+          1.5,
+          1.6,
+          1.7,
+          1.7,
+          1.8,
+          1.9,
+          1.9,
+          2.0
+        ],
+        "max": 16
+      },
+      "DURATION": {
+        "gvMultipliers": [
+          "TOWER_CRUSHER_DURATION"
+        ],
+        "values": [
+          6.0,
+          6.5,
+          7.0,
+          7.0,
+          7.5,
+          8.0,
+          8.5,
+          9.0,
+          9.0,
+          9.5,
+          10.0
+        ]
+      },
+      "U_BONUS_EXPERIENCE": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_CRUSHER_BONUS_EXPERIENCE"
+        ],
+        "startValue": 30,
+        "valueDelta":  3
+      },
+      "U_SHARED_DAMAGE": {
+        "unique":true,
+        "gvMultipliers": [
+          "TOWER_CRUSHER_A_HEAVY_VICE"
+        ],
+        "startValue": 20,
+        "valueDelta":  2.5
+      }
+    }
+  }
+}

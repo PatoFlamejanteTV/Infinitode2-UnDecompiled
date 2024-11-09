@@ -1,0 +1,91 @@
+{
+"name": "dev",
+"stage": "A",
+"stagePosition": 20,
+"seed": 30000,
+"hasLeaderboards": true,
+"forcedDifficulty": "NORMAL",
+"fixedQuests": true,
+"openRequirements": [
+	{
+		"type": "STARS",
+		"level": "5.8",
+		"amount": 2
+	}
+],
+"quests": [
+	{
+		"id": "Q:dev:1",
+		"statisticsType": "SG",
+		"value": 400000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "STAR"
+				}
+			},
+			{
+				"i": {
+					"type": "ACCELERATOR"
+				},
+				"c": 10
+			},
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "ORANGE",
+					"containsPapers": true
+				}
+			}
+		]
+	},
+	{
+		"id": "Q:dev:2",
+		"statisticsType": "TDD",
+		"value": 200000000,
+		"prizes": [
+			{
+				"i": {
+					"type": "STAR"
+				}
+			},
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				},
+				"c": 20000
+			},
+			{
+				"i": {
+					"type": "RANDOM_TILE",
+					"quality": 1
+				},
+				"c": 10
+			}
+		]
+	}
+],
+"waveQuests": [
+	{
+		"id": "W:dev:1",
+		"waves": 150,
+		"prizes": [
+			{
+				"i": {
+					"type": "STAR"
+				}
+			},
+			{
+				"i": {
+					"type": "CASE",
+					"caseType": "PURPLE",
+					"containsPapers": true
+				},
+				"c": 5
+			}
+		]
+	}
+],
+"difficultyExpectedPlaytime": 1
+}

@@ -1,0 +1,82 @@
+{
+"name": "stress_test",
+"stage": "tb",
+"seed": 1673,
+"quests": [
+	{
+		"id": "Q:stress_test:1",
+		"statisticsType": "EK",
+		"value": 20000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "RESOURCE",
+					"resourceType": "INFIAR"
+				},
+				"c": 1000
+			}
+		]
+	},
+	{
+		"id": "Q:stress_test:2",
+		"statisticsType": "EK",
+		"value": 1000000,
+		"oneGame": true,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				}
+			}
+		]
+	}
+],
+"waveQuests": [
+	{
+		"id": "W:stress_test:1",
+		"waves": 1000000,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				}
+			}
+		]
+	},
+	{
+		"id": "W:stress_test:2",
+		"waves": 5000000,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				}
+			}
+		]
+	},
+	{
+		"id": "W:stress_test:3",
+		"waves": 25000000,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				}
+			}
+		]
+	},
+	{
+		"id": "W:stress_test:4",
+		"waves": 1000000000,
+		"prizes": [
+			{
+				"i": {
+					"type": "GREEN_PAPER"
+				}
+			}
+		]
+	}
+],
+"difficultyExpectedPlaytime": 1
+}

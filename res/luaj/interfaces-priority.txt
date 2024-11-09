@@ -1,0 +1,32 @@
+# List of interfaces sorted by priority (higher = more preferable)
+# Used in case a class has multiple interfaces and its super class is Object (meaning no actual super class)
+# Lua LS does not know what interface is and does not allow to specify multiple interfaces for a single class
+# Not a big deal - you can always --[[@as ...]] or ---@cast a variable to the interface you need (list of interfaces of some class is defined in its docs)
+# Worst case scenario - a class will have less wanted interface defined as its super class
+
+com.prineside.tdi2.managers.UiManager$UiComponent
+com.prineside.tdi2.EntityFactory
+com.prineside.tdi2.systems.MapEditorSystem$Tool
+java.lang.CharSequence
+com.badlogic.gdx.ai.pfa.indexed.IndexedGraph
+com.badlogic.gdx.ai.pfa.HierarchicalGraph
+com.badlogic.gdx.ai.msg.Telegraph
+com.badlogic.gdx.ai.sched.Schedulable
+com.badlogic.gdx.graphics.g3d.utils.RenderableSorter
+com.badlogic.gdx.graphics.g3d.RenderableProvider
+java.lang.reflect.Type
+java.lang.reflect.GenericDeclaration
+com.badlogic.gdx.graphics.g3d.decals.GroupStrategy
+com.prineside.tdi2.WaveProcessor
+com.prineside.tdi2.events.Listener
+java.lang.Comparable
+java.util.Comparator
+java.lang.Appendable
+java.util.Iterator
+java.lang.Iterable
+com.badlogic.gdx.utils.Pool$Poolable
+com.badlogic.gdx.utils.Disposable
+com.badlogic.gdx.scenes.scene2d.utils.Disableable
+java.io.Closeable
+java.io.Flushable
+java.lang.reflect.AnnotatedElement

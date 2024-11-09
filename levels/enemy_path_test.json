@@ -1,0 +1,23 @@
+{
+"name": "enemy_path_test",
+"stage": "-1",
+"seed": 3603,
+"difficultyExpectedPlaytime": 1,
+"enemyWaves": [
+	{
+		"enemyGroups": [
+			{
+				"enemyType": "STRONG",
+				"delay": 9999,
+				"interval": 9999,
+				"count": 10000,
+				"health": 20,
+				"speed": 0.01,
+				"bounty": 2,
+				"exp": 1,
+				"score": 10
+			}
+		]
+	}
+]
+}

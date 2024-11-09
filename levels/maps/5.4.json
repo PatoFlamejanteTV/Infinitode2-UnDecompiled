@@ -1,0 +1,277 @@
+{
+"v": 2,
+"w": 19,
+"h": 9,
+"tt": [
+	{
+		"type": "XM_MUSIC_TRACK",
+		"d": {
+			"id": 6702075070406389044,
+			"track": "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"
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "SCALAR",
+					"a": 20
+				},
+				{
+					"t": "VECTOR",
+					"a": 20
+				},
+				{
+					"t": "MATRIX",
+					"a": 20
+				},
+				{
+					"t": "TENSOR",
+					"a": 20
+				},
+				{
+					"t": "INFIAR",
+					"a": 20
+				}
+			]
+		}
+	},
+	{
+		"type": "ROAD"
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "VECTOR",
+					"a": 50
+				},
+				{
+					"t": "TENSOR",
+					"a": 50
+				}
+			]
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "PROJECTILE_SPEED",
+			"bl": 5
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "MATRIX",
+					"a": 50
+				},
+				{
+					"t": "INFIAR",
+					"a": 50
+				}
+			]
+		}
+	},
+	{
+		"type": "PLATFORM"
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "ATTACK_SPEED",
+			"bl": 5
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "DAMAGE",
+			"bl": 5
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "BONUS_EXPERIENCE",
+			"bl": 5
+		}
+	},
+	{
+		"type": "TARGET",
+		"d": {
+			"da": false,
+			"usgv": false,
+			"gv": []
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "PWR_MULTIPLIER",
+			"bl": 5
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "UPGRADE_DISCOUNT",
+			"bl": 5
+		}
+	},
+	{
+		"type": "SPAWN",
+		"d": {
+			"d": 220,
+			"ae": [
+				{
+					"t": "TOXIC",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "JET",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "HELI",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "STRONG",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "FAST",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "REGULAR",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "FIGHTER",
+					"f": 1,
+					"l": 0
+				}
+			]
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "VECTOR",
+					"a": 100
+				}
+			]
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "RANGE",
+			"bl": 5
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "BONUS_COINS",
+			"bl": 5
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "TENSOR",
+					"a": 50
+				},
+				{
+					"t": "INFIAR",
+					"a": 50
+				}
+			]
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "INFIAR",
+					"a": 100
+				}
+			]
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "ROTATION_SPEED",
+			"bl": 5
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "MATRIX",
+					"a": 60
+				},
+				{
+					"t": "TENSOR",
+					"a": 20
+				},
+				{
+					"t": "INFIAR",
+					"a": 20
+				}
+			]
+		}
+	},
+	{
+		"type": "SCRIPT",
+		"d": {
+			"id": 6898275380321234561,
+			"script": "--[[\n5.4\nI18nGenerator {\n    \"lvlsub_5_4_010_i_decided_that\",\n    \"lvlsub_5_4_020_a_flamethrower_can\",\n    \"lvlsub_5_4_030_but_remember\"\n}\n--]]\ndofile(\"scripts/levels/5.4.lua\")"
+		}
+	}
+],
+"gt": [
+	{
+		"type": "BARRIER_TYPE",
+		"blockedEnemies": [
+			"HELI",
+			"REGULAR",
+			"STRONG",
+			"JET",
+			"FAST",
+			"TOXIC",
+			"FIGHTER"
+		]
+	}
+],
+"t": [ 0, 9, 0, 1, 6, 1, 2, 7, 1, 2, 8, 1, 2, 9, 1, 3, 2, 2, 2, 3, 2, 2, 4, 2, 2, 5, 2, 2, 6, 2, 2, 7, 2, 4, 8, 2, 2, 9, 2, 5, 10, 2, 2, 11, 2, 2, 12, 2, 2, 13, 2, 2, 14, 2, 2, 15, 2, 5, 1, 3, 6, 2, 3, 2, 3, 3, 2, 4, 3, 2, 5, 3, 2, 6, 3, 2, 7, 3, 7, 8, 3, 2, 9, 3, 8, 10, 3, 2, 11, 3, 2, 12, 3, 2, 13, 3, 2, 14, 3, 2, 15, 3, 6, 16, 3, 5, 0, 4, 6, 1, 4, 9, 2, 4, 2, 3, 4, 2, 4, 4, 10, 5, 4, 2, 6, 4, 2, 7, 4, 11, 8, 4, 2, 9, 4, 12, 10, 4, 2, 11, 4, 2, 12, 4, 13, 13, 4, 2, 14, 4, 2, 15, 4, 9, 16, 4, 6, 17, 4, 14, 18, 4, 6, 2, 5, 2, 3, 5, 2, 4, 5, 2, 5, 5, 2, 6, 5, 2, 7, 5, 15, 8, 5, 2, 9, 5, 16, 10, 5, 2, 11, 5, 2, 12, 5, 2, 13, 5, 2, 14, 5, 2, 15, 5, 6, 16, 5, 17, 17, 5, 2, 3, 6, 2, 4, 6, 2, 5, 6, 2, 6, 6, 2, 7, 6, 18, 8, 6, 2, 9, 6, 19, 10, 6, 2, 11, 6, 2, 12, 6, 2, 13, 6, 2, 14, 6, 2, 15, 6, 20, 16, 6, 2, 9, 7, 2, 10, 7, 2, 11, 7, 1, 12, 7, 21, 9, 8 ],
+"g": [ 0, 7, 2, 1, 0, 4, 3, 1, 0, 4, 3, 0, 0, 5, 3, 0, 0, 6, 3, 1, 0, 7, 3, 1, 0, 12, 3, 1, 0, 12, 3, 0, 0, 13, 3, 0, 0, 14, 3, 0, 0, 15, 3, 1, 0, 4, 4, 1, 0, 5, 4, 1, 0, 6, 4, 1, 0, 7, 4, 1, 0, 12, 4, 1, 0, 13, 4, 1, 0, 13, 4, 0, 0, 14, 4, 1, 0, 15, 4, 1, 0, 4, 5, 1, 0, 5, 5, 0, 0, 7, 5, 1, 0, 12, 5, 1, 0, 13, 5, 1, 0, 15, 5, 1, 0, 4, 6, 0, 0, 5, 6, 0, 0, 6, 6, 0, 0, 12, 6, 1, 0, 13, 6, 0, 0, 14, 6, 0 ]
+}

@@ -1,0 +1,7 @@
+{
+"name": "towers_level_pwr_benchmark",
+"stage": "tb",
+"stagePosition": 2,
+"seed": 3595,
+"difficultyExpectedPlaytime": 1
+}

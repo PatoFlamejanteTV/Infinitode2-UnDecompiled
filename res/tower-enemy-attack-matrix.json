@@ -1,0 +1,28 @@
+{
+  "columns":                [    "BASIC",  "SNIPER", "CANNON", "FREEZING", "VENOM",  "SPLASH", "BLAST",  "MULTISHOT",  "MINIGUN",  "AIR",  "TESLA",  "MISSILE",  "FLAMETHROWER", "LASER", "GAUSS",   "CRUSHER"   ],
+  "values":  {
+    "REGULAR":                  [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     true        ],
+    "FAST":                     [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     false,       true,           true,     true,     true        ],
+    "STRONG":                   [ true,     true,     true,     true,       true,     true,     true,     false,         true,       false,  true,     true,       true,           true,     true,     true        ],
+    "HELI":                     [ false,    false,    false,    true,       false,    true,     false,    true,         true,       true,   true,     true,       false,          true,     false,    false        ],
+    "JET":                      [ false,    false,    false,    false,      false,    true,     false,    true,         true,       true,   true,     true,       false,          true,     false,    false        ],
+    "ARMORED":                  [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  false,    true,       true,           true,     true,     true        ],
+    "LIGHT":                    [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     true        ],
+    "TOXIC":                    [ true,     true,     true,     true,       false,    true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     true        ],
+    "ICY":                      [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           false,     true,     true        ],
+    "FIGHTER":                  [ true,     true,     true,     true,       true,     true,     true,     true,         false,       false,  false,     true,       true,           true,     true,     true        ],
+    "HEALER":                   [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       false,          true,     true,     true        ],
+    "GENERIC":                  [ true,     true,     true,     true,       true,     true,     true,     true,         true,       true,   true,     true,       true,          true,     true,     true        ],
+    "BOSS":                     [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     false        ],
+    "SNAKE_BOSS_HEAD":          [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     false        ],
+    "SNAKE_BOSS_BODY":          [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     false        ],
+    "SNAKE_BOSS_TAIL":          [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     false        ],
+    "BROOT_BOSS":               [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     false        ],
+    "CONSTRUCTOR_BOSS":         [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     false        ],
+    "MOBCHAIN_BOSS_HEAD":       [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     false        ],
+    "MOBCHAIN_BOSS_BODY":       [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     false        ],
+    "MOBCHAIN_BOSS_CREEP":      [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     true        ],
+    "METAPHOR_BOSS":            [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     false        ],
+    "METAPHOR_BOSS_CREEP":      [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true,     true,     true        ]
+  }
+}

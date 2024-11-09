@@ -1,0 +1,446 @@
+{
+  "TUTORIALS_COMPLETE": {
+    "required": 4,
+    "rewards": [
+      {
+        "item": {"type":"GREEN_PAPER"},
+        "count": 500
+      }
+    ]
+  },
+  "STAGE_1_COMPLETE": {
+    "required": 8,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"GREEN","encrypted":false,"containsPapers":false},
+        "count": 2
+      }
+    ]
+  },
+  "STAGE_2_COMPLETE": {
+    "required": 8,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"BLUE","encrypted":false,"containsPapers":false},
+        "count": 2
+      }
+    ]
+  },
+  "STAGE_3_COMPLETE": {
+    "required": 8,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"PURPLE","encrypted":false,"containsPapers":false},
+        "count": 2
+      }
+    ]
+  },
+  "STAGE_4_COMPLETE": {
+    "required": 8,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"ORANGE","encrypted":false,"containsPapers":false},
+        "count": 2
+      }
+    ]
+  },
+  "STAGE_5_COMPLETE": {
+    "required": 8,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"CYAN","encrypted":false,"containsPapers":false},
+        "count": 2
+      }
+    ]
+  },
+  "FIVE_HUNDRED_RESEARCH": {
+    "required": 500,
+    "rewards": [
+      {
+        "item": {"type":"ACCELERATOR"},
+        "count": 60
+      }
+    ]
+  },
+  "FULL_REGULAR_RESEARCH": {
+    "required": 2913,
+    "rewards": [
+      {
+        "item": {"type":"BIT_DUST"},
+        "count": 50
+      }
+    ]
+  },
+  "MILLION_SCORE_ONE_GAME": {
+    "required": 1000000,
+    "rewards": [
+      {
+        "item": {"type":"RARITY_BOOST"},
+        "count": 1
+      },
+      {
+        "item": {"type":"LOOT_BOOST"},
+        "count": 1
+      }
+    ]
+  },
+  "PRESTIGE": {
+    "rewards": [
+      {
+        "item": {"type":"PRESTIGE_TOKEN"},
+        "count": 100
+      }
+    ]
+  },
+  "HUNDRED_TILE_CUSTOM_MAP": {
+    "required": 100,
+    "rewards": [
+      {
+        "item": {"type":"RANDOM_TILE","quality":1},
+        "count": 5
+      }
+    ]
+  },
+  "FIVE_HUNDRED_TILE_CUSTOM_MAP": {
+    "required": 500,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"CYAN","encrypted":false,"containsPapers":false},
+        "count": 2
+      }
+    ]
+  },
+  "FAST_BOSS_KILL": {
+    "rewards": [
+      {
+        "item": {"type":"ABILITY_TOKEN"},
+        "count": 2
+      }
+    ]
+  },
+  "EVERY_ENEMY_MET": {
+    "required": 11,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"BLUEPRINT","encrypted":false,"containsPapers":false},
+        "count": 1
+      }
+    ]
+  },
+  "UNLOCK_ALL_TROPHIES": {
+    "required": 36,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"BLUEPRINT","encrypted":false,"containsPapers":false},
+        "count": 3
+      }
+    ]
+  },
+  "MILLION_PAPERS": {
+    "required": 1000000,
+    "rewards": [
+      {
+        "item": {"type":"CASE_KEY","caseType":"BLUE"},
+        "count": 5
+      },
+      {
+        "item": {"type":"CASE_KEY","caseType":"PURPLE"},
+        "count": 5
+      },
+      {
+        "item": {"type":"CASE_KEY","caseType":"ORANGE"},
+        "count": 5
+      },
+      {
+        "item": {"type":"CASE_KEY","caseType":"CYAN"},
+        "count": 5
+      }
+    ]
+  },
+  "MILLION_MDPS_ONE_GAME": {
+    "required": 1000000,
+    "rewards": [
+      {
+        "item": {"type":"RESEARCH_TOKEN"},
+        "count": 1
+      }
+    ]
+  },
+  "HUNDRED_KILLS_NUKE": {
+    "hidden": true,
+    "required": 100,
+    "rewards": [
+      {
+        "item": {"type":"BLUEPRINT","blueprintType":"SPECIAL_IV"},
+        "count": 1
+      }
+    ]
+  },
+  "REACH_HIGH_WAVE_ONE_GAME": {
+    "required": 300,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"CYAN","encrypted":false,"containsPapers":false},
+        "count": 1
+      }
+    ]
+  },
+  "KILL_MILLION_ENEMIES": {
+    "required": 1000000,
+    "rewards": [
+      {
+        "item": {"type":"GREEN_PAPER"},
+        "count": 50000
+      }
+    ]
+  },
+  "KILL_TEN_MILLION_ENEMIES": {
+    "required": 10000000,
+    "rewards": [
+      {
+        "item": {"type":"RESEARCH_TOKEN"},
+        "count": 2
+      }
+    ]
+  },
+  "COPY_TOWERS_ONE_GAME": {
+    "hidden": true,
+    "required": 5,
+    "rewards": [
+      {
+        "item": {"type":"BLUEPRINT","blueprintType":"SPECIAL_III"},
+        "count": 2
+      }
+    ]
+  },
+  "PLACE_MINES_ONE_GAME": {
+    "hidden": true,
+    "required": 25,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"PURPLE","encrypted":false,"containsPapers":false},
+        "count": 2
+      }
+    ]
+  },
+  "EXPLODE_ENEMY_WITH_BULLET": {
+    "hidden": true,
+    "required": 100,
+    "rewards": [
+      {
+        "item": {"type":"LUCKY_SHOT_TOKEN"},
+        "count": 1
+      }
+    ]
+  },
+  "HIT_ENEMY_WITH_SNOWBALLS": {
+    "hidden": true,
+    "required": 5,
+    "rewards": [
+      {
+        "item": {"type":"LOOT_BOOST"},
+        "count": 1
+      }
+    ]
+  },
+  "KILL_GROUND_ENEMY_WITH_AIR": {
+    "hidden": true,
+    "required": 10,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"ORANGE","encrypted":false,"containsPapers":false},
+        "count": 1
+      }
+    ]
+  },
+  "SPLASH_CHAIN_KILL": {
+    "hidden": true,
+    "required": 3,
+    "rewards": [
+      {
+        "item": {"type":"RARITY_BOOST"},
+        "count": 1
+      }
+    ]
+  },
+  "KILL_THROWN_BACK_ENEMIES": {
+    "hidden": true,
+    "required": 100,
+    "rewards": [
+      {
+        "item": {"type":"GREEN_PAPER"},
+        "count": 40000
+      }
+    ]
+  },
+  "KILL_ENEMY_WITH_BACK_PROJECTILE": {
+    "hidden": true,
+    "required": 10,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"BLUEPRINT","encrypted":false,"containsPapers":false},
+        "count": 1
+      }
+    ]
+  },
+  "PLACE_MICROGUNS": {
+    "hidden": true,
+    "required": 3,
+    "rewards": [
+      {
+        "item": {"type":"LUCKY_SHOT_TOKEN"},
+        "count": 2
+      }
+    ]
+  },
+  "MASS_BUFF_ENEMY": {
+    "hidden": true,
+    "required": 10,
+    "rewards": [
+      {
+        "item": {"type":"LUCKY_SHOT_TOKEN"},
+        "count": 2
+      }
+    ]
+  },
+  "MASS_BALL_LIGHTNINGS": {
+    "hidden": true,
+    "required": 11,
+    "rewards": [
+      {
+        "item": {"type":"LUCKY_SHOT_TOKEN"},
+        "count": 1
+      }
+    ]
+  },
+  "MASS_MISSILES": {
+    "hidden": true,
+    "required": 100,
+    "rewards": [
+      {
+        "item": {"type":"GREEN_PAPER"},
+        "count": 40000
+      }
+    ]
+  },
+  "MASS_BURN_ENEMIES": {
+    "hidden": true,
+    "required": 10,
+    "rewards": [
+      {
+        "item": {"type":"ABILITY_TOKEN"},
+        "count": 2
+      }
+    ]
+  },
+  "DOUBLE_LASER_DAMAGE": {
+    "hidden": true,
+    "required": 100,
+    "rewards": [
+      {
+        "item": {"type":"CASE","caseType":"ORANGE","encrypted":false,"containsPapers":false},
+        "count": 1
+      }
+    ]
+  },
+  "MASS_STUN_ENEMIES_ONE_SHOT": {
+    "hidden": true,
+    "required": 10,
+    "rewards": [
+      {
+        "item": {"type":"LUCKY_SHOT_TOKEN"},
+        "count": 1
+      }
+    ]
+  },
+  "RECRUIT_ENEMIES": {
+    "hidden": true,
+    "required": 3,
+    "rewards": [
+      {
+        "item": {"type":"GREEN_PAPER"},
+        "count": 40000
+      }
+    ]
+  },
+  "FAIL_TUTORIAL": {
+    "hidden": true,
+    "rewards": [
+      {
+        "item": {"type":"GREEN_PAPER"},
+        "count": 2000
+      }
+    ]
+  },
+  "HUGE_TOWER_ATTACK_SPEED": {
+    "hidden": true,
+    "required": 200,
+    "rewards": [
+      {
+        "item": {"type":"GREEN_PAPER"},
+        "count": 40000
+      }
+    ]
+  },
+  "MASS_TOWERS_LEVEL_DEV": {
+    "hidden": true,
+    "required": 125,
+    "rewards": [
+      {
+        "item": {"type":"RESEARCH_TOKEN"},
+        "count": 1
+      }
+    ]
+  },
+  "MASS_MINERS": {
+    "hidden": true,
+    "required": 25,
+    "rewards": [
+      {
+        "item": {"type":"GREEN_PAPER"},
+        "count": 40000
+      }
+    ]
+  },
+  "KILL_BOSS_BONUS_COINS": {
+    "hidden": true,
+    "rewards": [
+      {
+        "item": {"type":"RARITY_BOOST"},
+        "count": 2
+      }
+    ]
+  },
+  "BUILD_TOWER_FINISH_WITH_TEN": {
+    "hidden": true,
+    "required": 12,
+    "rewards": [
+      {
+        "item": {"type":"RESEARCH_TOKEN"},
+        "count": 1
+      }
+    ]
+  },
+  "RECRUIT_SPIDER": {
+    "hidden": true,
+    "rewards": [
+      {
+        "item": {"type":"LUCKY_SHOT_TOKEN"},
+        "count": 3
+      }
+    ]
+  },
+  "KILL_BOSS_WITH_RECRUIT": {
+    "hidden": true,
+    "rewards": [
+      {
+        "item": {"type":"LUCKY_SHOT_TOKEN"},
+        "count": 3
+      },
+      {
+        "item": {"type":"RESEARCH_TOKEN"},
+        "count": 1
+      }
+    ]
+  }
+}

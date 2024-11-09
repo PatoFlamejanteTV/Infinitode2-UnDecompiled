@@ -1,0 +1,400 @@
+Untitled
+- Delay -
+active: false
+- Duration - 
+lowMin: 200.0
+lowMax: 200.0
+- Count - 
+min: 0
+max: 200
+- Emission - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 35.0
+highMax: 50.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 500.0
+highMax: 3500.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life Offset - 
+active: false
+- X Offset - 
+active: false
+- Y Offset - 
+active: false
+- Spawn Shape - 
+shape: point
+- Spawn Width - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 200.0
+highMax: 200.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Spawn Height - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 0.0
+highMax: 0.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Scale - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 11.0
+highMax: 19.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 0.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Velocity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 260.0
+highMax: 400.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 0.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Angle - 
+active: true
+lowMin: 0.0
+lowMax: 360.0
+highMin: 0.0
+highMax: 360.0
+relative: false
+scalingCount: 31
+scaling0: 0.0
+scaling1: 0.58426964
+scaling2: 0.8426966
+scaling3: 0.96067417
+scaling4: 1.0
+scaling5: 0.9719101
+scaling6: 0.8988764
+scaling7: 0.21348314
+scaling8: 0.073033705
+scaling9: 0.0
+scaling10: 0.050561797
+scaling11: 0.1741573
+scaling12: 0.7022472
+scaling13: 0.7977528
+scaling14: 0.8651685
+scaling15: 0.8258427
+scaling16: 0.7303371
+scaling17: 0.29213482
+scaling18: 0.17977528
+scaling19: 0.16292135
+scaling20: 0.19662921
+scaling21: 0.30898875
+scaling22: 0.6235955
+scaling23: 0.6741573
+scaling24: 0.66853935
+scaling25: 0.6348315
+scaling26: 0.53932583
+scaling27: 0.3988764
+scaling28: 0.3483146
+scaling29: 0.41011235
+scaling30: 0.48876405
+timelineCount: 31
+timeline0: 0.0
+timeline1: 0.039848197
+timeline2: 0.075187966
+timeline3: 0.10626186
+timeline4: 0.15068494
+timeline5: 0.17836812
+timeline6: 0.19822283
+timeline7: 0.2508544
+timeline8: 0.2675522
+timeline9: 0.30821916
+timeline10: 0.33776093
+timeline11: 0.3595352
+timeline12: 0.40054682
+timeline13: 0.41366223
+timeline14: 0.4483937
+timeline15: 0.48197344
+timeline16: 0.5051265
+timeline17: 0.5386193
+timeline18: 0.5597723
+timeline19: 0.5967191
+timeline20: 0.63377607
+timeline21: 0.6555024
+timeline22: 0.7033493
+timeline23: 0.7210626
+timeline24: 0.74914557
+timeline25: 0.7798861
+timeline26: 0.797676
+timeline27: 0.83253586
+timeline28: 0.89063567
+timeline29: 0.9544592
+timeline30: 1.0
+- Rotation - 
+active: false
+- Wind - 
+active: false
+- Gravity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 240.0
+highMax: 240.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Tint - 
+colorsCount: 3
+colors0: 1.0
+colors1: 0.2901961
+colors2: 0.20392157
+timelineCount: 1
+timeline0: 0.0
+- Transparency - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1.0
+highMax: 1.0
+relative: false
+scalingCount: 4
+scaling0: 0.0
+scaling1: 1.0
+scaling2: 0.6666667
+scaling3: 0.0
+timelineCount: 4
+timeline0: 0.0
+timeline1: 0.1849315
+timeline2: 0.79452056
+timeline3: 1.0
+- Options - 
+attached: false
+continuous: true
+aligned: false
+additive: true
+behind: false
+premultipliedAlpha: false
+- Image Path -
+/C:/Projects/TDI2/asset sources/skin/particle-default.png
+
+
+Untitled
+- Delay -
+active: false
+- Duration - 
+lowMin: 200.0
+lowMax: 200.0
+- Count - 
+min: 0
+max: 200
+- Emission - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 35.0
+highMax: 50.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 800.0
+highMax: 3500.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life Offset - 
+active: false
+- X Offset - 
+active: false
+- Y Offset - 
+active: false
+- Spawn Shape - 
+shape: point
+- Spawn Width - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 200.0
+highMax: 200.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Spawn Height - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 0.0
+highMax: 0.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Scale - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 11.0
+highMax: 19.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 0.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Velocity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 120.0
+highMax: 300.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 0.09803922
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Angle - 
+active: true
+lowMin: 0.0
+lowMax: 360.0
+highMin: 0.0
+highMax: 360.0
+relative: true
+scalingCount: 30
+scaling0: 0.0
+scaling1: 0.6573034
+scaling2: 0.8426966
+scaling3: 0.9550562
+scaling4: 1.0
+scaling5: 0.9719101
+scaling6: 0.8988764
+scaling7: 0.66292137
+scaling8: 0.21348314
+scaling9: 0.073033705
+scaling10: 0.0
+scaling11: 0.056179777
+scaling12: 0.1741573
+scaling13: 0.7022472
+scaling14: 0.8146067
+scaling15: 0.8651685
+scaling16: 0.83146065
+scaling17: 0.7303371
+scaling18: 0.29213482
+scaling19: 0.19101124
+scaling20: 0.16292135
+scaling21: 0.20786516
+scaling22: 0.30898875
+scaling23: 0.6235955
+scaling24: 0.6797753
+scaling25: 0.6966292
+scaling26: 0.6292135
+scaling27: 0.53932583
+scaling28: 0.3988764
+scaling29: 0.3483146
+timelineCount: 30
+timeline0: 0.0
+timeline1: 0.039848197
+timeline2: 0.075187966
+timeline3: 0.10626186
+timeline4: 0.15068494
+timeline5: 0.18026565
+timeline6: 0.19822283
+timeline7: 0.22580644
+timeline8: 0.2508544
+timeline9: 0.2675522
+timeline10: 0.30821916
+timeline11: 0.3434535
+timeline12: 0.3595352
+timeline13: 0.40054682
+timeline14: 0.4117647
+timeline15: 0.4483937
+timeline16: 0.48197344
+timeline17: 0.5051265
+timeline18: 0.5386193
+timeline19: 0.55787474
+timeline20: 0.5967191
+timeline21: 0.62808347
+timeline22: 0.6555024
+timeline23: 0.7033493
+timeline24: 0.7210626
+timeline25: 0.7533207
+timeline26: 0.7760911
+timeline27: 0.797676
+timeline28: 0.83253586
+timeline29: 0.89063567
+- Rotation - 
+active: false
+- Wind - 
+active: false
+- Gravity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 240.0
+highMax: 240.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Tint - 
+colorsCount: 3
+colors0: 1.0
+colors1: 0.68235296
+colors2: 0.078431375
+timelineCount: 1
+timeline0: 0.0
+- Transparency - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1.0
+highMax: 1.0
+relative: false
+scalingCount: 4
+scaling0: 0.0
+scaling1: 1.0
+scaling2: 0.75438595
+scaling3: 0.0
+timelineCount: 4
+timeline0: 0.0
+timeline1: 0.19863014
+timeline2: 0.80136985
+timeline3: 1.0
+- Options - 
+attached: false
+continuous: true
+aligned: false
+additive: true
+behind: false
+premultipliedAlpha: false
+- Image Path -
+/C:/Projects/TDI2/asset sources/skin/particle-default.png

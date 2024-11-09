@@ -1,0 +1,121 @@
+{
+"v": 2,
+"w": 7,
+"h": 19,
+"tt": [
+	{
+		"type": "SCRIPT",
+		"d": {
+			"id": 7370365843972816680,
+			"script": "local CoinsChange = import(\"events.game.CoinsChange\")\nlocal Listener = import(\"events.Listener\")\n\nlocal coinsSpent = 0\n\nSP.events:getListeners(CoinsChange):add(Listener(function(e) \n  local delta = e:getOldValue() - SP.gameState:getMoney()\n  if not e:isGained() and delta > 0 then\n    coinsSpent = coinsSpent + delta\n    log(\"Spent: \" .. tostring(coinsSpent))\n  end\nend))"
+		}
+	},
+	{
+		"type": "PLATFORM"
+	},
+	{
+		"type": "SPAWN",
+		"d": {
+			"d": 100,
+			"ae": [
+				{
+					"t": "REGULAR",
+					"f": 1,
+					"l": 0
+				}
+			]
+		}
+	},
+	{
+		"type": "ROAD"
+	},
+	{
+		"type": "PLATFORM",
+		"building": {
+			"bType": "TOWER",
+			"type": "FREEZING",
+			"as": "FIRST",
+			"e": 0,
+			"ul": 10,
+			"ia": [
+				false,
+				false,
+				false,
+				false,
+				false,
+				false
+			]
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"building": {
+			"bType": "TOWER",
+			"type": "BLAST",
+			"as": "FIRST",
+			"e": 0,
+			"ul": 0,
+			"ia": [
+				false,
+				false,
+				false,
+				false,
+				false,
+				false
+			]
+		}
+	},
+	{
+		"type": "TARGET",
+		"d": {
+			"da": false,
+			"usgv": false,
+			"gv": [
+				{
+					"t": "STARTING_MONEY",
+					"v": 1000000,
+					"o": true,
+					"b": false
+				},
+				{
+					"t": "STARTING_HEALTH",
+					"v": 1000,
+					"o": true,
+					"b": false
+				},
+				{
+					"t": "TOWERS_STARTING_LEVEL",
+					"v": 20,
+					"o": false,
+					"b": true
+				}
+			]
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "VECTOR",
+					"a": 340
+				}
+			]
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "TENSOR",
+					"a": 230
+				}
+			]
+		}
+	}
+],
+"t": [ 0, 6, 0, 1, 1, 1, 1, 2, 1, 2, 3, 1, 1, 4, 1, 1, 5, 1, 1, 1, 2, 1, 2, 2, 3, 3, 2, 1, 4, 2, 1, 5, 2, 1, 1, 3, 1, 2, 3, 3, 3, 3, 1, 4, 3, 1, 5, 3, 1, 1, 4, 1, 2, 4, 3, 3, 4, 1, 4, 4, 1, 5, 4, 1, 1, 5, 1, 2, 5, 3, 3, 5, 1, 4, 5, 1, 5, 5, 1, 1, 6, 1, 2, 6, 3, 3, 6, 1, 4, 6, 1, 5, 6, 1, 1, 7, 4, 2, 7, 3, 3, 7, 5, 4, 7, 1, 5, 7, 1, 1, 8, 1, 2, 8, 3, 3, 8, 1, 4, 8, 1, 5, 8, 1, 1, 9, 1, 2, 9, 3, 3, 9, 1, 4, 9, 1, 5, 9, 1, 1, 10, 1, 2, 10, 3, 3, 10, 1, 4, 10, 1, 5, 10, 1, 1, 11, 1, 2, 11, 3, 3, 11, 1, 4, 11, 1, 5, 11, 1, 1, 12, 1, 2, 12, 3, 3, 12, 1, 4, 12, 1, 5, 12, 1, 1, 13, 1, 2, 13, 3, 3, 13, 1, 4, 13, 1, 5, 13, 1, 1, 14, 1, 2, 14, 3, 3, 14, 1, 4, 14, 1, 5, 14, 6, 3, 15, 1, 2, 16, 1, 3, 16, 7, 4, 16, 1, 5, 16, 1, 2, 17, 1, 3, 17, 1, 4, 17, 1, 1, 18, 8, 2, 18, 1, 4, 18 ]
+}

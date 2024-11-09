@@ -1,0 +1,19 @@
+{
+  "debug": true,
+  "ad_debug": true,
+  "platform": "okgame",
+  "game_id": "112",
+  "ad_id": "4739",
+  "rewarding_ad_placements": {
+    "android": {
+      "END_GAME": "1628840445667SJBR",
+      "REGULAR": "1628840452447XIKZ",
+      "LOOT_MULTIPLIER": "1628840457288CGBK"
+    },
+    "ios": {
+      "END_GAME": "1628840592060UWZZ",
+      "REGULAR": "1628840598472RNYV",
+      "LOOT_MULTIPLIER": "1628840602940UCWE"
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+"v": 2,
+"w": 24,
+"h": 11,
+"tt": [
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "VECTOR",
+					"a": 100
+				}
+			]
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "PROJECTILE_SPEED",
+			"bl": 5
+		}
+	},
+	{
+		"type": "PLATFORM"
+	},
+	{
+		"type": "ROAD"
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "MATRIX",
+					"a": 100
+				}
+			]
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "BONUS_EXPERIENCE",
+			"bl": 3
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "SCALAR",
+					"a": 50
+				},
+				{
+					"t": "VECTOR",
+					"a": 50
+				}
+			]
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "ROTATION_SPEED",
+			"bl": 5
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "DAMAGE",
+			"bl": 5
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "PWR_MULTIPLIER",
+			"bl": 3
+		}
+	},
+	{
+		"type": "SPAWN",
+		"d": {
+			"d": 134,
+			"ae": [
+				{
+					"t": "REGULAR",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "FAST",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "STRONG",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "BOSS",
+					"f": 1,
+					"l": 0
+				},
+				{
+					"t": "JET",
+					"f": 1,
+					"l": 0
+				}
+			]
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "UPGRADE_DISCOUNT",
+			"bl": 3
+		}
+	},
+	{
+		"type": "TARGET",
+		"d": {
+			"da": false,
+			"usgv": false,
+			"gv": []
+		}
+	},
+	{
+		"type": "BOSS",
+		"d": {
+			"btt": "CUSTOM",
+			"ce": [],
+			"cbwc": {
+				"cl": 46,
+				"rc": 1,
+				"sd": 0,
+				"bwp": [
+					{
+						"w": 46,
+						"bt": "SNAKE"
+					}
+				]
+			}
+		}
+	},
+	{
+		"type": "PLATFORM",
+		"d": {
+			"bt": "ATTACK_SPEED",
+			"bl": 5
+		}
+	},
+	{
+		"type": "SOURCE",
+		"d": {
+			"rd": 1,
+			"r": [
+				{
+					"t": "SCALAR",
+					"a": 100
+				}
+			]
+		}
+	},
+	{
+		"type": "SCRIPT",
+		"d": {
+			"id": 6898275380356789245,
+			"script": "--[[\n2.8\nI18nGenerator {\n    \"lvlsub_2_8_010_new_boss_incoming\",\n    \"lvlsub_2_8_020_it_is_a_representation\",\n    \"lvlsub_2_8_030_data_we_need\",\n    \"lvlsub_2_8_040_just_try_to\",\n    \"lvlsub_2_8_050_you_have_few_waves\",\n    \"lvlsub_2_8_060_great_job\",\n    \"lvlsub_2_8_070_we_got_access\",\n    \"lvlsub_2_8_080_lets_move_on\"\n}\n--]]\ndofile(\"scripts/levels/2.8.lua\")\n"
+		}
+	},
+	{
+		"type": "XM_MUSIC_TRACK",
+		"d": {
+			"id": 6676427618758877755,
+			"track": "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"
+		}
+	}
+],
+"gt": [
+	{
+		"type": "TELEPORT",
+		"index": 5
+	},
+	{
+		"type": "BARRIER_TYPE",
+		"blockedEnemies": [
+			"BOSS",
+			"FAST",
+			"REGULAR",
+			"HELI",
+			"STRONG"
+		]
+	},
+	{
+		"type": "BARRIER_TYPE",
+		"blockedEnemies": [
+			"JET"
+		]
+	},
+	{
+		"type": "TELEPORT",
+		"index": 0
+	}
+],
+"t": [ 0, 8, 2, 1, 9, 2, 2, 10, 2, 2, 11, 2, 3, 6, 3, 3, 7, 3, 3, 8, 3, 3, 9, 3, 3, 10, 3, 3, 11, 3, 3, 12, 3, 3, 13, 3, 3, 14, 3, 2, 1, 4, 4, 2, 4, 5, 5, 4, 6, 8, 4, 7, 9, 4, 3, 10, 4, 4, 11, 4, 2, 12, 4, 8, 13, 4, 9, 16, 4, 2, 20, 4, 10, 0, 5, 3, 1, 5, 3, 2, 5, 3, 3, 5, 3, 4, 5, 3, 5, 5, 3, 6, 5, 3, 7, 5, 3, 8, 5, 3, 9, 5, 3, 10, 5, 11, 11, 5, 2, 12, 5, 3, 13, 5, 3, 14, 5, 3, 15, 5, 3, 16, 5, 3, 17, 5, 3, 18, 5, 3, 19, 5, 3, 20, 5, 3, 21, 5, 3, 22, 5, 12, 23, 5, 2, 3, 6, 9, 7, 6, 13, 9, 6, 14, 10, 6, 2, 11, 6, 15, 12, 6, 3, 13, 6, 7, 14, 6, 5, 18, 6, 4, 21, 6, 2, 22, 6, 3, 9, 7, 3, 10, 7, 3, 11, 7, 3, 12, 7, 3, 13, 7, 3, 14, 7, 3, 15, 7, 3, 16, 7, 3, 17, 7, 16, 10, 8, 17, 11, 8, 2, 12, 8, 2, 13, 8, 1, 14, 8, 0, 15, 8 ],
+"g": [ 0, 6, 3, 1, 1, 10, 3, 1, 2, 11, 3, 1, 3, 15, 3, 1, 3, 9, 7, 1, 0, 18, 7, 1 ]
+}

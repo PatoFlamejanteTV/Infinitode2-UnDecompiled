@@ -1,0 +1,2619 @@
+--- @meta
+
+--- Auto-generated list of aliases for classes with a unique name for your convenience.
+--- Lua LS by sumneko seems to be picking @alias from all files in the workspace so it is not possible to define aliases per-file, that's why this list exists.
+--- Note: aliases may change / disappear in the later versions of the game if some new class gets introduced with the same name of any of the aliased classes.
+
+--- @alias AABB com.prineside.tdi2.utils.AABB
+--- @alias AABBCounter com.prineside.tdi2.utils.AABBCounter
+--- @alias ACubemap com.badlogic.gdx.graphics.g3d.shaders.DefaultShader_Setters_ACubemap
+--- @alias AEC com.prineside.tdi2.utils.AEC
+--- @alias AMBER com.prineside.tdi2.utils.MaterialColor_AMBER
+--- @alias AbilitiesConfigChange com.prineside.tdi2.events.game.AbilitiesConfigChange
+--- @alias Ability com.prineside.tdi2.Ability
+--- @alias AbilityApply com.prineside.tdi2.events.game.AbilityApply
+--- @alias AbilityButtonListener com.prineside.tdi2.ui.components.TowerAbilityButton_AbilityButtonListener
+--- @alias AbilityConfig com.prineside.tdi2.Tower_AbilityConfig
+--- @alias AbilityItem com.prineside.tdi2.items.AbilityItem
+--- @alias AbilityItemFactory com.prineside.tdi2.items.AbilityItem_AbilityItemFactory
+--- @alias AbilityManager com.prineside.tdi2.managers.AbilityManager
+--- @alias AbilityMenu com.prineside.tdi2.ui.components.AbilityMenu
+--- @alias AbilitySelectionOverlay com.prineside.tdi2.ui.shared.AbilitySelectionOverlay
+--- @alias AbilitySlotButton com.prineside.tdi2.ui.actors.AbilitySlotButton
+--- @alias AbilityStart com.prineside.tdi2.events.game.AbilityStart
+--- @alias AbilitySystem com.prineside.tdi2.systems.AbilitySystem
+--- @alias AbilityTokenItem com.prineside.tdi2.items.AbilityTokenItem
+--- @alias AbilityTokenItemFactory com.prineside.tdi2.items.AbilityTokenItem_AbilityTokenItemFactory
+--- @alias AbilityType com.prineside.tdi2.enums.AbilityType
+--- @alias AbilityUseStart com.prineside.tdi2.events.game.AbilityUseStart
+--- @alias AbilityUseStop com.prineside.tdi2.events.game.AbilityUseStop
+--- @alias AboutScreen com.prineside.tdi2.screens.AboutScreen
+--- @alias AbstractCollection java.util.AbstractCollection
+--- @alias AbstractControllerManager com.badlogic.gdx.controllers.AbstractControllerManager
+--- @alias AbstractDrawable com.prineside.tdi2.utils.AbstractDrawable
+--- @alias AbstractGameValueMod com.prineside.tdi2.gameplayMods.mods.AbstractGameValueMod
+--- @alias AbstractGraphics com.badlogic.gdx.AbstractGraphics
+--- @alias AbstractInput com.badlogic.gdx.AbstractInput
+--- @alias AbstractList java.util.AbstractList
+--- @alias AbstractMap java.util.AbstractMap
+--- @alias AbstractSequentialList java.util.AbstractSequentialList
+--- @alias AbstractSet java.util.AbstractSet
+--- @alias AbstractSimulation com.prineside.tdi2.utils.simulation.AbstractSimulation
+--- @alias AcceleratorItem com.prineside.tdi2.items.AcceleratorItem
+--- @alias AcceleratorItemFactory com.prineside.tdi2.items.AcceleratorItem_AcceleratorItemFactory
+--- @alias AccessibleObject java.lang.reflect.AccessibleObject
+--- @alias AchievementConfig com.prineside.tdi2.managers.AchievementManager_AchievementConfig
+--- @alias AchievementManager com.prineside.tdi2.managers.AchievementManager
+--- @alias AchievementSystem com.prineside.tdi2.systems.AchievementSystem
+--- @alias AchievementType com.prineside.tdi2.enums.AchievementType
+--- @alias ActionResolver com.prineside.tdi2.ActionResolver
+--- @alias ActionResolverAdapter com.prineside.tdi2.ActionResolver_ActionResolverAdapter
+--- @alias ActionType com.prineside.tdi2.enums.ActionType
+--- @alias ActionUpdatePair com.prineside.tdi2.systems.StateSystem_ActionUpdatePair
+--- @alias Actions com.prineside.tdi2.scene2d.actions.Actions
+--- @alias ActionsArray com.prineside.tdi2.systems.StateSystem_ActionsArray
+--- @alias ActiveLaserConfig com.prineside.tdi2.towers.LaserTower_ActiveLaserConfig
+--- @alias ActiveMod com.prineside.tdi2.systems.GameplayModSystem_ActiveMod
+--- @alias Actor com.prineside.tdi2.scene2d.Actor
+--- @alias ActorGestureListener com.prineside.tdi2.scene2d.utils.ActorGestureListener
+--- @alias AddAction com.prineside.tdi2.scene2d.actions.AddAction
+--- @alias AddAllAbilityCharges com.prineside.tdi2.gameplayMods.mods.AddAllAbilityCharges
+--- @alias AddBuffToEnemy com.prineside.tdi2.events.game.AddBuffToEnemy
+--- @alias AddListenerAction com.prineside.tdi2.scene2d.actions.AddListenerAction
+--- @alias AddRandomCoreTile com.prineside.tdi2.gameplayMods.mods.AddRandomCoreTile
+--- @alias AddRandomPlatform com.prineside.tdi2.gameplayMods.mods.AddRandomPlatform
+--- @alias Affine2 com.badlogic.gdx.math.Affine2
+--- @alias AfterAction com.prineside.tdi2.scene2d.actions.AfterAction
+--- @alias Ai com.prineside.tdi2.screens.TicTacToeScreen_Ai
+--- @alias AiRunResult com.prineside.tdi2.screens.TicTacToeScreen_AiRunResult
+--- @alias AimStrategy com.prineside.tdi2.Tower_AimStrategy
+--- @alias AimStrategySelector com.prineside.tdi2.ui.actors.AimStrategySelector
+--- @alias AimStrategySelectorListener com.prineside.tdi2.ui.actors.AimStrategySelector_AimStrategySelectorListener
+--- @alias AirFallExplosion com.prineside.tdi2.explosions.AirFallExplosion
+--- @alias AirFallExplosionFactory com.prineside.tdi2.explosions.AirFallExplosion_AirFallExplosionFactory
+--- @alias AirProjectile com.prineside.tdi2.projectiles.AirProjectile
+--- @alias AirProjectileFactory com.prineside.tdi2.projectiles.AirProjectile_AirProjectileFactory
+--- @alias AirTower com.prineside.tdi2.towers.AirTower
+--- @alias AirTowerFactory com.prineside.tdi2.towers.AirTower_AirTowerFactory
+--- @alias Align com.badlogic.gdx.utils.Align
+--- @alias AlignMode com.badlogic.gdx.graphics.g3d.particles.ParticleShader_AlignMode
+--- @alias Alignment com.badlogic.gdx.ai.steer.behaviors.Alignment
+--- @alias AllAbilitiesForRandomTower com.prineside.tdi2.gameplayMods.mods.AllAbilitiesForRandomTower
+--- @alias AllWhiteCornerColors com.prineside.tdi2.utils.QuadRegion_AllWhiteCornerColors
+--- @alias AllowedEnemyConfig com.prineside.tdi2.tiles.SpawnTile_AllowedEnemyConfig
+--- @alias AlphaAction com.prineside.tdi2.scene2d.actions.AlphaAction
+--- @alias AlwaysFail com.badlogic.gdx.ai.btree.decorator.AlwaysFail
+--- @alias AlwaysSucceed com.badlogic.gdx.ai.btree.decorator.AlwaysSucceed
+--- @alias AmbientCubemap com.badlogic.gdx.graphics.g3d.environment.AmbientCubemap
+--- @alias Angular com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier_Angular
+--- @alias AngularAccelerationLimiter com.badlogic.gdx.ai.steer.limiters.AngularAccelerationLimiter
+--- @alias AngularLimiter com.badlogic.gdx.ai.steer.limiters.AngularLimiter
+--- @alias AngularSpeedLimiter com.badlogic.gdx.ai.steer.limiters.AngularSpeedLimiter
+--- @alias Animated com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer_Animated
+--- @alias AnimatedImage com.prineside.tdi2.ui.actors.AnimatedImage
+--- @alias AnimationController com.badlogic.gdx.graphics.g3d.utils.AnimationController
+--- @alias AnimationDesc com.badlogic.gdx.graphics.g3d.utils.AnimationController_AnimationDesc
+--- @alias AnimationListener com.badlogic.gdx.graphics.g3d.utils.AnimationController_AnimationListener
+--- @alias AnnotatedArrayType java.lang.reflect.AnnotatedArrayType
+--- @alias AnnotatedElement java.lang.reflect.AnnotatedElement
+--- @alias AnnotatedParameterizedType java.lang.reflect.AnnotatedParameterizedType
+--- @alias AnnotatedType java.lang.reflect.AnnotatedType
+--- @alias AnnotatedTypeVariable java.lang.reflect.AnnotatedTypeVariable
+--- @alias AnnotatedWildcardType java.lang.reflect.AnnotatedWildcardType
+--- @alias Annotation java.lang.annotation.Annotation
+--- @alias Appendable java.lang.Appendable
+--- @alias Application com.badlogic.gdx.Application
+--- @alias ApplicationAdapter com.badlogic.gdx.ApplicationAdapter
+--- @alias ApplicationListener com.badlogic.gdx.ApplicationListener
+--- @alias ApplicationType com.badlogic.gdx.Application_ApplicationType
+--- @alias Architecture com.badlogic.gdx.utils.Architecture
+--- @alias ArithmeticUtils com.badlogic.gdx.ai.utils.ArithmeticUtils
+--- @alias ArmorBuff com.prineside.tdi2.buffs.ArmorBuff
+--- @alias ArmorBuffFactory com.prineside.tdi2.buffs.ArmorBuff_ArmorBuffFactory
+--- @alias ArmorBuffProcessor com.prineside.tdi2.buffs.processors.ArmorBuffProcessor
+--- @alias ArmoredEnemy com.prineside.tdi2.enemies.ArmoredEnemy
+--- @alias ArmoredEnemyFactory com.prineside.tdi2.enemies.ArmoredEnemy_ArmoredEnemyFactory
+--- @alias ArmoredLow com.prineside.tdi2.waves.templates.ArmoredLow
+--- @alias ArmoredRegular com.prineside.tdi2.waves.templates.ArmoredRegular
+--- @alias ArmoredStrong com.prineside.tdi2.waves.templates.ArmoredStrong
+--- @alias ArrayDeque java.util.ArrayDeque
+--- @alias ArrayIterable com.badlogic.gdx.utils.Array_ArrayIterable
+--- @alias ArrayIterator com.badlogic.gdx.utils.Array_ArrayIterator
+--- @alias ArrayList java.util.ArrayList
+--- @alias ArrayMap com.badlogic.gdx.utils.ArrayMap
+--- @alias ArraySelection com.prineside.tdi2.scene2d.utils.ArraySelection
+--- @alias Arrays java.util.Arrays
+--- @alias Arrive com.badlogic.gdx.ai.steer.behaviors.Arrive
+--- @alias ArrowShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder
+--- @alias AspectTextureRegion com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer_AspectTextureRegion
+--- @alias AssetData com.badlogic.gdx.graphics.g3d.particles.ResourceData_AssetData
+--- @alias AssetManager com.prineside.tdi2.managers.AssetManager
+--- @alias AssetProvider com.prineside.tdi2.utils.AssetProvider
+--- @alias AtlasRegion com.badlogic.gdx.graphics.g2d.TextureAtlas_AtlasRegion
+--- @alias AtlasSprite com.badlogic.gdx.graphics.g2d.TextureAtlas_AtlasSprite
+--- @alias AtlasTextureRegion com.prineside.tdi2.ResourcePack_AtlasTextureRegion
+--- @alias AtomicBoolean java.util.concurrent.atomic.AtomicBoolean
+--- @alias AtomicInteger java.util.concurrent.atomic.AtomicInteger
+--- @alias AtomicQueue com.badlogic.gdx.utils.AtomicQueue
+--- @alias AttackSpeedModifier com.prineside.tdi2.modifiers.AttackSpeedModifier
+--- @alias AttackSpeedModifierFactory com.prineside.tdi2.modifiers.AttackSpeedModifier_AttackSpeedModifierFactory
+--- @alias AttentionRaysUnderlay com.prineside.tdi2.ui.actors.AttentionRaysUnderlay
+--- @alias Attribute com.badlogic.gdx.graphics.g3d.Attribute
+--- @alias Attributes com.badlogic.gdx.graphics.g3d.Attributes
+--- @alias Audio com.badlogic.gdx.Audio
+--- @alias AudioDevice com.badlogic.gdx.audio.AudioDevice
+--- @alias AuthManager com.prineside.tdi2.managers.AuthManager
+--- @alias BLUE com.prineside.tdi2.utils.MaterialColor_BLUE
+--- @alias BLUE_GREY com.prineside.tdi2.utils.MaterialColor_BLUE_GREY
+--- @alias BROWN com.prineside.tdi2.utils.MaterialColor_BROWN
+--- @alias BSpline com.badlogic.gdx.math.BSpline
+--- @alias BackButton com.prineside.tdi2.ui.shared.BackButton
+--- @alias BackedUpMapInfo com.prineside.tdi2.systems.MapEditorSystem_BackedUpMapInfo
+--- @alias BalanceModifier com.prineside.tdi2.modifiers.BalanceModifier
+--- @alias BalanceModifierFactory com.prineside.tdi2.modifiers.BalanceModifier_BalanceModifierFactory
+--- @alias BallLightningAbility com.prineside.tdi2.abilities.BallLightningAbility
+--- @alias BallLightningAbilityFactory com.prineside.tdi2.abilities.BallLightningAbility_BallLightningAbilityFactory
+--- @alias BallLightningUnit com.prineside.tdi2.units.BallLightningUnit
+--- @alias BallLightningUnitFactory com.prineside.tdi2.units.BallLightningUnit_BallLightningUnitFactory
+--- @alias BarrierHealthGate com.prineside.tdi2.gates.BarrierHealthGate
+--- @alias BarrierHealthGateFactory com.prineside.tdi2.gates.BarrierHealthGate_BarrierHealthGateFactory
+--- @alias BarrierTypeGate com.prineside.tdi2.gates.BarrierTypeGate
+--- @alias BarrierTypeGateFactory com.prineside.tdi2.gates.BarrierTypeGate_BarrierTypeGateFactory
+--- @alias BaseAnimationController com.badlogic.gdx.graphics.g3d.utils.BaseAnimationController
+--- @alias BaseDrawable com.prineside.tdi2.scene2d.utils.BaseDrawable
+--- @alias BaseExplodesOnEnemyPass com.prineside.tdi2.gameplayMods.mods.BaseExplodesOnEnemyPass
+--- @alias BaseHealthChange com.prineside.tdi2.events.game.BaseHealthChange
+--- @alias BaseJsonReader com.badlogic.gdx.utils.BaseJsonReader
+--- @alias BaseLight com.badlogic.gdx.graphics.g3d.environment.BaseLight
+--- @alias BaseShader com.badlogic.gdx.graphics.g3d.shaders.BaseShader
+--- @alias BaseShaderProvider com.badlogic.gdx.graphics.g3d.utils.BaseShaderProvider
+--- @alias BaseShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.BaseShapeBuilder
+--- @alias BasicAbstractFactory com.prineside.tdi2.Unit_Factory_BasicAbstractFactory
+--- @alias BasicAnimation com.prineside.tdi2.CameraController_BasicAnimation
+--- @alias BasicLevel com.prineside.tdi2.BasicLevel
+--- @alias BasicLevelLootBonusType com.prineside.tdi2.enums.BasicLevelLootBonusType
+--- @alias BasicLevelManager com.prineside.tdi2.managers.BasicLevelManager
+--- @alias BasicLevelManagerListener com.prineside.tdi2.managers.BasicLevelManager_BasicLevelManagerListener
+--- @alias BasicLevelQuest com.prineside.tdi2.systems.QuestSystem_BasicLevelQuest
+--- @alias BasicLevelQuestConfig com.prineside.tdi2.BasicLevelQuestConfig
+--- @alias BasicLevelStage com.prineside.tdi2.BasicLevelStage
+--- @alias BasicLevelWaveQuest com.prineside.tdi2.systems.QuestSystem_BasicLevelWaveQuest
+--- @alias BasicLevelsTopLeaderboards com.prineside.tdi2.managers.LeaderBoardManager_BasicLevelsTopLeaderboards
+--- @alias BasicProjectile com.prineside.tdi2.projectiles.BasicProjectile
+--- @alias BasicProjectileFactory com.prineside.tdi2.projectiles.BasicProjectile_BasicProjectileFactory
+--- @alias BasicTower com.prineside.tdi2.towers.BasicTower
+--- @alias BasicTowerFactory com.prineside.tdi2.towers.BasicTower_BasicTowerFactory
+--- @alias Batch com.badlogic.gdx.graphics.g2d.Batch
+--- @alias BehaviorAndWeight com.badlogic.gdx.ai.steer.behaviors.BlendedSteering_BehaviorAndWeight
+--- @alias BehaviorTree com.badlogic.gdx.ai.btree.BehaviorTree
+--- @alias BehaviorTreeLibrary com.badlogic.gdx.ai.btree.utils.BehaviorTreeLibrary
+--- @alias BehaviorTreeLibraryManager com.badlogic.gdx.ai.btree.utils.BehaviorTreeLibraryManager
+--- @alias BehaviorTreeParser com.badlogic.gdx.ai.btree.utils.BehaviorTreeParser
+--- @alias BehaviorTreeReader com.badlogic.gdx.ai.btree.utils.BehaviorTreeReader
+--- @alias BestReplayLoadFromServer com.prineside.tdi2.events.game.BestReplayLoadFromServer
+--- @alias Bezier com.badlogic.gdx.math.Bezier
+--- @alias BezierSideFunction com.prineside.tdi2.pathfinding.BezierSideFunction
+--- @alias BigDecimal java.math.BigDecimal
+--- @alias BigInteger java.math.BigInteger
+--- @alias BillboardControllerRenderData com.badlogic.gdx.graphics.g3d.particles.renderers.BillboardControllerRenderData
+--- @alias BillboardParticleBatch com.badlogic.gdx.graphics.g3d.particles.batches.BillboardParticleBatch
+--- @alias BillboardRenderer com.badlogic.gdx.graphics.g3d.particles.renderers.BillboardRenderer
+--- @alias BinaryHeap com.badlogic.gdx.utils.BinaryHeap
+--- @alias BirdAction com.prineside.tdi2.systems.RandomEncounterSystem_BirdAction
+--- @alias BirdActionGiveReward com.prineside.tdi2.systems.randomEncounter.type.BirdsFlockEncounter_BirdActionGiveReward
+--- @alias BirdClickInputProcessor com.prineside.tdi2.systems.RandomEncounterSystem_BirdClickInputProcessor
+--- @alias BirdsFlockEncounter com.prineside.tdi2.systems.randomEncounter.type.BirdsFlockEncounter
+--- @alias BitDustItem com.prineside.tdi2.items.BitDustItem
+--- @alias BitDustItemFactory com.prineside.tdi2.items.BitDustItem_BitDustItemFactory
+--- @alias BitSet java.util.BitSet
+--- @alias BitVector com.prineside.tdi2.utils.BitVector
+--- @alias BitmapFont com.badlogic.gdx.graphics.g2d.BitmapFont
+--- @alias BitmapFontCache com.badlogic.gdx.graphics.g2d.BitmapFontCache
+--- @alias BitmapFontData com.badlogic.gdx.graphics.g2d.BitmapFont_BitmapFontData
+--- @alias Bitness com.badlogic.gdx.utils.Architecture_Bitness
+--- @alias Bits com.badlogic.gdx.utils.Bits
+--- @alias BlastThrowBackBuffFactory com.prineside.tdi2.buffs.ThrowBackBuff_BlastThrowBackBuffFactory
+--- @alias BlastTower com.prineside.tdi2.towers.BlastTower
+--- @alias BlastTowerFactory com.prineside.tdi2.towers.BlastTower_BlastTowerFactory
+--- @alias BlendedSteering com.badlogic.gdx.ai.steer.behaviors.BlendedSteering
+--- @alias Blending com.badlogic.gdx.graphics.Pixmap_Blending
+--- @alias BlendingAttribute com.badlogic.gdx.graphics.g3d.attributes.BlendingAttribute
+--- @alias BlizzardAbility com.prineside.tdi2.abilities.BlizzardAbility
+--- @alias BlizzardAbilityFactory com.prineside.tdi2.abilities.BlizzardAbility_BlizzardAbilityFactory
+--- @alias BlizzardBuff com.prineside.tdi2.buffs.BlizzardBuff
+--- @alias BlizzardBuffFactory com.prineside.tdi2.buffs.BlizzardBuff_BlizzardBuffFactory
+--- @alias BlizzardBuffProcessor com.prineside.tdi2.buffs.processors.BlizzardBuffProcessor
+--- @alias Block com.prineside.tdi2.managers.script.autocompletion.LuaScriptParser_Block
+--- @alias BlueprintItem com.prineside.tdi2.items.BlueprintItem
+--- @alias BlueprintItemFactory com.prineside.tdi2.items.BlueprintItem_BlueprintItemFactory
+--- @alias BlueprintType com.prineside.tdi2.enums.BlueprintType
+--- @alias Board com.prineside.tdi2.screens.TicTacToeScreen_Board
+--- @alias Bones com.badlogic.gdx.graphics.g3d.shaders.DefaultShader_Setters_Bones
+--- @alias BonusCoinsBuff com.prineside.tdi2.buffs.BonusCoinsBuff
+--- @alias BonusCoinsBuffFactory com.prineside.tdi2.buffs.BonusCoinsBuff_BonusCoinsBuffFactory
+--- @alias BonusCoinsBuffProcessor com.prineside.tdi2.buffs.processors.BonusCoinsBuffProcessor
+--- @alias BonusLevelPassReward com.prineside.tdi2.systems.randomEncounter.reward.BonusLevelPassReward
+--- @alias BonusPointsUpdate com.prineside.tdi2.events.game.BonusPointsUpdate
+--- @alias BonusProviderConfig com.prineside.tdi2.gameplayMods.ProbableBonusesProvider_BonusProviderConfig
+--- @alias BonusSelect com.prineside.tdi2.events.game.BonusSelect
+--- @alias BonusStage com.prineside.tdi2.systems.BonusSystem_BonusStage
+--- @alias BonusStageRequirementMet com.prineside.tdi2.events.game.BonusStageRequirementMet
+--- @alias BonusStagesConfig com.prineside.tdi2.gameplayMods.BonusStagesConfig
+--- @alias BonusStagesConfigSet com.prineside.tdi2.events.game.BonusStagesConfigSet
+--- @alias BonusSystem com.prineside.tdi2.systems.BonusSystem
+--- @alias BonusXpBuff com.prineside.tdi2.buffs.BonusXpBuff
+--- @alias BonusXpBuffFactory com.prineside.tdi2.buffs.BonusXpBuff_BonusXpBuffFactory
+--- @alias BonusXpBuffProcessor com.prineside.tdi2.buffs.processors.BonusXpBuffProcessor
+--- @alias BonusesReRoll com.prineside.tdi2.events.game.BonusesReRoll
+--- @alias Boolean java.lang.Boolean
+--- @alias BooleanArray com.badlogic.gdx.utils.BooleanArray
+--- @alias BooleanSupplier com.prineside.tdi2.utils.BooleanSupplier
+--- @alias BoostExistingEnemiesWithLoot com.prineside.tdi2.gameplayMods.mods.BoostExistingEnemiesWithLoot
+--- @alias BossEnemy com.prineside.tdi2.enemies.BossEnemy
+--- @alias BossEnemyFactory com.prineside.tdi2.enemies.BossEnemy_BossEnemyFactory
+--- @alias BossHpBar com.prineside.tdi2.ui.components.BossHpBar
+--- @alias BossTile com.prineside.tdi2.tiles.BossTile
+--- @alias BossTileFactory com.prineside.tdi2.tiles.BossTile_BossTileFactory
+--- @alias BossTileMenu com.prineside.tdi2.ui.components.BossTileMenu
+--- @alias BossTileType com.prineside.tdi2.enums.BossTileType
+--- @alias BossType com.prineside.tdi2.enums.BossType
+--- @alias BossTypeWavePair com.prineside.tdi2.tiles.BossTile_BossTypeWavePair
+--- @alias BossWavesConfig com.prineside.tdi2.tiles.BossTile_BossWavesConfig
+--- @alias Bounce com.badlogic.gdx.math.Interpolation_Bounce
+--- @alias BounceIn com.badlogic.gdx.math.Interpolation_BounceIn
+--- @alias BounceOut com.badlogic.gdx.math.Interpolation_BounceOut
+--- @alias BoundedSlotAssignmentStrategy com.badlogic.gdx.ai.fma.BoundedSlotAssignmentStrategy
+--- @alias BoundingBox com.badlogic.gdx.math.collision.BoundingBox
+--- @alias BountyModifier com.prineside.tdi2.modifiers.BountyModifier
+--- @alias BountyModifierFactory com.prineside.tdi2.modifiers.BountyModifier_BountyModifierFactory
+--- @alias BountyModifierProcessor com.prineside.tdi2.modifiers.processors.BountyModifierProcessor
+--- @alias BoxShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.BoxShapeBuilder
+--- @alias BranchTask com.badlogic.gdx.ai.btree.BranchTask
+--- @alias Bresenham2 com.badlogic.gdx.math.Bresenham2
+--- @alias BrootBossWaveProcessor com.prineside.tdi2.waves.processors.BrootBossWaveProcessor
+--- @alias BrootBossWaveProcessorFactory com.prineside.tdi2.waves.processors.BrootBossWaveProcessor_BrootBossWaveProcessorFactory
+--- @alias BrootEnemy com.prineside.tdi2.enemies.bosses.BrootEnemy
+--- @alias BrootEnemyFactory com.prineside.tdi2.enemies.bosses.BrootEnemy_BrootEnemyFactory
+--- @alias BrownianAcceleration com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier_BrownianAcceleration
+--- @alias Buff com.prineside.tdi2.Buff
+--- @alias BuffManager com.prineside.tdi2.managers.BuffManager
+--- @alias BuffProcessor com.prineside.tdi2.BuffProcessor
+--- @alias BuffProcessorListener com.prineside.tdi2.BuffProcessor_BuffProcessorListener
+--- @alias BuffProjectile com.prineside.tdi2.projectiles.BuffProjectile
+--- @alias BuffProjectileFactory com.prineside.tdi2.projectiles.BuffProjectile_BuffProjectileFactory
+--- @alias BuffSystem com.prineside.tdi2.systems.BuffSystem
+--- @alias BuffType com.prineside.tdi2.enums.BuffType
+--- @alias Buffer java.nio.Buffer
+--- @alias BufferFormat com.badlogic.gdx.Graphics_BufferFormat
+--- @alias BufferUtils com.badlogic.gdx.utils.BufferUtils
+--- @alias BufferedInputStream java.io.BufferedInputStream
+--- @alias BufferedOutputStream java.io.BufferedOutputStream
+--- @alias BufferedParticleBatch com.badlogic.gdx.graphics.g3d.particles.batches.BufferedParticleBatch
+--- @alias BufferedReader java.io.BufferedReader
+--- @alias BufferedWriter java.io.BufferedWriter
+--- @alias BuildMenu com.prineside.tdi2.ui.components.BuildMenu
+--- @alias BuildMinerAction com.prineside.tdi2.actions.BuildMinerAction
+--- @alias BuildModifierAction com.prineside.tdi2.actions.BuildModifierAction
+--- @alias BuildRandomMiner com.prineside.tdi2.gameplayMods.mods.BuildRandomMiner
+--- @alias BuildTowerAction com.prineside.tdi2.actions.BuildTowerAction
+--- @alias BuildTowerScenario com.prineside.tdi2.utils.simulation.BuildTowerScenario
+--- @alias Building com.prineside.tdi2.Building
+--- @alias BuildingRemove com.prineside.tdi2.events.game.BuildingRemove
+--- @alias BuildingType com.prineside.tdi2.enums.BuildingType
+--- @alias BulletSmokeMultiLine com.prineside.tdi2.shapes.BulletSmokeMultiLine
+--- @alias BulletSmokeMultiLineFactory com.prineside.tdi2.shapes.BulletSmokeMultiLine_BulletSmokeMultiLineFactory
+--- @alias BulletWallAbility com.prineside.tdi2.abilities.BulletWallAbility
+--- @alias BulletWallAbilityFactory com.prineside.tdi2.abilities.BulletWallAbility_BulletWallAbilityFactory
+--- @alias BulletWallProjectile com.prineside.tdi2.projectiles.BulletWallProjectile
+--- @alias BurnBuff com.prineside.tdi2.buffs.BurnBuff
+--- @alias BurnBuffFactory com.prineside.tdi2.buffs.BurnBuff_BurnBuffFactory
+--- @alias BurnBuffProcessor com.prineside.tdi2.buffs.processors.BurnBuffProcessor
+--- @alias Button com.prineside.tdi2.scene2d.ui.Button
+--- @alias ButtonGroup com.prineside.tdi2.scene2d.ui.ButtonGroup
+--- @alias ButtonHoldHint com.prineside.tdi2.ui.actors.ButtonHoldHint
+--- @alias ButtonStyle com.prineside.tdi2.scene2d.ui.Button_ButtonStyle
+--- @alias Buttons com.badlogic.gdx.Input_Buttons
+--- @alias Byte java.lang.Byte
+--- @alias ByteArray com.badlogic.gdx.utils.ByteArray
+--- @alias ByteArrayInputStream java.io.ByteArrayInputStream
+--- @alias ByteArrayOutputStream java.io.ByteArrayOutputStream
+--- @alias ByteBuffer java.nio.ByteBuffer
+--- @alias ByteBufferInput com.esotericsoftware.kryo.io.ByteBufferInput
+--- @alias ByteBufferInputStream com.esotericsoftware.kryo.io.ByteBufferInputStream
+--- @alias ByteBufferOutput com.esotericsoftware.kryo.io.ByteBufferOutput
+--- @alias ByteBufferOutputStream com.esotericsoftware.kryo.io.ByteBufferOutputStream
+--- @alias ByteOrder java.nio.ByteOrder
+--- @alias CYAN com.prineside.tdi2.utils.MaterialColor_CYAN
+--- @alias CacheArray com.prineside.tdi2.utils.SpriteCacheExtended_CacheArray
+--- @alias CachedRenderingSystem com.prineside.tdi2.systems.CachedRenderingSystem
+--- @alias CallWaveAction com.prineside.tdi2.actions.CallWaveAction
+--- @alias Callable java.util.concurrent.Callable
+--- @alias Camera com.badlogic.gdx.graphics.Camera
+--- @alias CameraController com.prineside.tdi2.CameraController
+--- @alias CameraControllerAnimation com.prineside.tdi2.CameraController_CameraControllerAnimation
+--- @alias CameraControllerListener com.prineside.tdi2.CameraController_CameraControllerListener
+--- @alias CameraGroupStrategy com.badlogic.gdx.graphics.g3d.decals.CameraGroupStrategy
+--- @alias CameraInputController com.badlogic.gdx.graphics.g3d.utils.CameraInputController
+--- @alias CameraTools com.prineside.tdi2.ui.shared.CameraTools
+--- @alias CancellableStoppableEvent com.prineside.tdi2.events.CancellableStoppableEvent
+--- @alias CannonExplosion com.prineside.tdi2.explosions.CannonExplosion
+--- @alias CannonExplosionFactory com.prineside.tdi2.explosions.CannonExplosion_CannonExplosionFactory
+--- @alias CannonProjectile com.prineside.tdi2.projectiles.CannonProjectile
+--- @alias CannonProjectileFactory com.prineside.tdi2.projectiles.CannonProjectile_CannonProjectileFactory
+--- @alias CannonTower com.prineside.tdi2.towers.CannonTower
+--- @alias CannonTowerFactory com.prineside.tdi2.towers.CannonTower_CannonTowerFactory
+--- @alias CapsuleShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.CapsuleShapeBuilder
+--- @alias CaseItem com.prineside.tdi2.items.CaseItem
+--- @alias CaseItemFactory com.prineside.tdi2.items.CaseItem_CaseItemFactory
+--- @alias CaseKeyItem com.prineside.tdi2.items.CaseKeyItem
+--- @alias CaseKeyItemFactory com.prineside.tdi2.items.CaseKeyItem_CaseKeyItemFactory
+--- @alias CaseType com.prineside.tdi2.enums.CaseType
+--- @alias CatmullRomSpline com.badlogic.gdx.math.CatmullRomSpline
+--- @alias Cell com.prineside.tdi2.scene2d.ui.Cell
+--- @alias CentralRayWithWhiskersConfiguration com.badlogic.gdx.ai.steer.utils.rays.CentralRayWithWhiskersConfiguration
+--- @alias CentripetalAcceleration com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier_CentripetalAcceleration
+--- @alias ChainLightning com.prineside.tdi2.shapes.ChainLightning
+--- @alias ChainLightningFactory com.prineside.tdi2.shapes.ChainLightning_ChainLightningFactory
+--- @alias ChainLightningProjectile com.prineside.tdi2.projectiles.ChainLightningProjectile
+--- @alias ChainLightningProjectileFactory com.prineside.tdi2.projectiles.ChainLightningProjectile_ChainLightningProjectileFactory
+--- @alias ChainReactionBuff com.prineside.tdi2.buffs.ChainReactionBuff
+--- @alias ChainReactionBuffFactory com.prineside.tdi2.buffs.ChainReactionBuff_ChainReactionBuffFactory
+--- @alias ChainReactionBuffProcessor com.prineside.tdi2.buffs.processors.ChainReactionBuffProcessor
+--- @alias ChangeEvent com.prineside.tdi2.scene2d.utils.ChangeListener_ChangeEvent
+--- @alias ChangeListener com.prineside.tdi2.scene2d.utils.ChangeListener
+--- @alias ChangeTowerAimStrategyAction com.prineside.tdi2.actions.ChangeTowerAimStrategyAction
+--- @alias ChannelDescriptor com.badlogic.gdx.graphics.g3d.particles.ParallelArray_ChannelDescriptor
+--- @alias ChannelInitializer com.badlogic.gdx.graphics.g3d.particles.ParallelArray_ChannelInitializer
+--- @alias CharArray com.badlogic.gdx.utils.CharArray
+--- @alias CharArrayReader java.io.CharArrayReader
+--- @alias CharArrayWriter java.io.CharArrayWriter
+--- @alias CharBuffer java.nio.CharBuffer
+--- @alias CharSequence java.lang.CharSequence
+--- @alias Character java.lang.Character
+--- @alias ChartEntryConfig com.prineside.tdi2.shapes.PieChart_ChartEntryConfig
+--- @alias ChartFrames com.prineside.tdi2.managers.ReplayManager_ReplayRecord_ChartFrames
+--- @alias CheatSafeInt com.prineside.tdi2.utils.CheatSafeInt
+--- @alias CheatSafeLong com.prineside.tdi2.utils.CheatSafeLong
+--- @alias CheckBox com.prineside.tdi2.scene2d.ui.CheckBox
+--- @alias CheckBoxStyle com.prineside.tdi2.scene2d.ui.CheckBox_CheckBoxStyle
+--- @alias CircleFactory com.prineside.tdi2.shapes.Circle_CircleFactory
+--- @alias CircleMapObject com.badlogic.gdx.maps.objects.CircleMapObject
+--- @alias CircularBuffer com.badlogic.gdx.ai.utils.CircularBuffer
+--- @alias Class java.lang.Class
+--- @alias ClickListener com.prineside.tdi2.scene2d.utils.ClickListener
+--- @alias Clipboard com.badlogic.gdx.utils.Clipboard
+--- @alias Closeable java.io.Closeable
+--- @alias Cohesion com.badlogic.gdx.ai.steer.behaviors.Cohesion
+--- @alias CoinsChange com.prineside.tdi2.events.game.CoinsChange
+--- @alias CoinsReward com.prineside.tdi2.systems.randomEncounter.reward.CoinsReward
+--- @alias Collection java.util.Collection
+--- @alias Collider com.badlogic.gdx.math.Octree_Collider
+--- @alias CollidingProjectile com.prineside.tdi2.CollidingProjectile
+--- @alias Collision com.badlogic.gdx.ai.utils.Collision
+--- @alias CollisionAvoidance com.badlogic.gdx.ai.steer.behaviors.CollisionAvoidance
+--- @alias Color com.badlogic.gdx.graphics.Color
+--- @alias ColorAction com.prineside.tdi2.scene2d.actions.ColorAction
+--- @alias ColorAttribute com.badlogic.gdx.graphics.g3d.attributes.ColorAttribute
+--- @alias ColorInfluencer com.badlogic.gdx.graphics.g3d.particles.influencers.ColorInfluencer
+--- @alias ColorInitializer com.badlogic.gdx.graphics.g3d.particles.ParticleChannels_ColorInitializer
+--- @alias Comparable java.lang.Comparable
+--- @alias Comparator java.util.Comparator
+--- @alias ComplexButton com.prineside.tdi2.ui.actors.ComplexButton
+--- @alias ConditionalCompensation com.prineside.tdi2.managers.ProgressManager_ConditionalCompensation
+--- @alias ConeShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ConeShapeBuilder
+--- @alias Config com.prineside.tdi2.Config
+--- @alias Connection com.badlogic.gdx.ai.pfa.Connection
+--- @alias ConnectionSide com.prineside.tdi2.Modifier_ConnectionSide
+--- @alias ConstantDoubleDistribution com.badlogic.gdx.ai.utils.random.ConstantDoubleDistribution
+--- @alias ConstantFloatDistribution com.badlogic.gdx.ai.utils.random.ConstantFloatDistribution
+--- @alias ConstantIntegerDistribution com.badlogic.gdx.ai.utils.random.ConstantIntegerDistribution
+--- @alias ConstantLongDistribution com.badlogic.gdx.ai.utils.random.ConstantLongDistribution
+--- @alias Constructor java.lang.reflect.Constructor
+--- @alias ConstructorBossBodyEnemyFactory com.prineside.tdi2.enemies.bosses.ConstructorBossEnemy_ConstructorBossBodyEnemyFactory
+--- @alias ConstructorBossEnemy com.prineside.tdi2.enemies.bosses.ConstructorBossEnemy
+--- @alias ConstructorBossWaveProcessor com.prineside.tdi2.waves.processors.ConstructorBossWaveProcessor
+--- @alias ConstructorBossWaveProcessorFactory com.prineside.tdi2.waves.processors.ConstructorBossWaveProcessor_ConstructorBossWaveProcessorFactory
+--- @alias Container com.prineside.tdi2.scene2d.ui.Container
+--- @alias ContextMenu com.prineside.tdi2.scene2d.ui.TextField_ContextMenu
+--- @alias ContinueGameStatus com.prineside.tdi2.systems.GameStateSystem_ContinueGameStatus
+--- @alias Controller com.badlogic.gdx.controllers.Controller
+--- @alias ControllerAdapter com.badlogic.gdx.controllers.ControllerAdapter
+--- @alias ControllerListener com.badlogic.gdx.controllers.ControllerListener
+--- @alias ControllerManager com.badlogic.gdx.controllers.ControllerManager
+--- @alias ControllerManagerStub com.badlogic.gdx.controllers.ControllerManagerStub
+--- @alias ControllerMapping com.badlogic.gdx.controllers.ControllerMapping
+--- @alias ControllerPowerLevel com.badlogic.gdx.controllers.ControllerPowerLevel
+--- @alias Controllers com.badlogic.gdx.controllers.Controllers
+--- @alias ConvexHull com.badlogic.gdx.math.ConvexHull
+--- @alias CoreMenu com.prineside.tdi2.ui.components.CoreMenu
+--- @alias CoreTile com.prineside.tdi2.tiles.CoreTile
+--- @alias CoreTileFactory com.prineside.tdi2.tiles.CoreTile_CoreTileFactory
+--- @alias CoreTileLevelUp com.prineside.tdi2.events.game.CoreTileLevelUp
+--- @alias CoreTileUpgradeInstall com.prineside.tdi2.events.game.CoreTileUpgradeInstall
+--- @alias CoreUpgradeAction com.prineside.tdi2.actions.CoreUpgradeAction
+--- @alias CornerColors com.prineside.tdi2.utils.QuadRegion_CornerColors
+--- @alias CountdownEventAction com.prineside.tdi2.scene2d.actions.CountdownEventAction
+--- @alias CountdownPolygon com.prineside.tdi2.shapes.CountdownPolygon
+--- @alias CountdownPolygonFactory com.prineside.tdi2.shapes.CountdownPolygon_CountdownPolygonFactory
+--- @alias CpuSpriteBatch com.badlogic.gdx.graphics.g2d.CpuSpriteBatch
+--- @alias CraftRecipe com.prineside.tdi2.CraftRecipe
+--- @alias CraftingQueueItem com.prineside.tdi2.managers.ProgressManager_CraftingQueueItem
+--- @alias CrashHandler com.prineside.tdi2.utils.errorhandling.CrashHandler
+--- @alias CrashReportScreen com.prineside.tdi2.screens.CrashReportScreen
+--- @alias CriticalDamage com.prineside.tdi2.gameplayMods.mods.CriticalDamage
+--- @alias CrusherTower com.prineside.tdi2.towers.CrusherTower
+--- @alias CrusherTowerFactory com.prineside.tdi2.towers.CrusherTower_CrusherTowerFactory
+--- @alias Cubemap com.badlogic.gdx.graphics.Cubemap
+--- @alias CubemapAttribute com.badlogic.gdx.graphics.g3d.attributes.CubemapAttribute
+--- @alias CubemapData com.badlogic.gdx.graphics.CubemapData
+--- @alias CubemapSide com.badlogic.gdx.graphics.Cubemap_CubemapSide
+--- @alias Cullable com.prineside.tdi2.scene2d.utils.Cullable
+--- @alias CumulativeDistribution com.badlogic.gdx.math.CumulativeDistribution
+--- @alias CumulativeValue com.badlogic.gdx.math.CumulativeDistribution_CumulativeValue
+--- @alias Cursor com.badlogic.gdx.graphics.Cursor
+--- @alias CursorGraphicsManager com.prineside.tdi2.managers.CursorGraphicsManager
+--- @alias CustomAction com.prineside.tdi2.actions.CustomAction
+--- @alias CustomCursorActorListener com.prineside.tdi2.managers.CursorGraphicsManager_CustomCursorActorListener
+--- @alias CustomMapSelectScreen com.prineside.tdi2.screens.CustomMapSelectScreen
+--- @alias CustomModifierButtonAction com.prineside.tdi2.actions.CustomModifierButtonAction
+--- @alias CustomTexture3DData com.badlogic.gdx.graphics.glutils.CustomTexture3DData
+--- @alias CustomTowerButtonAction com.prineside.tdi2.actions.CustomTowerButtonAction
+--- @alias CustomValueType com.prineside.tdi2.managers.SettingsManager_CustomValueType
+--- @alias CylinderShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.CylinderShapeBuilder
+--- @alias CylinderSpawnShapeValue com.badlogic.gdx.graphics.g3d.particles.values.CylinderSpawnShapeValue
+--- @alias D com.prineside.tdi2.Item_D
+--- @alias DEEP_ORANGE com.prineside.tdi2.utils.MaterialColor_DEEP_ORANGE
+--- @alias DEEP_PURPLE com.prineside.tdi2.utils.MaterialColor_DEEP_PURPLE
+--- @alias DaemonThreadFactory com.prineside.tdi2.Threads_DaemonThreadFactory
+--- @alias DailyLootDayConfig com.prineside.tdi2.managers.DailyQuestManager_DailyLootDayConfig
+--- @alias DailyLootOverlay com.prineside.tdi2.ui.shared.DailyLootOverlay
+--- @alias DailyQuestLeaderboards com.prineside.tdi2.managers.DailyQuestManager_DailyQuestLeaderboards
+--- @alias DailyQuestLevel com.prineside.tdi2.managers.DailyQuestManager_DailyQuestLevel
+--- @alias DailyQuestManager com.prineside.tdi2.managers.DailyQuestManager
+--- @alias DailyQuestOverlay com.prineside.tdi2.ui.shared.DailyQuestOverlay
+--- @alias DamageModifier com.prineside.tdi2.modifiers.DamageModifier
+--- @alias DamageModifierFactory com.prineside.tdi2.modifiers.DamageModifier_DamageModifierFactory
+--- @alias DamageRecord com.prineside.tdi2.DamageRecord
+--- @alias DamageSystem com.prineside.tdi2.systems.DamageSystem
+--- @alias DamageType com.prineside.tdi2.enums.DamageType
+--- @alias DarkOverlay com.prineside.tdi2.ui.shared.DarkOverlay
+--- @alias DatPaperItem com.prineside.tdi2.items.DatPaperItem
+--- @alias DatPaperItemFactory com.prineside.tdi2.items.DatPaperItem_DatPaperItemFactory
+--- @alias Data com.prineside.tdi2.ibxm.Data
+--- @alias DataBuffer com.badlogic.gdx.utils.DataBuffer
+--- @alias DataInputStream java.io.DataInputStream
+--- @alias DataOutputStream java.io.DataOutputStream
+--- @alias Date java.util.Date
+--- @alias DeathExplosionBuff com.prineside.tdi2.buffs.DeathExplosionBuff
+--- @alias DeathExplosionBuffProcessor com.prineside.tdi2.buffs.processors.DeathExplosionBuffProcessor
+--- @alias DebuffsLastLonger com.prineside.tdi2.gameplayMods.mods.DebuffsLastLonger
+--- @alias Debug com.prineside.tdi2.scene2d.ui.Table_Debug
+--- @alias DebugManager com.prineside.tdi2.managers.DebugManager
+--- @alias DebugProc com.badlogic.gdx.graphics.GL32_DebugProc
+--- @alias DebugRect com.prineside.tdi2.scene2d.ui.Table_DebugRect
+--- @alias Decal com.badlogic.gdx.graphics.g3d.decals.Decal
+--- @alias DecalBatch com.badlogic.gdx.graphics.g3d.decals.DecalBatch
+--- @alias DecalMaterial com.badlogic.gdx.graphics.g3d.decals.DecalMaterial
+--- @alias Decorator com.badlogic.gdx.ai.btree.Decorator
+--- @alias DefaultBehaviorTreeReader com.badlogic.gdx.ai.btree.utils.BehaviorTreeParser_DefaultBehaviorTreeReader
+--- @alias DefaultConnection com.badlogic.gdx.ai.pfa.DefaultConnection
+--- @alias DefaultGraphPath com.badlogic.gdx.ai.pfa.DefaultGraphPath
+--- @alias DefaultOnscreenKeyboard com.prineside.tdi2.scene2d.ui.TextField_DefaultOnscreenKeyboard
+--- @alias DefaultRenderableSorter com.badlogic.gdx.graphics.g3d.utils.DefaultRenderableSorter
+--- @alias DefaultSerializer com.esotericsoftware.kryo.DefaultSerializer
+--- @alias DefaultShader com.badlogic.gdx.graphics.g3d.shaders.DefaultShader
+--- @alias DefaultShaderProvider com.badlogic.gdx.graphics.g3d.utils.DefaultShaderProvider
+--- @alias DefaultStateMachine com.badlogic.gdx.ai.fsm.DefaultStateMachine
+--- @alias DefaultTextureBinder com.badlogic.gdx.graphics.g3d.utils.DefaultTextureBinder
+--- @alias DefaultTimepiece com.badlogic.gdx.ai.DefaultTimepiece
+--- @alias Defaults com.prineside.tdi2.utils.luaTests.TestInterfaceWithDefaults_Defaults
+--- @alias DefensiveCircleFormationPattern com.badlogic.gdx.ai.fma.patterns.DefensiveCircleFormationPattern
+--- @alias DelaunayTriangulator com.badlogic.gdx.math.DelaunayTriangulator
+--- @alias DelayAction com.prineside.tdi2.scene2d.actions.DelayAction
+--- @alias DelayedRemovalArray com.badlogic.gdx.utils.DelayedRemovalArray
+--- @alias DelegateAction com.prineside.tdi2.scene2d.actions.DelegateAction
+--- @alias DepositCoinsGeneration com.prineside.tdi2.gameplayMods.mods.DepositCoinsGeneration
+--- @alias DepthShader com.badlogic.gdx.graphics.g3d.shaders.DepthShader
+--- @alias DepthShaderProvider com.badlogic.gdx.graphics.g3d.utils.DepthShaderProvider
+--- @alias DepthTestAttribute com.badlogic.gdx.graphics.g3d.attributes.DepthTestAttribute
+--- @alias Deque java.util.Deque
+--- @alias DeveloperConsole com.prineside.tdi2.ui.shared.DeveloperConsole
+--- @alias Dialog com.prineside.tdi2.ui.shared.Dialog
+--- @alias DifficultyMode com.prineside.tdi2.enums.DifficultyMode
+--- @alias DifficultyModeOverlay com.prineside.tdi2.ui.shared.DifficultyModeOverlay
+--- @alias DigitsOnlyFilter com.prineside.tdi2.scene2d.ui.TextField_TextFieldFilter_DigitsOnlyFilter
+--- @alias DirectionalLight com.badlogic.gdx.graphics.g3d.environment.DirectionalLight
+--- @alias DirectionalLightsAttribute com.badlogic.gdx.graphics.g3d.attributes.DirectionalLightsAttribute
+--- @alias DirectionalShadowLight com.badlogic.gdx.graphics.g3d.environment.DirectionalShadowLight
+--- @alias Disableable com.prineside.tdi2.scene2d.utils.Disableable
+--- @alias DisorientedUnit com.prineside.tdi2.units.DisorientedUnit
+--- @alias DisorientedUnitFactory com.prineside.tdi2.units.DisorientedUnit_DisorientedUnitFactory
+--- @alias DisplayMode com.badlogic.gdx.Graphics_DisplayMode
+--- @alias Disposable com.badlogic.gdx.utils.Disposable
+--- @alias Distance com.badlogic.gdx.graphics.g3d.particles.ParticleSorter_Distance
+--- @alias DistanceFieldFont com.badlogic.gdx.graphics.g2d.DistanceFieldFont
+--- @alias Distribution com.badlogic.gdx.ai.utils.random.Distribution
+--- @alias DistributionAdapters com.badlogic.gdx.ai.btree.utils.DistributionAdapters
+--- @alias DistributionFormatException com.badlogic.gdx.ai.btree.utils.DistributionAdapters_DistributionFormatException
+--- @alias Double java.lang.Double
+--- @alias DoubleBuffer java.nio.DoubleBuffer
+--- @alias DoubleDistribution com.badlogic.gdx.ai.utils.random.DoubleDistribution
+--- @alias DoubleGainShardItem com.prineside.tdi2.items.DoubleGainShardItem
+--- @alias DoubleGainShardItemFactory com.prineside.tdi2.items.DoubleGainShardItem_DoubleGainShardItemFactory
+--- @alias DoubleMiningSpeed com.prineside.tdi2.gameplayMods.mods.DoubleMiningSpeed
+--- @alias DoubleSummaryStatistics java.util.DoubleSummaryStatistics
+--- @alias DpsCounter com.prineside.tdi2.systems.DamageSystem_DpsCounter
+--- @alias DragAndDrop com.prineside.tdi2.scene2d.utils.DragAndDrop
+--- @alias DragListener com.prineside.tdi2.scene2d.utils.DragListener
+--- @alias DragScrollListener com.prineside.tdi2.scene2d.utils.DragScrollListener
+--- @alias DraggingItemHelper com.prineside.tdi2.ui.components.DraggingItemHelper
+--- @alias Draw com.prineside.tdi2.utils.mapeditor.tools.Draw
+--- @alias DrawMode com.prineside.tdi2.systems.MapRenderingSystem_DrawMode
+--- @alias DrawUtils com.prineside.tdi2.utils.DrawUtils
+--- @alias Drawable com.prineside.tdi2.scene2d.utils.Drawable
+--- @alias DummyTile com.prineside.tdi2.tiles.DummyTile
+--- @alias DummyTileFactory com.prineside.tdi2.tiles.DummyTile_DummyTileFactory
+--- @alias DynamicGuardSelector com.badlogic.gdx.ai.btree.branch.DynamicGuardSelector
+--- @alias DynamicSizeBoard com.prineside.tdi2.screens.TicTacToeScreen_DynamicSizeBoard
+--- @alias DynamicsInfluencer com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsInfluencer
+--- @alias DynamicsModifier com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier
+--- @alias ETC1 com.badlogic.gdx.graphics.glutils.ETC1
+--- @alias ETC1Data com.badlogic.gdx.graphics.glutils.ETC1_ETC1Data
+--- @alias ETC1TextureData com.badlogic.gdx.graphics.glutils.ETC1TextureData
+--- @alias EarClippingTriangulator com.badlogic.gdx.math.EarClippingTriangulator
+--- @alias Edge com.prineside.tdi2.utils.mapeditor.SelectionOutline_Edge
+--- @alias EffectTooltip com.prineside.tdi2.ui.actors.EffectTooltip
+--- @alias Efficiency com.prineside.tdi2.enums.DamageType_Efficiency
+--- @alias Elastic com.badlogic.gdx.math.Interpolation_Elastic
+--- @alias ElasticIn com.badlogic.gdx.math.Interpolation_ElasticIn
+--- @alias ElasticOut com.badlogic.gdx.math.Interpolation_ElasticOut
+--- @alias Element com.badlogic.gdx.utils.XmlReader_Element
+--- @alias ElementType java.lang.annotation.ElementType
+--- @alias Ellipse com.badlogic.gdx.math.Ellipse
+--- @alias EllipseMapObject com.badlogic.gdx.maps.objects.EllipseMapObject
+--- @alias EllipseShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.EllipseShapeBuilder
+--- @alias EllipseSpawnShapeValue com.badlogic.gdx.graphics.g3d.particles.values.EllipseSpawnShapeValue
+--- @alias EmissionMode com.badlogic.gdx.graphics.g3d.particles.emitters.RegularEmitter_EmissionMode
+--- @alias Emitter com.badlogic.gdx.graphics.g3d.particles.emitters.Emitter
+--- @alias EncounterBird com.prineside.tdi2.systems.randomEncounter.EncounterBird
+--- @alias EncounterBirdClickAction com.prineside.tdi2.actions.EncounterBirdClickAction
+--- @alias EncounterBirdDeclineAction com.prineside.tdi2.actions.EncounterBirdDeclineAction
+--- @alias EncounterType com.prineside.tdi2.systems.RandomEncounterSystem_EncounterType
+--- @alias EndlessResearchLevel com.prineside.tdi2.Research_EndlessResearchLevel
+--- @alias EnemiesDropResources com.prineside.tdi2.gameplayMods.mods.EnemiesDropResources
+--- @alias EnemiesView com.prineside.tdi2.ui.shared.stateDebugger.EnemiesView
+--- @alias Enemy com.prineside.tdi2.Enemy
+--- @alias EnemyDespawn com.prineside.tdi2.events.game.EnemyDespawn
+--- @alias EnemyDie com.prineside.tdi2.events.game.EnemyDie
+--- @alias EnemyFollowingExplosiveProjectile com.prineside.tdi2.EnemyFollowingExplosiveProjectile
+--- @alias EnemyFollowingProjectile com.prineside.tdi2.EnemyFollowingProjectile
+--- @alias EnemyGroup com.prineside.tdi2.EnemyGroup
+--- @alias EnemyGroupConfig com.prineside.tdi2.WaveTemplates_EnemyGroupConfig
+--- @alias EnemyLootAdd com.prineside.tdi2.events.game.EnemyLootAdd
+--- @alias EnemyManager com.prineside.tdi2.managers.EnemyManager
+--- @alias EnemyReachTarget com.prineside.tdi2.events.game.EnemyReachTarget
+--- @alias EnemyReference com.prineside.tdi2.Enemy_EnemyReference
+--- @alias EnemySpawn com.prineside.tdi2.events.game.EnemySpawn
+--- @alias EnemySystem com.prineside.tdi2.systems.EnemySystem
+--- @alias EnemyTakeDamage com.prineside.tdi2.events.game.EnemyTakeDamage
+--- @alias EnemyType com.prineside.tdi2.enums.EnemyType
+--- @alias EnemyTypeSpawnPair com.prineside.tdi2.Map_EnemyTypeSpawnPair
+--- @alias EnemyViewer com.prineside.tdi2.ui.shared.stateDebugger.enemies.EnemyViewer
+--- @alias Entity com.prineside.tdi2.utils.FloatSorter_Entity
+--- @alias EntityFactory com.prineside.tdi2.EntityFactory
+--- @alias EntityUtils com.prineside.tdi2.utils.EntityUtils
+--- @alias EntryFilter com.prineside.tdi2.utils.AABB_EntryFilter
+--- @alias EntryMetaData com.prineside.tdi2.events.EventListeners_Entry_EntryMetaData
+--- @alias EntryRetriever com.prineside.tdi2.utils.AABB_EntryRetriever
+--- @alias EntryType com.prineside.tdi2.ibxm.Module_TrackInfoEntry_EntryType
+--- @alias Enum java.lang.Enum
+--- @alias EnumKeyArray com.prineside.tdi2.utils.EnumKeyArray
+--- @alias EnumMap java.util.EnumMap
+--- @alias EnumSet java.util.EnumSet
+--- @alias Enumeration java.util.Enumeration
+--- @alias Envelope com.prineside.tdi2.ibxm.Envelope
+--- @alias Environment com.badlogic.gdx.graphics.g3d.Environment
+--- @alias EqualizerTile com.prineside.tdi2.tiles.EqualizerTile
+--- @alias EqualizerTileFactory com.prineside.tdi2.tiles.EqualizerTile_EqualizerTileFactory
+--- @alias Evade com.badlogic.gdx.ai.steer.behaviors.Evade
+--- @alias EventAction com.prineside.tdi2.scene2d.actions.EventAction
+--- @alias EventDispatcher com.prineside.tdi2.events.EventDispatcher
+--- @alias EventListener com.prineside.tdi2.scene2d.EventListener
+--- @alias EventListeners com.prineside.tdi2.events.EventListeners
+--- @alias Exception java.lang.Exception
+--- @alias Executable java.lang.reflect.Executable
+--- @alias ExecutorService java.util.concurrent.ExecutorService
+--- @alias Executors java.util.concurrent.Executors
+--- @alias Exp com.badlogic.gdx.math.Interpolation_Exp
+--- @alias ExpIn com.badlogic.gdx.math.Interpolation_ExpIn
+--- @alias ExpLine com.prineside.tdi2.ui.actors.ExpLine
+--- @alias ExpOut com.badlogic.gdx.math.Interpolation_ExpOut
+--- @alias ExperienceModifier com.prineside.tdi2.modifiers.ExperienceModifier
+--- @alias ExperienceModifierFactory com.prineside.tdi2.modifiers.ExperienceModifier_ExperienceModifierFactory
+--- @alias ExperienceSystem com.prineside.tdi2.systems.ExperienceSystem
+--- @alias Explosion com.prineside.tdi2.Explosion
+--- @alias ExplosionChargeBuffFactory com.prineside.tdi2.buffs.DeathExplosionBuff_ExplosionChargeBuffFactory
+--- @alias ExplosionSystem com.prineside.tdi2.systems.ExplosionSystem
+--- @alias ExplosionType com.prineside.tdi2.enums.ExplosionType
+--- @alias ExtendViewport com.badlogic.gdx.utils.viewport.ExtendViewport
+--- @alias ExtraDamagePerBuff com.prineside.tdi2.gameplayMods.mods.ExtraDamagePerBuff
+--- @alias ExtraTowers com.prineside.tdi2.utils.simulation.TowersBenchmarkScenario_ExtraTowers
+--- @alias FFT com.badlogic.gdx.audio.analysis.FFT
+--- @alias FPSLogger com.badlogic.gdx.graphics.FPSLogger
+--- @alias Face com.badlogic.gdx.ai.steer.behaviors.Face
+--- @alias FaceDirection com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier_FaceDirection
+--- @alias FacedCubemapData com.badlogic.gdx.graphics.glutils.FacedCubemapData
+--- @alias Failure com.badlogic.gdx.ai.btree.leaf.Failure
+--- @alias FancyButton com.prineside.tdi2.ui.actors.FancyButton
+--- @alias FastEnemy com.prineside.tdi2.enemies.FastEnemy
+--- @alias FastEnemyFactory com.prineside.tdi2.enemies.FastEnemy_FastEnemyFactory
+--- @alias FastHigh com.prineside.tdi2.waves.templates.FastHigh
+--- @alias FastLow com.prineside.tdi2.waves.templates.FastLow
+--- @alias FastMedium com.prineside.tdi2.waves.templates.FastMedium
+--- @alias FastRandom com.prineside.tdi2.utils.FastRandom
+--- @alias Field java.lang.reflect.Field
+--- @alias FieldOfViewProximity com.badlogic.gdx.ai.steer.proximities.FieldOfViewProximity
+--- @alias FighterArmored com.prineside.tdi2.waves.templates.FighterArmored
+--- @alias FighterEnemy com.prineside.tdi2.enemies.FighterEnemy
+--- @alias FighterEnemyFactory com.prineside.tdi2.enemies.FighterEnemy_FighterEnemyFactory
+--- @alias FighterLow com.prineside.tdi2.waves.templates.FighterLow
+--- @alias FighterMedium com.prineside.tdi2.waves.templates.FighterMedium
+--- @alias FileIntegrityChecker com.prineside.tdi2.utils.FileIntegrityChecker
+--- @alias FillViewport com.badlogic.gdx.utils.viewport.FillViewport
+--- @alias Filter com.badlogic.gdx.graphics.Pixmap_Filter
+--- @alias FilterInputStream java.io.FilterInputStream
+--- @alias FilterOutputStream java.io.FilterOutputStream
+--- @alias FindEnemyFilter com.prineside.tdi2.Tower_FindEnemyFilter
+--- @alias FireballAbility com.prineside.tdi2.abilities.FireballAbility
+--- @alias FireballAbilityFactory com.prineside.tdi2.abilities.FireballAbility_FireballAbilityFactory
+--- @alias FireballExplosion com.prineside.tdi2.explosions.FireballExplosion
+--- @alias FireballExplosionFactory com.prineside.tdi2.explosions.FireballExplosion_FireballExplosionFactory
+--- @alias FirestormAbility com.prineside.tdi2.abilities.FirestormAbility
+--- @alias FirestormAbilityFactory com.prineside.tdi2.abilities.FirestormAbility_FirestormAbilityFactory
+--- @alias FirstEnemiesInWaveExplode com.prineside.tdi2.gameplayMods.mods.FirstEnemiesInWaveExplode
+--- @alias FirstPersonCameraController com.badlogic.gdx.graphics.g3d.utils.FirstPersonCameraController
+--- @alias FitViewport com.badlogic.gdx.utils.viewport.FitViewport
+--- @alias Fixed com.prineside.tdi2.scene2d.ui.Value_Fixed
+--- @alias FixedInput com.prineside.kryo.FixedInput
+--- @alias FixedOutput com.prineside.kryo.FixedOutput
+--- @alias FixedSizeSmallBoard com.prineside.tdi2.screens.TicTacToeScreen_FixedSizeSmallBoard
+--- @alias FlamethrowerTower com.prineside.tdi2.towers.FlamethrowerTower
+--- @alias FlamethrowerTowerFactory com.prineside.tdi2.towers.FlamethrowerTower_FlamethrowerTowerFactory
+--- @alias Flee com.badlogic.gdx.ai.steer.behaviors.Flee
+--- @alias Float java.lang.Float
+--- @alias FloatAction com.prineside.tdi2.scene2d.actions.FloatAction
+--- @alias FloatArray com.badlogic.gdx.utils.FloatArray
+--- @alias FloatAttribute com.badlogic.gdx.graphics.g3d.attributes.FloatAttribute
+--- @alias FloatBuffer java.nio.FloatBuffer
+--- @alias FloatChannel com.badlogic.gdx.graphics.g3d.particles.ParallelArray_FloatChannel
+--- @alias FloatCounter com.badlogic.gdx.math.FloatCounter
+--- @alias FloatDistribution com.badlogic.gdx.ai.utils.random.FloatDistribution
+--- @alias FloatFrameBuffer com.badlogic.gdx.graphics.glutils.FloatFrameBuffer
+--- @alias FloatFrameBufferBuilder com.badlogic.gdx.graphics.glutils.GLFrameBuffer_FloatFrameBufferBuilder
+--- @alias FloatObjectPair com.prineside.tdi2.utils.FloatObjectPair
+--- @alias FloatSorter com.prineside.tdi2.utils.FloatSorter
+--- @alias FloatTextureData com.badlogic.gdx.graphics.glutils.FloatTextureData
+--- @alias Flushable java.io.Flushable
+--- @alias FlushablePool com.badlogic.gdx.utils.FlushablePool
+--- @alias FlyingItemsOverlay com.prineside.tdi2.ui.components.FlyingItemsOverlay
+--- @alias FlyingParticlesLine com.prineside.tdi2.shapes.FlyingParticlesLine
+--- @alias FlyingParticlesLineFactory com.prineside.tdi2.shapes.FlyingParticlesLine_FlyingParticlesLineFactory
+--- @alias FocusEvent com.prineside.tdi2.scene2d.utils.FocusListener_FocusEvent
+--- @alias FocusListener com.prineside.tdi2.scene2d.utils.FocusListener
+--- @alias FollowFlowField com.badlogic.gdx.ai.steer.behaviors.FollowFlowField
+--- @alias FollowPath com.badlogic.gdx.ai.steer.behaviors.FollowPath
+--- @alias ForceWaveAvailabilityChange com.prineside.tdi2.events.game.ForceWaveAvailabilityChange
+--- @alias Format com.badlogic.gdx.graphics.Pixmap_Format
+--- @alias Formation com.badlogic.gdx.ai.fma.Formation
+--- @alias FormationMember com.badlogic.gdx.ai.fma.FormationMember
+--- @alias FormationMotionModerator com.badlogic.gdx.ai.fma.FormationMotionModerator
+--- @alias FormationPattern com.badlogic.gdx.ai.fma.FormationPattern
+--- @alias ForwardButton com.prineside.tdi2.ui.shared.ForwardButton
+--- @alias FourCornerColors com.prineside.tdi2.utils.QuadRegion_FourCornerColors
+--- @alias FourierTransform com.badlogic.gdx.audio.analysis.FourierTransform
+--- @alias FrameAccumulatorForPerformance com.prineside.tdi2.utils.FrameAccumulatorForPerformance
+--- @alias FrameBuffer com.badlogic.gdx.graphics.glutils.FrameBuffer
+--- @alias FrameBufferBuilder com.badlogic.gdx.graphics.glutils.GLFrameBuffer_FrameBufferBuilder
+--- @alias FrameBufferCubemap com.badlogic.gdx.graphics.glutils.FrameBufferCubemap
+--- @alias FrameBufferCubemapBuilder com.badlogic.gdx.graphics.glutils.GLFrameBuffer_FrameBufferCubemapBuilder
+--- @alias FrameValues com.prineside.tdi2.managers.ReplayManager_ReplayRecord_ChartFrames_FrameValues
+--- @alias FreeSlotAssignmentStrategy com.badlogic.gdx.ai.fma.FreeSlotAssignmentStrategy
+--- @alias FreezingBuff com.prineside.tdi2.buffs.FreezingBuff
+--- @alias FreezingBuffFactory com.prineside.tdi2.buffs.FreezingBuff_FreezingBuffFactory
+--- @alias FreezingBuffProcessor com.prineside.tdi2.buffs.processors.FreezingBuffProcessor
+--- @alias FreezingTower com.prineside.tdi2.towers.FreezingTower
+--- @alias FreezingTowerFactory com.prineside.tdi2.towers.FreezingTower_FreezingTowerFactory
+--- @alias FrequencyRange com.prineside.tdi2.managers.MusicManager_FrequencyRange
+--- @alias Frustum com.badlogic.gdx.math.Frustum
+--- @alias FrustumShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.FrustumShapeBuilder
+--- @alias FullLimiter com.badlogic.gdx.ai.steer.limiters.FullLimiter
+--- @alias FullScreenTextEditor com.prineside.tdi2.ui.shared.FullScreenTextEditor
+--- @alias Future java.util.concurrent.Future
+--- @alias GL20 com.badlogic.gdx.graphics.GL20
+--- @alias GL20Interceptor com.badlogic.gdx.graphics.profiling.GL20Interceptor
+--- @alias GL30 com.badlogic.gdx.graphics.GL30
+--- @alias GL30Interceptor com.badlogic.gdx.graphics.profiling.GL30Interceptor
+--- @alias GL31 com.badlogic.gdx.graphics.GL31
+--- @alias GL31Interceptor com.badlogic.gdx.graphics.profiling.GL31Interceptor
+--- @alias GL32 com.badlogic.gdx.graphics.GL32
+--- @alias GL32Interceptor com.badlogic.gdx.graphics.profiling.GL32Interceptor
+--- @alias GLErrorListener com.badlogic.gdx.graphics.profiling.GLErrorListener
+--- @alias GLFrameBuffer com.badlogic.gdx.graphics.glutils.GLFrameBuffer
+--- @alias GLFrameBufferBuilder com.badlogic.gdx.graphics.glutils.GLFrameBuffer_GLFrameBufferBuilder
+--- @alias GLInterceptor com.badlogic.gdx.graphics.profiling.GLInterceptor
+--- @alias GLOnlyTextureData com.badlogic.gdx.graphics.glutils.GLOnlyTextureData
+--- @alias GLProfiler com.badlogic.gdx.graphics.profiling.GLProfiler
+--- @alias GLTexture com.badlogic.gdx.graphics.GLTexture
+--- @alias GLVersion com.badlogic.gdx.graphics.glutils.GLVersion
+--- @alias GREEN com.prineside.tdi2.utils.MaterialColor_GREEN
+--- @alias GREY com.prineside.tdi2.utils.MaterialColor_GREY
+--- @alias GV_AbilitiesEnergy com.prineside.tdi2.gameplayMods.mods.GV_AbilitiesEnergy
+--- @alias GV_AbilitiesMaxEnergy com.prineside.tdi2.gameplayMods.mods.GV_AbilitiesMaxEnergy
+--- @alias GV_BountiesNearby com.prineside.tdi2.gameplayMods.mods.GV_BountiesNearby
+--- @alias GV_DisableBountyModifierHarm com.prineside.tdi2.gameplayMods.mods.GV_DisableBountyModifierHarm
+--- @alias GV_MinersMaxUpgradeLevel com.prineside.tdi2.gameplayMods.mods.GV_MinersMaxUpgradeLevel
+--- @alias GV_TowersMaxExpLevel com.prineside.tdi2.gameplayMods.mods.GV_TowersMaxExpLevel
+--- @alias Game com.prineside.tdi2.Game
+--- @alias GameDispose com.prineside.tdi2.events.global.GameDispose
+--- @alias GameListener com.prineside.tdi2.GameListener
+--- @alias GameListenersView com.prineside.tdi2.ui.shared.stateDebugger.GameListenersView
+--- @alias GameLoad com.prineside.tdi2.events.global.GameLoad
+--- @alias GameMapSelectionSystem com.prineside.tdi2.systems.GameMapSelectionSystem
+--- @alias GameMode com.prineside.tdi2.systems.GameStateSystem_GameMode
+--- @alias GameOver com.prineside.tdi2.events.game.GameOver
+--- @alias GameOverOverlay com.prineside.tdi2.ui.components.GameOverOverlay
+--- @alias GameOverReason com.prineside.tdi2.systems.GameStateSystem_GameOverReason
+--- @alias GamePaused com.prineside.tdi2.events.game.GamePaused
+--- @alias GameRenderingOrder com.prineside.tdi2.configs.GameRenderingOrder
+--- @alias GameResumed com.prineside.tdi2.events.game.GameResumed
+--- @alias GameScreen com.prineside.tdi2.screens.GameScreen
+--- @alias GameSpeedChange com.prineside.tdi2.events.game.GameSpeedChange
+--- @alias GameStartLoad com.prineside.tdi2.events.global.GameStartLoad
+--- @alias GameState com.prineside.tdi2.GameState
+--- @alias GameStateEditor com.prineside.tdi2.ui.components.GameStateEditor
+--- @alias GameStateSystem com.prineside.tdi2.systems.GameStateSystem
+--- @alias GameStateTick com.prineside.tdi2.events.game.GameStateTick
+--- @alias GameSyncLoader com.prineside.tdi2.utils.GameSyncLoader
+--- @alias GameSystem com.prineside.tdi2.GameSystem
+--- @alias GameSystemProvider com.prineside.tdi2.GameSystemProvider
+--- @alias GameUiSystem com.prineside.tdi2.systems.GameUiSystem
+--- @alias GameValueConfig com.prineside.tdi2.GameValueConfig
+--- @alias GameValueEffect com.prineside.tdi2.managers.GameValueManager_GameValueEffect
+--- @alias GameValueGlobalItem com.prineside.tdi2.items.GameValueGlobalItem
+--- @alias GameValueGlobalItemFactory com.prineside.tdi2.items.GameValueGlobalItem_GameValueGlobalItemFactory
+--- @alias GameValueLevelItem com.prineside.tdi2.items.GameValueLevelItem
+--- @alias GameValueLevelItemFactory com.prineside.tdi2.items.GameValueLevelItem_GameValueLevelItemFactory
+--- @alias GameValueManager com.prineside.tdi2.managers.GameValueManager
+--- @alias GameValueManagerListener com.prineside.tdi2.managers.GameValueManager_GameValueManagerListener
+--- @alias GameValueMenu com.prineside.tdi2.ui.components.GameValueMenu
+--- @alias GameValueProvider com.prineside.tdi2.GameValueProvider
+--- @alias GameValueStockConfig com.prineside.tdi2.managers.GameValueManager_GameValueStockConfig
+--- @alias GameValueSystem com.prineside.tdi2.systems.GameValueSystem
+--- @alias GameValueTile com.prineside.tdi2.tiles.GameValueTile
+--- @alias GameValueTileFactory com.prineside.tdi2.tiles.GameValueTile_GameValueTileFactory
+--- @alias GameValueType com.prineside.tdi2.enums.GameValueType
+--- @alias GameValuesRecalculate com.prineside.tdi2.events.game.GameValuesRecalculate
+--- @alias GameValuesSnapshot com.prineside.tdi2.managers.GameValueManager_GameValuesSnapshot
+--- @alias GameplayBonusSummary com.prineside.tdi2.ui.actors.GameplayBonusSummary
+--- @alias GameplayBonusesOverlay com.prineside.tdi2.ui.components.GameplayBonusesOverlay
+--- @alias GameplayMod com.prineside.tdi2.gameplayMods.GameplayMod
+--- @alias GameplayModCategory com.prineside.tdi2.gameplayMods.GameplayModCategory
+--- @alias GameplayModSystem com.prineside.tdi2.systems.GameplayModSystem
+--- @alias Gate com.prineside.tdi2.Gate
+--- @alias GateBarrier com.prineside.tdi2.GateBarrier
+--- @alias GateChange com.prineside.tdi2.events.game.GateChange
+--- @alias GateItem com.prineside.tdi2.items.GateItem
+--- @alias GateItemFactory com.prineside.tdi2.items.GateItem_GateItemFactory
+--- @alias GateManager com.prineside.tdi2.managers.GateManager
+--- @alias GateMenu com.prineside.tdi2.ui.components.GateMenu
+--- @alias GateType com.prineside.tdi2.enums.GateType
+--- @alias GaussTower com.prineside.tdi2.towers.GaussTower
+--- @alias GaussTowerFactory com.prineside.tdi2.towers.GaussTower_GaussTowerFactory
+--- @alias GaussianDoubleDistribution com.badlogic.gdx.ai.utils.random.GaussianDoubleDistribution
+--- @alias GaussianFloatDistribution com.badlogic.gdx.ai.utils.random.GaussianFloatDistribution
+--- @alias Gdx com.badlogic.gdx.Gdx
+--- @alias Gdx2DPixmap com.badlogic.gdx.graphics.g2d.Gdx2DPixmap
+--- @alias GdxAI com.badlogic.gdx.ai.GdxAI
+--- @alias GeneralizedTowerStatType com.prineside.tdi2.enums.GeneralizedTowerStatType
+--- @alias GenericArrayType java.lang.reflect.GenericArrayType
+--- @alias GenericDeclaration java.lang.reflect.GenericDeclaration
+--- @alias GenericEnemy com.prineside.tdi2.enemies.GenericEnemy
+--- @alias GenericEnemyFactory com.prineside.tdi2.enemies.GenericEnemy_GenericEnemyFactory
+--- @alias GenericExplosion com.prineside.tdi2.explosions.GenericExplosion
+--- @alias GenericExplosionFactory com.prineside.tdi2.explosions.GenericExplosion_GenericExplosionFactory
+--- @alias GenericGameplayMod com.prineside.tdi2.gameplayMods.GenericGameplayMod
+--- @alias GeometryUtils com.badlogic.gdx.math.GeometryUtils
+--- @alias GestureAdapter com.badlogic.gdx.input.GestureDetector_GestureAdapter
+--- @alias GestureDetector com.badlogic.gdx.input.GestureDetector
+--- @alias GestureListener com.badlogic.gdx.input.GestureDetector_GestureListener
+--- @alias GiveDamageToEnemy com.prineside.tdi2.events.game.GiveDamageToEnemy
+--- @alias GiveItemIndividuallyReward com.prineside.tdi2.systems.randomEncounter.reward.GiveItemIndividuallyReward
+--- @alias GiveItemReward com.prineside.tdi2.systems.randomEncounter.reward.GiveItemReward
+--- @alias GiveItemsReward com.prineside.tdi2.systems.randomEncounter.reward.GiveItemsReward
+--- @alias GlobalListenersView com.prineside.tdi2.ui.shared.stateDebugger.GlobalListenersView
+--- @alias GlobalSetter com.badlogic.gdx.graphics.g3d.shaders.BaseShader_GlobalSetter
+--- @alias GlobalTowerStatMutator com.prineside.tdi2.systems.GameValueSystem_GlobalTowerStatMutator
+--- @alias GlobalUpgradeMinerAction com.prineside.tdi2.actions.GlobalUpgradeMinerAction
+--- @alias GlobalUpgradeTowerAction com.prineside.tdi2.actions.GlobalUpgradeTowerAction
+--- @alias GlobalVol com.prineside.tdi2.ibxm.GlobalVol
+--- @alias Glyph com.badlogic.gdx.graphics.g2d.BitmapFont_Glyph
+--- @alias GlyphLayout com.badlogic.gdx.graphics.g2d.GlyphLayout
+--- @alias GlyphRun com.badlogic.gdx.graphics.g2d.GlyphLayout_GlyphRun
+--- @alias Graph com.badlogic.gdx.ai.pfa.Graph
+--- @alias GraphPath com.badlogic.gdx.ai.pfa.GraphPath
+--- @alias Graphics com.badlogic.gdx.Graphics
+--- @alias GraphicsType com.badlogic.gdx.Graphics_GraphicsType
+--- @alias GravityComponentHandler com.badlogic.gdx.ai.steer.behaviors.Jump_GravityComponentHandler
+--- @alias GreenPaperItem com.prineside.tdi2.items.GreenPaperItem
+--- @alias GreenPaperItemFactory com.prineside.tdi2.items.GreenPaperItem_GreenPaperItemFactory
+--- @alias GridPoint2 com.badlogic.gdx.math.GridPoint2
+--- @alias GridPoint3 com.badlogic.gdx.math.GridPoint3
+--- @alias Group com.prineside.tdi2.scene2d.Group
+--- @alias GroupBehavior com.badlogic.gdx.ai.steer.GroupBehavior
+--- @alias GroupClipping com.prineside.tdi2.ui.actors.GroupClipping
+--- @alias GroupPlug com.badlogic.gdx.graphics.g3d.decals.GroupPlug
+--- @alias GroupStrategy com.badlogic.gdx.graphics.g3d.decals.GroupStrategy
+--- @alias GuillotineStrategy com.badlogic.gdx.graphics.g2d.PixmapPacker_GuillotineStrategy
+--- @alias GvSnapDiff com.prineside.tdi2.managers.GameValueManager_GvSnapDiff
+--- @alias HashMap java.util.HashMap
+--- @alias HashSet java.util.HashSet
+--- @alias HdpiMode com.badlogic.gdx.graphics.glutils.HdpiMode
+--- @alias HdpiUtils com.badlogic.gdx.graphics.glutils.HdpiUtils
+--- @alias HealerArmored com.prineside.tdi2.waves.templates.HealerArmored
+--- @alias HealerEnemy com.prineside.tdi2.enemies.HealerEnemy
+--- @alias HealerEnemyFactory com.prineside.tdi2.enemies.HealerEnemy_HealerEnemyFactory
+--- @alias HealerIcy com.prineside.tdi2.waves.templates.HealerIcy
+--- @alias HealerJet com.prineside.tdi2.waves.templates.HealerJet
+--- @alias HealerRegular com.prineside.tdi2.waves.templates.HealerRegular
+--- @alias HealerSlow com.prineside.tdi2.waves.templates.HealerSlow
+--- @alias HealerStrong com.prineside.tdi2.waves.templates.HealerStrong
+--- @alias HealthReward com.prineside.tdi2.systems.randomEncounter.reward.HealthReward
+--- @alias HeavyPathNode com.prineside.tdi2.pathfinding.HeavyPathNode
+--- @alias HeliEnemy com.prineside.tdi2.enemies.HeliEnemy
+--- @alias HeliEnemyFactory com.prineside.tdi2.enemies.HeliEnemy_HeliEnemyFactory
+--- @alias HeliMedium com.prineside.tdi2.waves.templates.HeliMedium
+--- @alias Heuristic com.badlogic.gdx.ai.pfa.Heuristic
+--- @alias Hide com.badlogic.gdx.ai.steer.behaviors.Hide
+--- @alias HierarchicalGraph com.badlogic.gdx.ai.pfa.HierarchicalGraph
+--- @alias HierarchicalPathFinder com.badlogic.gdx.ai.pfa.HierarchicalPathFinder
+--- @alias HighlightActor com.prineside.tdi2.ui.actors.HighlightActor
+--- @alias HistoryImprint com.prineside.tdi2.systems.MapEditorSystem_HistoryImprint
+--- @alias HistoryUpdate com.prineside.tdi2.events.mapEditor.HistoryUpdate
+--- @alias Hook com.prineside.tdi2.towers.CrusherTower_Hook
+--- @alias HorizontalGroup com.prineside.tdi2.scene2d.ui.HorizontalGroup
+--- @alias HorizontalSlider com.prineside.tdi2.ui.actors.HorizontalSlider
+--- @alias HotKeyHintLabel com.prineside.tdi2.ui.actors.HotKeyHintLabel
+--- @alias HotKeySystem com.prineside.tdi2.systems.HotKeySystem
+--- @alias HotkeyAction com.prineside.tdi2.managers.SettingsManager_HotkeyAction
+--- @alias HotkeyScreen com.prineside.tdi2.screens.HotkeyScreen
+--- @alias IBXM com.prineside.tdi2.ibxm.IBXM
+--- @alias ICodeProgress com.badlogic.gdx.utils.compression.ICodeProgress
+--- @alias INDIGO com.prineside.tdi2.utils.MaterialColor_INDIGO
+--- @alias IceFieldUnit com.prineside.tdi2.units.IceFieldUnit
+--- @alias IceFieldUnitFactory com.prineside.tdi2.units.IceFieldUnit_IceFieldUnitFactory
+--- @alias IcyEnemy com.prineside.tdi2.enemies.IcyEnemy
+--- @alias IcyEnemyFactory com.prineside.tdi2.enemies.IcyEnemy_IcyEnemyFactory
+--- @alias IcyHigh com.prineside.tdi2.waves.templates.IcyHigh
+--- @alias IcyToxic com.prineside.tdi2.waves.templates.IcyToxic
+--- @alias IdentityHashMap java.util.IdentityHashMap
+--- @alias IdentityMap com.badlogic.gdx.utils.IdentityMap
+--- @alias Image com.prineside.tdi2.scene2d.ui.Image
+--- @alias ImageButton com.prineside.tdi2.scene2d.ui.ImageButton
+--- @alias ImageButtonStyle com.prineside.tdi2.scene2d.ui.ImageButton_ImageButtonStyle
+--- @alias ImageTextButton com.prineside.tdi2.scene2d.ui.ImageTextButton
+--- @alias ImageTextButtonStyle com.prineside.tdi2.scene2d.ui.ImageTextButton_ImageTextButtonStyle
+--- @alias ImageWithParentColor com.prineside.tdi2.ui.actors.ImageWithParentColor
+--- @alias ImmediateModeRenderer com.badlogic.gdx.graphics.glutils.ImmediateModeRenderer
+--- @alias ImmediateModeRenderer20 com.badlogic.gdx.graphics.glutils.ImmediateModeRenderer20
+--- @alias Include com.badlogic.gdx.ai.btree.decorator.Include
+--- @alias IncreaseSelectedBonusesPower com.prineside.tdi2.gameplayMods.mods.IncreaseSelectedBonusesPower
+--- @alias IncreasedTowerToEnemyEfficiency com.prineside.tdi2.gameplayMods.mods.IncreasedTowerToEnemyEfficiency
+--- @alias IndependentScaledNumericValue com.badlogic.gdx.graphics.g2d.ParticleEmitter_IndependentScaledNumericValue
+--- @alias IndexArray com.badlogic.gdx.graphics.glutils.IndexArray
+--- @alias IndexBufferObject com.badlogic.gdx.graphics.glutils.IndexBufferObject
+--- @alias IndexBufferObjectSubData com.badlogic.gdx.graphics.glutils.IndexBufferObjectSubData
+--- @alias IndexData com.badlogic.gdx.graphics.glutils.IndexData
+--- @alias IndexedAStarPathFinder com.badlogic.gdx.ai.pfa.indexed.IndexedAStarPathFinder
+--- @alias IndexedGraph com.badlogic.gdx.ai.pfa.indexed.IndexedGraph
+--- @alias IndexedHierarchicalGraph com.badlogic.gdx.ai.pfa.indexed.IndexedHierarchicalGraph
+--- @alias InfiarMiner com.prineside.tdi2.miners.InfiarMiner
+--- @alias InfiarMinerFactory com.prineside.tdi2.miners.InfiarMiner_InfiarMinerFactory
+--- @alias InfiniteProximity com.badlogic.gdx.ai.steer.proximities.InfiniteProximity
+--- @alias Influencer com.badlogic.gdx.graphics.g3d.particles.influencers.Influencer
+--- @alias Ingredient com.prineside.tdi2.CraftRecipe_Ingredient
+--- @alias InputAdapter com.badlogic.gdx.InputAdapter
+--- @alias InputChunked com.esotericsoftware.kryo.io.InputChunked
+--- @alias InputEvent com.prineside.tdi2.scene2d.InputEvent
+--- @alias InputEventQueue com.badlogic.gdx.InputEventQueue
+--- @alias InputListener com.prineside.tdi2.scene2d.InputListener
+--- @alias InputListenerExtended com.prineside.tdi2.utils.InputListenerExtended
+--- @alias InputMultiplexer com.badlogic.gdx.InputMultiplexer
+--- @alias InputMultiplexerConfigure com.prineside.tdi2.events.game.InputMultiplexerConfigure
+--- @alias InputMultiplexerExtended com.prineside.tdi2.utils.InputMultiplexerExtended
+--- @alias InputProcessor com.badlogic.gdx.InputProcessor
+--- @alias InputStream java.io.InputStream
+--- @alias InputStreamReader java.io.InputStreamReader
+--- @alias InputStringValidator com.badlogic.gdx.Input_InputStringValidator
+--- @alias InputSystem com.prineside.tdi2.systems.InputSystem
+--- @alias InputVoid com.prineside.tdi2.utils.InputVoid
+--- @alias InstanceBufferObject com.badlogic.gdx.graphics.glutils.InstanceBufferObject
+--- @alias InstanceBufferObjectSubData com.badlogic.gdx.graphics.glutils.InstanceBufferObjectSubData
+--- @alias InstanceData com.badlogic.gdx.graphics.glutils.InstanceData
+--- @alias Instrument com.prineside.tdi2.ibxm.Instrument
+--- @alias IntAction com.prineside.tdi2.scene2d.actions.IntAction
+--- @alias IntArray com.badlogic.gdx.utils.IntArray
+--- @alias IntAttribute com.badlogic.gdx.graphics.g3d.attributes.IntAttribute
+--- @alias IntBuffer java.nio.IntBuffer
+--- @alias IntChannel com.badlogic.gdx.graphics.g3d.particles.ParallelArray_IntChannel
+--- @alias IntFloatMap com.badlogic.gdx.utils.IntFloatMap
+--- @alias IntIntMap com.badlogic.gdx.utils.IntIntMap
+--- @alias IntMap com.badlogic.gdx.utils.IntMap
+--- @alias IntObjectConsumer com.prineside.tdi2.utils.IntObjectConsumer
+--- @alias IntObjectPair com.prineside.tdi2.utils.IntObjectPair
+--- @alias IntPair com.prineside.tdi2.utils.IntPair
+--- @alias IntRectangle com.prineside.tdi2.utils.IntRectangle
+--- @alias IntSet com.badlogic.gdx.utils.IntSet
+--- @alias IntSetIterator com.badlogic.gdx.utils.IntSet_IntSetIterator
+--- @alias IntSummaryStatistics java.util.IntSummaryStatistics
+--- @alias IntUtil com.prineside.tdi2.utils.IntUtil
+--- @alias Integer java.lang.Integer
+--- @alias IntegerDistribution com.badlogic.gdx.ai.utils.random.IntegerDistribution
+--- @alias Interpolation com.badlogic.gdx.math.Interpolation
+--- @alias InterpolationType com.prineside.tdi2.enums.InterpolationType
+--- @alias Interpose com.badlogic.gdx.ai.steer.behaviors.Interpose
+--- @alias InvalidMapException com.prineside.tdi2.Map_InvalidMapException
+--- @alias InventoryDefaultListener com.prineside.tdi2.systems.MapEditorSystem_InventoryDefaultListener
+--- @alias InventoryItemAdd com.prineside.tdi2.events.mapEditor.InventoryItemAdd
+--- @alias InventoryItemRemove com.prineside.tdi2.events.mapEditor.InventoryItemRemove
+--- @alias InventoryOverlay com.prineside.tdi2.ui.shared.InventoryOverlay
+--- @alias InventoryStackChange com.prineside.tdi2.events.mapEditor.InventoryStackChange
+--- @alias InventoryStatistics com.prineside.tdi2.managers.ProgressManager_InventoryStatistics
+--- @alias InventorySystem com.prineside.tdi2.systems.InventorySystem
+--- @alias Invert com.badlogic.gdx.ai.btree.decorator.Invert
+--- @alias InvulnerabilityBuff com.prineside.tdi2.buffs.InvulnerabilityBuff
+--- @alias InvulnerabilityBuffFactory com.prineside.tdi2.buffs.InvulnerabilityBuff_InvulnerabilityBuffFactory
+--- @alias InvulnerabilityBuffProcessor com.prineside.tdi2.buffs.processors.InvulnerabilityBuffProcessor
+--- @alias IssueReason com.prineside.tdi2.IssuedItems_IssueReason
+--- @alias IssuedItems com.prineside.tdi2.IssuedItems
+--- @alias IssuedItemsAdd com.prineside.tdi2.events.game.IssuedItemsAdd
+--- @alias IssuedPrizesOverlay com.prineside.tdi2.ui.shared.IssuedPrizesOverlay
+--- @alias Item com.prineside.tdi2.Item
+--- @alias ItemCategoryType com.prineside.tdi2.enums.ItemCategoryType
+--- @alias ItemCell com.prineside.tdi2.ui.actors.ItemCell
+--- @alias ItemCountSelectionListener com.prineside.tdi2.ui.shared.ItemCountSelectionOverlay_ItemCountSelectionListener
+--- @alias ItemCountSelectionOverlay com.prineside.tdi2.ui.shared.ItemCountSelectionOverlay
+--- @alias ItemCreationOverlay com.prineside.tdi2.ui.shared.ItemCreationOverlay
+--- @alias ItemDataType com.prineside.tdi2.enums.ItemDataType
+--- @alias ItemDescriptionDialog com.prineside.tdi2.ui.shared.ItemDescriptionDialog
+--- @alias ItemDragPositionChange com.prineside.tdi2.events.mapEditor.ItemDragPositionChange
+--- @alias ItemDragStart com.prineside.tdi2.events.mapEditor.ItemDragStart
+--- @alias ItemDragStop com.prineside.tdi2.events.mapEditor.ItemDragStop
+--- @alias ItemManager com.prineside.tdi2.managers.ItemManager
+--- @alias ItemSlot com.prineside.tdi2.ui.components.MapEditorInventoryMenu_ItemSlot
+--- @alias ItemSortingType com.prineside.tdi2.enums.ItemSortingType
+--- @alias ItemStack com.prineside.tdi2.ItemStack
+--- @alias ItemSubcategoryType com.prineside.tdi2.enums.ItemSubcategoryType
+--- @alias ItemType com.prineside.tdi2.enums.ItemType
+--- @alias Iterable java.lang.Iterable
+--- @alias JetEnemy com.prineside.tdi2.enemies.JetEnemy
+--- @alias JetEnemyFactory com.prineside.tdi2.enemies.JetEnemy_JetEnemyFactory
+--- @alias JetMedium com.prineside.tdi2.waves.templates.JetMedium
+--- @alias JobFrameIntervals com.prineside.tdi2.configs.JobFrameIntervals
+--- @alias Json com.badlogic.gdx.utils.Json
+--- @alias JsonIterator com.badlogic.gdx.utils.JsonValue_JsonIterator
+--- @alias JsonReader com.badlogic.gdx.utils.JsonReader
+--- @alias JsonString com.badlogic.gdx.utils.JsonString
+--- @alias JsonValue com.badlogic.gdx.utils.JsonValue
+--- @alias JsonWriter com.badlogic.gdx.utils.JsonWriter
+--- @alias Jump com.badlogic.gdx.ai.steer.behaviors.Jump
+--- @alias JumpCallback com.badlogic.gdx.ai.steer.behaviors.Jump_JumpCallback
+--- @alias JumpDescriptor com.badlogic.gdx.ai.steer.behaviors.Jump_JumpDescriptor
+--- @alias JustUpdateScenario com.prineside.tdi2.utils.simulation.JustUpdateScenario
+--- @alias KeyboardHeightObserver com.badlogic.gdx.Input_KeyboardHeightObserver
+--- @alias Keyframe com.prineside.tdi2.ui.shared.CameraTools_Scenario_Keyframe
+--- @alias Kind com.prineside.tdi2.enemies.bosses.MetaphorBossCreepEnemy_Kind
+--- @alias KryoDataInput com.esotericsoftware.kryo.io.KryoDataInput
+--- @alias KryoDataOutput com.esotericsoftware.kryo.io.KryoDataOutput
+--- @alias LIGHT_BLUE com.prineside.tdi2.utils.MaterialColor_LIGHT_BLUE
+--- @alias LIGHT_GREEN com.prineside.tdi2.utils.MaterialColor_LIGHT_GREEN
+--- @alias LIME com.prineside.tdi2.utils.MaterialColor_LIME
+--- @alias Label com.prineside.tdi2.ui.actors.Label
+--- @alias LabelButton com.prineside.tdi2.ui.actors.LabelButton
+--- @alias LabelStyle com.prineside.tdi2.ui.actors.Label_LabelStyle
+--- @alias LabelToggleButton com.prineside.tdi2.ui.actors.LabelToggleButton
+--- @alias LabelWithShadow com.prineside.tdi2.ui.actors.LabelWithShadow
+--- @alias LanguageSelectScreen com.prineside.tdi2.screens.LanguageSelectScreen
+--- @alias LaserProjectile com.prineside.tdi2.projectiles.LaserProjectile
+--- @alias LaserProjectileFactory com.prineside.tdi2.projectiles.LaserProjectile_LaserProjectileFactory
+--- @alias LaserTower com.prineside.tdi2.towers.LaserTower
+--- @alias LaserTowerFactory com.prineside.tdi2.towers.LaserTower_LaserTowerFactory
+--- @alias LastEnemiesInWaveDealNoDamage com.prineside.tdi2.gameplayMods.mods.LastEnemiesInWaveDealNoDamage
+--- @alias Layer com.prineside.tdi2.systems.RenderSystem_Layer
+--- @alias LayerRenderer com.prineside.tdi2.systems.RenderSystem_LayerRenderer
+--- @alias Layout com.prineside.tdi2.scene2d.utils.Layout
+--- @alias LayoutAction com.prineside.tdi2.scene2d.actions.LayoutAction
+--- @alias LeaderBoardManager com.prineside.tdi2.managers.LeaderBoardManager
+--- @alias LeaderboardsEntry com.prineside.tdi2.managers.LeaderBoardManager_LeaderboardsEntry
+--- @alias LeaderboardsMode com.prineside.tdi2.managers.ReplayManager_LeaderboardsMode
+--- @alias LeaderboardsOverlay com.prineside.tdi2.ui.shared.LeaderboardsOverlay
+--- @alias LeaderboardsRank com.prineside.tdi2.managers.DailyQuestManager_LeaderboardsRank
+--- @alias LeaderboardsRankResult com.prineside.tdi2.managers.LeaderBoardManager_LeaderboardsRankResult
+--- @alias LeaderboardsResult com.prineside.tdi2.managers.LeaderBoardManager_LeaderboardsResult
+--- @alias LeafTask com.badlogic.gdx.ai.btree.LeafTask
+--- @alias LevelConfigurationEditor com.prineside.tdi2.ui.shared.LevelConfigurationEditor
+--- @alias LevelSelectScreen com.prineside.tdi2.screens.LevelSelectScreen
+--- @alias LevelStagesEditor com.prineside.tdi2.ui.shared.LevelStagesEditor
+--- @alias LifecycleListener com.badlogic.gdx.LifecycleListener
+--- @alias LightEnemy com.prineside.tdi2.enemies.LightEnemy
+--- @alias LightEnemyFactory com.prineside.tdi2.enemies.LightEnemy_LightEnemyFactory
+--- @alias LightFast com.prineside.tdi2.waves.templates.LightFast
+--- @alias LightHigh com.prineside.tdi2.waves.templates.LightHigh
+--- @alias LightMedium com.prineside.tdi2.waves.templates.LightMedium
+--- @alias LightningStrikeOnTowerLevelUp com.prineside.tdi2.gameplayMods.mods.LightningStrikeOnTowerLevelUp
+--- @alias LimitedBAOS com.prineside.tdi2.utils.LimitedBAOS
+--- @alias LimitedParticleType com.prineside.tdi2.enums.LimitedParticleType
+--- @alias LimitedWidthLabel com.prineside.tdi2.ui.actors.LimitedWidthLabel
+--- @alias Limiter com.badlogic.gdx.ai.steer.Limiter
+--- @alias LinePath com.badlogic.gdx.ai.steer.utils.paths.LinePath
+--- @alias LinePathParam com.badlogic.gdx.ai.steer.utils.paths.LinePath_LinePathParam
+--- @alias LineSpawnShapeValue com.badlogic.gdx.graphics.g3d.particles.values.LineSpawnShapeValue
+--- @alias LinearAccelerationLimiter com.badlogic.gdx.ai.steer.limiters.LinearAccelerationLimiter
+--- @alias LinearChartActor com.prineside.tdi2.ui.actors.LinearChartActor
+--- @alias LinearLimiter com.badlogic.gdx.ai.steer.limiters.LinearLimiter
+--- @alias LinearSideFunction com.prineside.tdi2.pathfinding.LinearSideFunction
+--- @alias LinearSpeedLimiter com.badlogic.gdx.ai.steer.limiters.LinearSpeedLimiter
+--- @alias LinkDirection com.prineside.tdi2.tiles.CoreTile_LinkDirection
+--- @alias LinkedList java.util.LinkedList
+--- @alias ListIterator java.util.ListIterator
+--- @alias ListStyle com.prineside.tdi2.scene2d.ui.List_ListStyle
+--- @alias Listener com.prineside.tdi2.events.Listener
+--- @alias ListenerGroup com.prineside.tdi2.ListenerGroup
+--- @alias ListenerGroupViewer com.prineside.tdi2.ui.shared.stateDebugger.listeners.ListenerGroupViewer
+--- @alias ListenersView com.prineside.tdi2.ui.shared.stateDebugger.ListenersView
+--- @alias LittleEndianInputStream com.badlogic.gdx.utils.LittleEndianInputStream
+--- @alias LiveLeaderboard com.prineside.tdi2.ui.components.LiveLeaderboard
+--- @alias LiveMusicManager com.prineside.tdi2.managers.music.LiveMusicManager
+--- @alias LoadBalancingScheduler com.badlogic.gdx.ai.sched.LoadBalancingScheduler
+--- @alias LoadingOverlay com.prineside.tdi2.ui.shared.LoadingOverlay
+--- @alias LoadingScreen com.prineside.tdi2.screens.LoadingScreen
+--- @alias LocalSetter com.badlogic.gdx.graphics.g3d.shaders.BaseShader_LocalSetter
+--- @alias LocaleButton com.prineside.tdi2.screens.SettingsScreen_LocaleButton
+--- @alias LocaleManager com.prineside.tdi2.managers.LocaleManager
+--- @alias LocaleManagerListener com.prineside.tdi2.managers.LocaleManager_LocaleManagerListener
+--- @alias Location com.badlogic.gdx.ai.utils.Location
+--- @alias LogEntry com.prineside.tdi2.utils.logging.Logger_LogEntry
+--- @alias LogLevel com.prineside.tdi2.utils.logging.LogLevel
+--- @alias LogListener com.prineside.tdi2.utils.logging.Logger_LogListener
+--- @alias LogWriter com.prineside.tdi2.utils.logging.LogWriter
+--- @alias LoicAbility com.prineside.tdi2.abilities.LoicAbility
+--- @alias LoicAbilityFactory com.prineside.tdi2.abilities.LoicAbility_LoicAbilityFactory
+--- @alias Long java.lang.Long
+--- @alias LongArray com.badlogic.gdx.utils.LongArray
+--- @alias LongBuffer java.nio.LongBuffer
+--- @alias LongDistribution com.badlogic.gdx.ai.utils.random.LongDistribution
+--- @alias LongMap com.badlogic.gdx.utils.LongMap
+--- @alias LongQueue com.badlogic.gdx.utils.LongQueue
+--- @alias LongSummaryStatistics java.util.LongSummaryStatistics
+--- @alias LookWhereYouAreGoing com.badlogic.gdx.ai.steer.behaviors.LookWhereYouAreGoing
+--- @alias LoopAbility com.prineside.tdi2.abilities.LoopAbility
+--- @alias LoopDecorator com.badlogic.gdx.ai.btree.LoopDecorator
+--- @alias LootBoostItem com.prineside.tdi2.items.LootBoostItem
+--- @alias LootBoostItemFactory com.prineside.tdi2.items.LootBoostItem_LootBoostItemFactory
+--- @alias LootSystem com.prineside.tdi2.systems.LootSystem
+--- @alias LowHpEnemiesDealNoDamage com.prineside.tdi2.gameplayMods.mods.LowHpEnemiesDealNoDamage
+--- @alias LuaScriptParser com.prineside.tdi2.managers.script.autocompletion.LuaScriptParser
+--- @alias LuajavaWhitelistEditor com.prineside.tdi2.ui.shared.LuajavaWhitelistEditor
+--- @alias LuckyShotTokenItem com.prineside.tdi2.items.LuckyShotTokenItem
+--- @alias LuckyShotTokenItemFactory com.prineside.tdi2.items.LuckyShotTokenItem_LuckyShotTokenItemFactory
+--- @alias LuckyWheelOverlay com.prineside.tdi2.ui.shared.LuckyWheelOverlay
+--- @alias Lzma com.badlogic.gdx.utils.compression.Lzma
+--- @alias MagnetAbility com.prineside.tdi2.abilities.MagnetAbility
+--- @alias MagnetAbilityFactory com.prineside.tdi2.abilities.MagnetAbility_MagnetAbilityFactory
+--- @alias MainMenuScreen com.prineside.tdi2.screens.MainMenuScreen
+--- @alias MainMenuUiScene com.prineside.tdi2.ui.shared.MainMenuUiScene
+--- @alias MainUi com.prineside.tdi2.ui.components.MainUi
+--- @alias MainUiLayer com.prineside.tdi2.managers.UiManager_MainUiLayer
+--- @alias ManageCurrentControllerListener com.badlogic.gdx.controllers.AbstractControllerManager_ManageCurrentControllerListener
+--- @alias Manager com.prineside.tdi2.Manager
+--- @alias ManagerAdapter com.prineside.tdi2.Manager_ManagerAdapter
+--- @alias ManagerWithListeners com.prineside.tdi2.Manager_ManagerWithListeners
+--- @alias MapBased com.prineside.tdi2.utils.WaveBossSupplier_MapBased
+--- @alias MapDrawModeChange com.prineside.tdi2.events.game.MapDrawModeChange
+--- @alias MapEditorInventoryMenu com.prineside.tdi2.ui.components.MapEditorInventoryMenu
+--- @alias MapEditorInventoryMenuListener com.prineside.tdi2.ui.components.MapEditorInventoryMenu_MapEditorInventoryMenuListener
+--- @alias MapEditorItemInfoMenu com.prineside.tdi2.ui.components.MapEditorItemInfoMenu
+--- @alias MapEditorScreen com.prineside.tdi2.screens.MapEditorScreen
+--- @alias MapEditorSelectionChange com.prineside.tdi2.events.mapEditor.MapEditorSelectionChange
+--- @alias MapEditorSystem com.prineside.tdi2.systems.MapEditorSystem
+--- @alias MapEditorTileInfoMenuListener com.prineside.tdi2.ui.components.MapEditorItemInfoMenu_MapEditorTileInfoMenuListener
+--- @alias MapEditorTileInfoMenuListenerAdapter com.prineside.tdi2.ui.components.MapEditorItemInfoMenu_MapEditorTileInfoMenuListener_MapEditorTileInfoMenuListenerAdapter
+--- @alias MapEditorUi com.prineside.tdi2.ui.components.MapEditorUi
+--- @alias MapEditorUiSystem com.prineside.tdi2.systems.MapEditorUiSystem
+--- @alias MapElementHover com.prineside.tdi2.events.game.MapElementHover
+--- @alias MapElementPos com.prineside.tdi2.MapElementPos
+--- @alias MapElementSelect com.prineside.tdi2.events.game.MapElementSelect
+--- @alias MapGroupLayer com.badlogic.gdx.maps.MapGroupLayer
+--- @alias MapLayer com.badlogic.gdx.maps.MapLayer
+--- @alias MapLayers com.badlogic.gdx.maps.MapLayers
+--- @alias MapManager com.prineside.tdi2.managers.MapManager
+--- @alias MapObject com.badlogic.gdx.maps.MapObject
+--- @alias MapObjects com.badlogic.gdx.maps.MapObjects
+--- @alias MapPrestigeConfig com.prineside.tdi2.MapPrestigeConfig
+--- @alias MapPrestigeOverlay com.prineside.tdi2.ui.components.MapPrestigeOverlay
+--- @alias MapPrestigeOverlayListener com.prineside.tdi2.ui.components.MapPrestigeOverlay_MapPrestigeOverlayListener
+--- @alias MapPreview com.prineside.tdi2.managers.MapManager_MapPreview
+--- @alias MapProperties com.badlogic.gdx.maps.MapProperties
+--- @alias MapRenderer com.badlogic.gdx.maps.MapRenderer
+--- @alias MapRenderingSystem com.prineside.tdi2.systems.MapRenderingSystem
+--- @alias MapShiftButtons com.prineside.tdi2.ui.components.MapShiftButtons
+--- @alias MapShiftButtonsListener com.prineside.tdi2.ui.components.MapShiftButtons_MapShiftButtonsListener
+--- @alias MapSizeChange com.prineside.tdi2.events.game.MapSizeChange
+--- @alias MapSystem com.prineside.tdi2.systems.MapSystem
+--- @alias MapValidationFail com.prineside.tdi2.events.mapEditor.MapValidationFail
+--- @alias MatchResult java.util.regex.MatchResult
+--- @alias MatchVelocity com.badlogic.gdx.ai.steer.behaviors.MatchVelocity
+--- @alias Matcher java.util.regex.Matcher
+--- @alias Material com.badlogic.gdx.graphics.g3d.Material
+--- @alias MaterialColor com.prineside.tdi2.utils.MaterialColor
+--- @alias MaterialType com.badlogic.gdx.graphics.g3d.model.data.ModelMaterial_MaterialType
+--- @alias Math java.lang.Math
+--- @alias MathContext java.math.MathContext
+--- @alias MathEnvironment com.prineside.tdi2.managers.script.MathEnvironment
+--- @alias MathUtils com.badlogic.gdx.math.MathUtils
+--- @alias Matrix3 com.badlogic.gdx.math.Matrix3
+--- @alias Matrix4 com.badlogic.gdx.math.Matrix4
+--- @alias MatrixMiner com.prineside.tdi2.miners.MatrixMiner
+--- @alias MatrixMinerFactory com.prineside.tdi2.miners.MatrixMiner_MatrixMinerFactory
+--- @alias MdpsUpdate com.prineside.tdi2.events.game.MdpsUpdate
+--- @alias MeasureUnits com.prineside.tdi2.utils.StringFormatter_MeasureUnits
+--- @alias Member java.lang.reflect.Member
+--- @alias Mesh com.badlogic.gdx.graphics.Mesh
+--- @alias MeshBuilder com.badlogic.gdx.graphics.g3d.utils.MeshBuilder
+--- @alias MeshPart com.badlogic.gdx.graphics.g3d.model.MeshPart
+--- @alias MeshPartBuilder com.badlogic.gdx.graphics.g3d.utils.MeshPartBuilder
+--- @alias MeshPool com.badlogic.gdx.graphics.g3d.ModelCache_MeshPool
+--- @alias MeshSpawnShapeValue com.badlogic.gdx.graphics.g3d.particles.values.MeshSpawnShapeValue
+--- @alias Message com.prineside.tdi2.managers.MessageManager_Message
+--- @alias MessageDispatcher com.badlogic.gdx.ai.msg.MessageDispatcher
+--- @alias MessagesOverlay com.prineside.tdi2.ui.shared.MessagesOverlay
+--- @alias MetaphorBossCreepEnemy com.prineside.tdi2.enemies.bosses.MetaphorBossCreepEnemy
+--- @alias MetaphorBossCreepEnemyFactory com.prineside.tdi2.enemies.bosses.MetaphorBossCreepEnemy_MetaphorBossCreepEnemyFactory
+--- @alias MetaphorBossEnemy com.prineside.tdi2.enemies.bosses.MetaphorBossEnemy
+--- @alias MetaphorBossEnemyFactory com.prineside.tdi2.enemies.bosses.MetaphorBossEnemy_MetaphorBossEnemyFactory
+--- @alias MetaphorBossWaveProcessor com.prineside.tdi2.waves.processors.MetaphorBossWaveProcessor
+--- @alias MetaphorBossWaveProcessorFactory com.prineside.tdi2.waves.processors.MetaphorBossWaveProcessor_MetaphorBossWaveProcessorFactory
+--- @alias Method java.lang.reflect.Method
+--- @alias Metrics com.badlogic.gdx.ai.pfa.indexed.IndexedAStarPathFinder_Metrics
+--- @alias MicrogunUnit com.prineside.tdi2.units.MicrogunUnit
+--- @alias MicrogunUnitFactory com.prineside.tdi2.units.MicrogunUnit_MicrogunUnitFactory
+--- @alias MineLegendaryItems com.prineside.tdi2.gameplayMods.mods.MineLegendaryItems
+--- @alias MineUnit com.prineside.tdi2.units.MineUnit
+--- @alias MineUnitFactory com.prineside.tdi2.units.MineUnit_MineUnitFactory
+--- @alias MinedItemsTurnIntoDust com.prineside.tdi2.gameplayMods.mods.MinedItemsTurnIntoDust
+--- @alias MinedResourcesChange com.prineside.tdi2.events.game.MinedResourcesChange
+--- @alias Miner com.prineside.tdi2.Miner
+--- @alias MinerBuild com.prineside.tdi2.events.game.MinerBuild
+--- @alias MinerManager com.prineside.tdi2.managers.MinerManager
+--- @alias MinerMenu com.prineside.tdi2.ui.components.MinerMenu
+--- @alias MinerMineItem com.prineside.tdi2.events.game.MinerMineItem
+--- @alias MinerPlace com.prineside.tdi2.events.game.MinerPlace
+--- @alias MinerRemove com.prineside.tdi2.events.game.MinerRemove
+--- @alias MinerResourceChange com.prineside.tdi2.events.game.MinerResourceChange
+--- @alias MinerSell com.prineside.tdi2.events.game.MinerSell
+--- @alias MinerSystem com.prineside.tdi2.systems.MinerSystem
+--- @alias MinerType com.prineside.tdi2.enums.MinerType
+--- @alias MinerUpgrade com.prineside.tdi2.events.game.MinerUpgrade
+--- @alias MinersSpawnEnemies com.prineside.tdi2.gameplayMods.mods.MinersSpawnEnemies
+--- @alias MinigunTower com.prineside.tdi2.towers.MinigunTower
+--- @alias MinigunTowerFactory com.prineside.tdi2.towers.MinigunTower_MinigunTowerFactory
+--- @alias MinimumTranslationVector com.badlogic.gdx.math.Intersector_MinimumTranslationVector
+--- @alias MiningSpeedModifier com.prineside.tdi2.modifiers.MiningSpeedModifier
+--- @alias MiningSpeedModifierFactory com.prineside.tdi2.modifiers.MiningSpeedModifier_MiningSpeedModifierFactory
+--- @alias MipMapGenerator com.badlogic.gdx.graphics.glutils.MipMapGenerator
+--- @alias MipMapTextureData com.badlogic.gdx.graphics.glutils.MipMapTextureData
+--- @alias MissileExplosion com.prineside.tdi2.explosions.MissileExplosion
+--- @alias MissileExplosionFactory com.prineside.tdi2.explosions.MissileExplosion_MissileExplosionFactory
+--- @alias MissileProjectile com.prineside.tdi2.projectiles.MissileProjectile
+--- @alias MissileProjectileFactory com.prineside.tdi2.projectiles.MissileProjectile_MissileProjectileFactory
+--- @alias MissileTower com.prineside.tdi2.towers.MissileTower
+--- @alias MissileTowerFactory com.prineside.tdi2.towers.MissileTower_MissileTowerFactory
+--- @alias MobchainBossBodyEnemy com.prineside.tdi2.enemies.bosses.MobchainBossBodyEnemy
+--- @alias MobchainBossBodyEnemyFactory com.prineside.tdi2.enemies.bosses.MobchainBossBodyEnemy_MobchainBossBodyEnemyFactory
+--- @alias MobchainBossCreepEnemy com.prineside.tdi2.enemies.bosses.MobchainBossCreepEnemy
+--- @alias MobchainBossCreepEnemyFactory com.prineside.tdi2.enemies.bosses.MobchainBossCreepEnemy_MobchainBossCreepEnemyFactory
+--- @alias MobchainBossHeadEnemy com.prineside.tdi2.enemies.bosses.MobchainBossHeadEnemy
+--- @alias MobchainBossHeadEnemyFactory com.prineside.tdi2.enemies.bosses.MobchainBossHeadEnemy_MobchainBossHeadEnemyFactory
+--- @alias MobchainBossWaveProcessor com.prineside.tdi2.waves.processors.MobchainBossWaveProcessor
+--- @alias MobchainBossWaveProcessorFactory com.prineside.tdi2.waves.processors.MobchainBossWaveProcessor_MobchainBossWaveProcessorFactory
+--- @alias Model com.badlogic.gdx.graphics.g3d.Model
+--- @alias ModelAnimation com.badlogic.gdx.graphics.g3d.model.data.ModelAnimation
+--- @alias ModelBatch com.badlogic.gdx.graphics.g3d.ModelBatch
+--- @alias ModelBuilder com.badlogic.gdx.graphics.g3d.utils.ModelBuilder
+--- @alias ModelCache com.badlogic.gdx.graphics.g3d.ModelCache
+--- @alias ModelData com.badlogic.gdx.graphics.g3d.model.data.ModelData
+--- @alias ModelInfluencer com.badlogic.gdx.graphics.g3d.particles.influencers.ModelInfluencer
+--- @alias ModelInstance com.badlogic.gdx.graphics.g3d.ModelInstance
+--- @alias ModelInstanceControllerRenderData com.badlogic.gdx.graphics.g3d.particles.renderers.ModelInstanceControllerRenderData
+--- @alias ModelInstanceParticleBatch com.badlogic.gdx.graphics.g3d.particles.batches.ModelInstanceParticleBatch
+--- @alias ModelInstanceRenderer com.badlogic.gdx.graphics.g3d.particles.renderers.ModelInstanceRenderer
+--- @alias ModelMaterial com.badlogic.gdx.graphics.g3d.model.data.ModelMaterial
+--- @alias ModelMesh com.badlogic.gdx.graphics.g3d.model.data.ModelMesh
+--- @alias ModelMeshPart com.badlogic.gdx.graphics.g3d.model.data.ModelMeshPart
+--- @alias ModelNode com.badlogic.gdx.graphics.g3d.model.data.ModelNode
+--- @alias ModelNodeAnimation com.badlogic.gdx.graphics.g3d.model.data.ModelNodeAnimation
+--- @alias ModelNodeKeyframe com.badlogic.gdx.graphics.g3d.model.data.ModelNodeKeyframe
+--- @alias ModelNodePart com.badlogic.gdx.graphics.g3d.model.data.ModelNodePart
+--- @alias ModelTexture com.badlogic.gdx.graphics.g3d.model.data.ModelTexture
+--- @alias ModelView com.prineside.tdi2.ui.actors.ModelView
+--- @alias ModifierBuild com.prineside.tdi2.events.game.ModifierBuild
+--- @alias ModifierCustomButtonPress com.prineside.tdi2.events.game.ModifierCustomButtonPress
+--- @alias ModifierManager com.prineside.tdi2.managers.ModifierManager
+--- @alias ModifierMenu com.prineside.tdi2.ui.components.ModifierMenu
+--- @alias ModifierPlace com.prineside.tdi2.events.game.ModifierPlace
+--- @alias ModifierProcessor com.prineside.tdi2.ModifierProcessor
+--- @alias ModifierSell com.prineside.tdi2.events.game.ModifierSell
+--- @alias ModifierSystem com.prineside.tdi2.systems.ModifierSystem
+--- @alias ModifierType com.prineside.tdi2.enums.ModifierType
+--- @alias Module com.prineside.tdi2.ibxm.Module
+--- @alias ModuleCacheConfig com.prineside.tdi2.managers.MusicManager_ModuleCacheConfig
+--- @alias Monitor com.badlogic.gdx.Graphics_Monitor
+--- @alias MoreBonusVariantsNextTime com.prineside.tdi2.gameplayMods.mods.MoreBonusVariantsNextTime
+--- @alias MouseClick com.prineside.tdi2.events.game.MouseClick
+--- @alias MouseEventsInputProcessor com.prineside.tdi2.systems.InputSystem_MouseEventsInputProcessor
+--- @alias MouseMove com.prineside.tdi2.events.game.MouseMove
+--- @alias Move com.prineside.tdi2.utils.mapeditor.tools.Move
+--- @alias MoveByAction com.prineside.tdi2.scene2d.actions.MoveByAction
+--- @alias MoveDirection com.prineside.tdi2.pathfinding.MoveDirection
+--- @alias MoveSide com.prineside.tdi2.pathfinding.MoveSide
+--- @alias MoveToAction com.prineside.tdi2.scene2d.actions.MoveToAction
+--- @alias MoveToFrontEvent com.prineside.tdi2.ui.events.MoveToFrontListener_MoveToFrontEvent
+--- @alias MoveToFrontListener com.prineside.tdi2.ui.events.MoveToFrontListener
+--- @alias MovingAverageFloat com.prineside.tdi2.utils.MovingAverageFloat
+--- @alias MovingAverageInt com.prineside.tdi2.utils.MovingAverageInt
+--- @alias MovingAverageLong com.prineside.tdi2.utils.MovingAverageLong
+--- @alias MultiLine com.prineside.tdi2.shapes.MultiLine
+--- @alias MultiLineFactory com.prineside.tdi2.shapes.MultiLine_MultiLineFactory
+--- @alias MultiOutputStream com.prineside.tdi2.utils.MultiOutputStream
+--- @alias MultiOutputStreamSync com.prineside.tdi2.utils.MultiOutputStreamSync
+--- @alias MultiReasonBool com.prineside.tdi2.utils.MultiReasonBool
+--- @alias MultiplyLootedItems com.prineside.tdi2.gameplayMods.mods.MultiplyLootedItems
+--- @alias MultiplyMdps com.prineside.tdi2.gameplayMods.mods.MultiplyMdps
+--- @alias MultishotProjectile com.prineside.tdi2.projectiles.MultishotProjectile
+--- @alias MultishotTower com.prineside.tdi2.towers.MultishotTower
+--- @alias MultishotTowerFactory com.prineside.tdi2.towers.MultishotTower_MultishotTowerFactory
+--- @alias Music com.badlogic.gdx.audio.Music
+--- @alias MusicListOverlay com.prineside.tdi2.ui.shared.MusicListOverlay
+--- @alias MusicManager com.prineside.tdi2.managers.MusicManager
+--- @alias MusicSource com.prineside.tdi2.managers.MusicManager_MusicSource
+--- @alias MusicSourceType com.prineside.tdi2.managers.MusicManager_MusicSourceType
+--- @alias NativeInputConfiguration com.badlogic.gdx.input.NativeInputConfiguration
+--- @alias NeighbourXpConfig com.prineside.tdi2.modifiers.BalanceModifier_NeighbourXpConfig
+--- @alias NetworkManager com.prineside.tdi2.managers.NetworkManager
+--- @alias NewEnemyOverlay com.prineside.tdi2.ui.components.NewEnemyOverlay
+--- @alias NextWaveForce com.prineside.tdi2.events.game.NextWaveForce
+--- @alias NinePatch com.badlogic.gdx.graphics.g2d.NinePatch
+--- @alias NinePatchDrawable com.prineside.tdi2.scene2d.utils.NinePatchDrawable
+--- @alias NoBonusSystemPointsBuff com.prineside.tdi2.buffs.NoBonusSystemPointsBuff
+--- @alias NoBonusSystemPointsBuffFactory com.prineside.tdi2.buffs.NoBonusSystemPointsBuff_NoBonusSystemPointsBuffFactory
+--- @alias NoBonusSystemPointsBuffProcessor com.prineside.tdi2.buffs.processors.NoBonusSystemPointsBuffProcessor
+--- @alias NoDamageBuff com.prineside.tdi2.buffs.NoDamageBuff
+--- @alias NoDamageBuffFactory com.prineside.tdi2.buffs.NoDamageBuff_NoDamageBuffFactory
+--- @alias NoDamageBuffProcessor com.prineside.tdi2.buffs.processors.NoDamageBuffProcessor
+--- @alias NodeAnimation com.badlogic.gdx.graphics.g3d.model.NodeAnimation
+--- @alias NodeKeyframe com.badlogic.gdx.graphics.g3d.model.NodeKeyframe
+--- @alias NodePart com.badlogic.gdx.graphics.g3d.model.NodePart
+--- @alias NonBlockingSemaphore com.badlogic.gdx.ai.utils.NonBlockingSemaphore
+--- @alias NonBlockingSemaphoreRepository com.badlogic.gdx.ai.utils.NonBlockingSemaphoreRepository
+--- @alias None com.badlogic.gdx.graphics.g3d.particles.ParticleSorter_None
+--- @alias Note com.prineside.tdi2.ibxm.Note
+--- @alias Notification com.prineside.tdi2.ui.shared.Notifications_Notification
+--- @alias Notifications com.prineside.tdi2.ui.shared.Notifications
+--- @alias NukeAbility com.prineside.tdi2.abilities.NukeAbility
+--- @alias NukeAbilityFactory com.prineside.tdi2.abilities.NukeAbility_NukeAbilityFactory
+--- @alias NukeOnBonusStage com.prineside.tdi2.gameplayMods.mods.NukeOnBonusStage
+--- @alias NullLimiter com.badlogic.gdx.ai.steer.limiters.NullLimiter
+--- @alias NullLogger com.badlogic.gdx.ai.NullLogger
+--- @alias Number java.lang.Number
+--- @alias NumberUtils com.badlogic.gdx.utils.NumberUtils
+--- @alias ORANGE com.prineside.tdi2.utils.MaterialColor_ORANGE
+--- @alias Object java.lang.Object
+--- @alias ObjectChannel com.badlogic.gdx.graphics.g3d.particles.ParallelArray_ObjectChannel
+--- @alias ObjectConsumer com.prineside.tdi2.utils.ObjectConsumer
+--- @alias ObjectFilter com.prineside.tdi2.utils.ObjectFilter
+--- @alias ObjectFloatMap com.badlogic.gdx.utils.ObjectFloatMap
+--- @alias ObjectIntMap com.badlogic.gdx.utils.ObjectIntMap
+--- @alias ObjectIntPair com.prineside.tdi2.utils.ObjectIntPair
+--- @alias ObjectLongMap com.badlogic.gdx.utils.ObjectLongMap
+--- @alias ObjectMap com.badlogic.gdx.utils.ObjectMap
+--- @alias ObjectPair com.prineside.tdi2.utils.ObjectPair
+--- @alias ObjectSet com.badlogic.gdx.utils.ObjectSet
+--- @alias ObjectSetIterator com.badlogic.gdx.utils.ObjectSet_ObjectSetIterator
+--- @alias ObjectSupplier com.prineside.tdi2.utils.ObjectSupplier
+--- @alias Objects java.util.Objects
+--- @alias Octree com.badlogic.gdx.math.Octree
+--- @alias OffensiveCircleFormationPattern com.badlogic.gdx.ai.fma.patterns.OffensiveCircleFormationPattern
+--- @alias OnCompletionListener com.badlogic.gdx.audio.Music_OnCompletionListener
+--- @alias OnscreenKeyboard com.prineside.tdi2.scene2d.ui.TextField_OnscreenKeyboard
+--- @alias OnscreenKeyboardType com.badlogic.gdx.Input_OnscreenKeyboardType
+--- @alias OpenedPackOverlay com.prineside.tdi2.ui.shared.OpenedPackOverlay
+--- @alias OpenedResearchItem com.prineside.tdi2.items.OpenedResearchItem
+--- @alias OpenedResearchItemFactory com.prineside.tdi2.items.OpenedResearchItem_OpenedResearchItemFactory
+--- @alias OptimizedByteArrayOutputStream com.badlogic.gdx.utils.StreamUtils_OptimizedByteArrayOutputStream
+--- @alias Orchestrator com.badlogic.gdx.ai.btree.branch.Parallel_Orchestrator
+--- @alias OrderedMap com.badlogic.gdx.utils.OrderedMap
+--- @alias OrderedMapEntries com.badlogic.gdx.utils.OrderedMap_OrderedMapEntries
+--- @alias OrderedMapKeys com.badlogic.gdx.utils.OrderedMap_OrderedMapKeys
+--- @alias OrderedMapValues com.badlogic.gdx.utils.OrderedMap_OrderedMapValues
+--- @alias OrderedSet com.badlogic.gdx.utils.OrderedSet
+--- @alias OrderedSetIterator com.badlogic.gdx.utils.OrderedSet_OrderedSetIterator
+--- @alias Orientation com.badlogic.gdx.Input_Orientation
+--- @alias OrientedBoundingBox com.badlogic.gdx.math.collision.OrientedBoundingBox
+--- @alias OrthographicCamera com.badlogic.gdx.graphics.OrthographicCamera
+--- @alias Os com.badlogic.gdx.utils.Os
+--- @alias Output com.esotericsoftware.kryo.io.Output
+--- @alias OutputChunked com.esotericsoftware.kryo.io.OutputChunked
+--- @alias OutputStream java.io.OutputStream
+--- @alias OutputStreamWriter java.io.OutputStreamWriter
+--- @alias OutputType com.badlogic.gdx.utils.JsonWriter_OutputType
+--- @alias OverlayContinueButton com.prineside.tdi2.ui.actors.OverlayContinueButton
+--- @alias OverloadAbility com.prineside.tdi2.abilities.OverloadAbility
+--- @alias OverloadAbilityFactory com.prineside.tdi2.abilities.OverloadAbility_OverloadAbilityFactory
+--- @alias PINK com.prineside.tdi2.utils.MaterialColor_PINK
+--- @alias PMath com.prineside.tdi2.utils.PMath
+--- @alias PP_Custom com.prineside.tdi2.managers.preferences.categories.progress.PP_Custom
+--- @alias PURPLE com.prineside.tdi2.utils.MaterialColor_PURPLE
+--- @alias PackColor com.prineside.tdi2.utils.PackColor
+--- @alias PackStrategy com.badlogic.gdx.graphics.g2d.PixmapPacker_PackStrategy
+--- @alias PaddedImageButton com.prineside.tdi2.ui.actors.PaddedImageButton
+--- @alias PanZoomTooltip com.prineside.tdi2.ui.actors.PanZoomTooltip
+--- @alias Paper com.prineside.tdi2.ui.components.FlyingItemsOverlay_Paper
+--- @alias Parallel com.badlogic.gdx.ai.btree.branch.Parallel
+--- @alias ParallelAction com.prineside.tdi2.scene2d.actions.ParallelAction
+--- @alias ParallelArray com.badlogic.gdx.graphics.g3d.particles.ParallelArray
+--- @alias ParallelBatch com.prineside.tdi2.utils.ParallelBatch
+--- @alias ParallelBatchStack com.prineside.tdi2.utils.ParallelBatchStack
+--- @alias ParallelSideRayConfiguration com.badlogic.gdx.ai.steer.utils.rays.ParallelSideRayConfiguration
+--- @alias Parameter java.lang.reflect.Parameter
+--- @alias ParameterizedType java.lang.reflect.ParameterizedType
+--- @alias Parameters com.prineside.tdi2.utils.CRC_Parameters
+--- @alias ParticleBatch com.badlogic.gdx.graphics.g3d.particles.batches.ParticleBatch
+--- @alias ParticleChannels com.badlogic.gdx.graphics.g3d.particles.ParticleChannels
+--- @alias ParticleConfig com.prineside.tdi2.ui.actors.ParticlesCanvas_ParticleConfig
+--- @alias ParticleController com.badlogic.gdx.graphics.g3d.particles.ParticleController
+--- @alias ParticleControllerComponent com.badlogic.gdx.graphics.g3d.particles.ParticleControllerComponent
+--- @alias ParticleControllerControllerRenderer com.badlogic.gdx.graphics.g3d.particles.renderers.ParticleControllerControllerRenderer
+--- @alias ParticleControllerFinalizerInfluencer com.badlogic.gdx.graphics.g3d.particles.influencers.ParticleControllerFinalizerInfluencer
+--- @alias ParticleControllerInfluencer com.badlogic.gdx.graphics.g3d.particles.influencers.ParticleControllerInfluencer
+--- @alias ParticleControllerRenderData com.badlogic.gdx.graphics.g3d.particles.renderers.ParticleControllerRenderData
+--- @alias ParticleControllerRenderer com.badlogic.gdx.graphics.g3d.particles.renderers.ParticleControllerRenderer
+--- @alias ParticleEffectActor com.prineside.tdi2.scene2d.ui.ParticleEffectActor
+--- @alias ParticleEffectPool com.badlogic.gdx.graphics.g2d.ParticleEffectPool
+--- @alias ParticleEmitter com.badlogic.gdx.graphics.g2d.ParticleEmitter
+--- @alias ParticleShader com.badlogic.gdx.graphics.g3d.particles.ParticleShader
+--- @alias ParticleSorter com.badlogic.gdx.graphics.g3d.particles.ParticleSorter
+--- @alias ParticleType com.badlogic.gdx.graphics.g3d.particles.ParticleShader_ParticleType
+--- @alias ParticlesCanvas com.prineside.tdi2.ui.actors.ParticlesCanvas
+--- @alias PatchShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.PatchShapeBuilder
+--- @alias PathConnection com.prineside.tdi2.pathfinding.PathConnection
+--- @alias PathEnemyPair com.prineside.tdi2.systems.PathRenderingSystem_PathEnemyPair
+--- @alias PathFinder com.badlogic.gdx.ai.pfa.PathFinder
+--- @alias PathFinderQueue com.badlogic.gdx.ai.pfa.PathFinderQueue
+--- @alias PathFinderRequest com.badlogic.gdx.ai.pfa.PathFinderRequest
+--- @alias PathFinderRequestControl com.badlogic.gdx.ai.pfa.PathFinderRequestControl
+--- @alias PathNode com.prineside.tdi2.pathfinding.PathNode
+--- @alias PathNodeWithTeleports com.prineside.tdi2.pathfinding.PathNodeWithTeleports
+--- @alias PathNodeWithoutTeleports com.prineside.tdi2.pathfinding.PathNodeWithoutTeleports
+--- @alias PathNotFoundForEnemyTypeException com.prineside.tdi2.Map_PathNotFoundForEnemyTypeException
+--- @alias PathParam com.badlogic.gdx.ai.steer.utils.Path_PathParam
+--- @alias PathRenderingSystem com.prineside.tdi2.systems.PathRenderingSystem
+--- @alias PathSegmentForRendering com.prineside.tdi2.pathfinding.PathSegmentForRendering
+--- @alias PathSmoother com.badlogic.gdx.ai.pfa.PathSmoother
+--- @alias PathSmootherRequest com.badlogic.gdx.ai.pfa.PathSmootherRequest
+--- @alias PathfindingRebuild com.prineside.tdi2.events.game.PathfindingRebuild
+--- @alias PathfindingSystem com.prineside.tdi2.systems.PathfindingSystem
+--- @alias PauseMenu com.prineside.tdi2.ui.components.PauseMenu
+--- @alias Payload com.prineside.tdi2.scene2d.utils.DragAndDrop_Payload
+--- @alias PcmBuffer com.prineside.tdi2.managers.music.LiveMusicManager_PcmBuffer
+--- @alias PendingMessageCallback com.badlogic.gdx.ai.msg.MessageDispatcher_PendingMessageCallback
+--- @alias PerformanceBenchmarkSim com.prineside.tdi2.utils.simulation.PerformanceBenchmarkSim
+--- @alias PerformanceBenchmarkSimProvider com.prineside.tdi2.utils.simulation.providers.PerformanceBenchmarkSimProvider
+--- @alias PerformanceCounter com.badlogic.gdx.utils.PerformanceCounter
+--- @alias PerformanceCounters com.badlogic.gdx.utils.PerformanceCounters
+--- @alias Peripheral com.badlogic.gdx.Input_Peripheral
+--- @alias PerspectiveCamera com.badlogic.gdx.graphics.PerspectiveCamera
+--- @alias PieChart com.prineside.tdi2.shapes.PieChart
+--- @alias PieChartActor com.prineside.tdi2.ui.actors.PieChartActor
+--- @alias PieChartFactory com.prineside.tdi2.shapes.PieChart_PieChartFactory
+--- @alias Pixmap com.badlogic.gdx.graphics.Pixmap
+--- @alias PixmapPacker com.badlogic.gdx.graphics.g2d.PixmapPacker
+--- @alias PixmapPackerRectangle com.badlogic.gdx.graphics.g2d.PixmapPacker_PixmapPackerRectangle
+--- @alias PixmapTextureData com.badlogic.gdx.graphics.glutils.PixmapTextureData
+--- @alias Plane com.badlogic.gdx.math.Plane
+--- @alias PlaneSide com.badlogic.gdx.math.Plane_PlaneSide
+--- @alias PlatformLogger com.prineside.tdi2.utils.logging.PlatformLogger
+--- @alias PlatformTile com.prineside.tdi2.tiles.PlatformTile
+--- @alias PlayMode com.badlogic.gdx.graphics.g2d.Animation_PlayMode
+--- @alias PlayStageFunction com.prineside.tdi2.configs.ShopOfferValues_PlayStageFunction
+--- @alias PlaybackStatus com.prineside.tdi2.managers.music.LiveMusicManager_PlaybackStatus
+--- @alias PlayingSoundStat com.prineside.tdi2.managers.SoundManager_PlayingSoundStat
+--- @alias PluggableGroupStrategy com.badlogic.gdx.graphics.g3d.decals.PluggableGroupStrategy
+--- @alias PointLight com.badlogic.gdx.graphics.g3d.environment.PointLight
+--- @alias PointLightsAttribute com.badlogic.gdx.graphics.g3d.attributes.PointLightsAttribute
+--- @alias PointSpawnShapeValue com.badlogic.gdx.graphics.g3d.particles.values.PointSpawnShapeValue
+--- @alias PointSpriteControllerRenderData com.badlogic.gdx.graphics.g3d.particles.renderers.PointSpriteControllerRenderData
+--- @alias PointSpriteParticleBatch com.badlogic.gdx.graphics.g3d.particles.batches.PointSpriteParticleBatch
+--- @alias PointSpriteRenderer com.badlogic.gdx.graphics.g3d.particles.renderers.PointSpriteRenderer
+--- @alias PoisonBuff com.prineside.tdi2.buffs.PoisonBuff
+--- @alias PoisonBuffFactory com.prineside.tdi2.buffs.PoisonBuff_PoisonBuffFactory
+--- @alias PoisonBuffProcessor com.prineside.tdi2.buffs.processors.PoisonBuffProcessor
+--- @alias PolarAcceleration com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier_PolarAcceleration
+--- @alias Policy com.badlogic.gdx.ai.btree.branch.Parallel_Policy
+--- @alias Polygon com.badlogic.gdx.math.Polygon
+--- @alias PolygonBatch com.badlogic.gdx.graphics.g2d.PolygonBatch
+--- @alias PolygonConfig com.prineside.tdi2.managers.ResearchManager_PolygonConfig
+--- @alias PolygonMapObject com.badlogic.gdx.maps.objects.PolygonMapObject
+--- @alias PolygonRegion com.badlogic.gdx.graphics.g2d.PolygonRegion
+--- @alias PolygonSprite com.badlogic.gdx.graphics.g2d.PolygonSprite
+--- @alias PolygonSpriteBatch com.badlogic.gdx.graphics.g2d.PolygonSpriteBatch
+--- @alias Polyline com.badlogic.gdx.math.Polyline
+--- @alias PolylineMapObject com.badlogic.gdx.maps.objects.PolylineMapObject
+--- @alias Pool com.badlogic.gdx.utils.Pool
+--- @alias Poolable com.badlogic.gdx.utils.Pool_Poolable
+--- @alias PooledBehaviorTreeLibrary com.badlogic.gdx.ai.btree.utils.PooledBehaviorTreeLibrary
+--- @alias PooledCustomEffect com.prineside.tdi2.utils.PooledCustomEffect
+--- @alias PooledEffect com.badlogic.gdx.graphics.g2d.ParticleEffectPool_PooledEffect
+--- @alias PooledLinkedList com.badlogic.gdx.utils.PooledLinkedList
+--- @alias Pools com.badlogic.gdx.utils.Pools
+--- @alias PostRender com.prineside.tdi2.events.global.PostRender
+--- @alias Pow com.badlogic.gdx.math.Interpolation_Pow
+--- @alias PowIn com.badlogic.gdx.math.Interpolation_PowIn
+--- @alias PowOut com.badlogic.gdx.math.Interpolation_PowOut
+--- @alias PowerBonuses com.prineside.tdi2.components.PowerBonuses
+--- @alias PowerModifier com.prineside.tdi2.modifiers.PowerModifier
+--- @alias PowerModifierFactory com.prineside.tdi2.modifiers.PowerModifier_PowerModifierFactory
+--- @alias PreRender com.prineside.tdi2.events.global.PreRender
+--- @alias PredefinedCoreTileType com.prineside.tdi2.enums.PredefinedCoreTileType
+--- @alias PredefinedWaveTemplate com.prineside.tdi2.WaveTemplates_PredefinedWaveTemplate
+--- @alias PredicateIterable com.badlogic.gdx.utils.Predicate_PredicateIterable
+--- @alias PredicateIterator com.badlogic.gdx.utils.Predicate_PredicateIterator
+--- @alias PreparedBullet com.prineside.tdi2.abilities.BulletWallAbility_PreparedBullet
+--- @alias PreparedMathExpression com.prineside.tdi2.managers.script.MathEnvironment_PreparedMathExpression
+--- @alias PreparedTooltip com.prineside.tdi2.ui.components.MapEditorUi_PreparedTooltip
+--- @alias PrestigeDustItem com.prineside.tdi2.items.PrestigeDustItem
+--- @alias PrestigeDustItemFactory com.prineside.tdi2.items.PrestigeDustItem_PrestigeDustItemFactory
+--- @alias PrestigeTokenItem com.prineside.tdi2.items.PrestigeTokenItem
+--- @alias PrestigeTokenItemFactory com.prineside.tdi2.items.PrestigeTokenItem_PrestigeTokenItemFactory
+--- @alias PrettyPrintSettings com.badlogic.gdx.utils.JsonValue_PrettyPrintSettings
+--- @alias PrimitiveSpawnShapeValue com.badlogic.gdx.graphics.g3d.particles.values.PrimitiveSpawnShapeValue
+--- @alias PrintStream java.io.PrintStream
+--- @alias PrintWriter java.io.PrintWriter
+--- @alias PriorityQueue com.badlogic.gdx.ai.msg.PriorityQueue
+--- @alias PriorityScheduler com.badlogic.gdx.ai.sched.PriorityScheduler
+--- @alias PrioritySteering com.badlogic.gdx.ai.steer.behaviors.PrioritySteering
+--- @alias ProbableBonus com.prineside.tdi2.gameplayMods.ProbableBonus
+--- @alias ProbableBonusesProvider com.prineside.tdi2.gameplayMods.ProbableBonusesProvider
+--- @alias Procedural com.prineside.tdi2.utils.WaveBossSupplier_Procedural
+--- @alias ProfileSummary com.prineside.tdi2.ui.shared.ProfileSummary
+--- @alias ProgressBar com.prineside.tdi2.scene2d.ui.ProgressBar
+--- @alias ProgressBarStyle com.prineside.tdi2.scene2d.ui.ProgressBar_ProgressBarStyle
+--- @alias ProgressManager com.prineside.tdi2.managers.ProgressManager
+--- @alias ProgressManagerListener com.prineside.tdi2.managers.ProgressManager_ProgressManagerListener
+--- @alias ProgressManagerListenerAdapter com.prineside.tdi2.managers.ProgressManager_ProgressManagerListener_ProgressManagerListenerAdapter
+--- @alias ProgressSnapshotForState com.prineside.tdi2.managers.ProgressManager_ProgressSnapshotForState
+--- @alias Projectile com.prineside.tdi2.Projectile
+--- @alias ProjectileDespawn com.prineside.tdi2.events.game.ProjectileDespawn
+--- @alias ProjectileSpawn com.prineside.tdi2.events.game.ProjectileSpawn
+--- @alias ProjectileSystem com.prineside.tdi2.systems.ProjectileSystem
+--- @alias ProjectileTrail com.prineside.tdi2.ProjectileTrail
+--- @alias ProjectileTrailSystem com.prineside.tdi2.systems.ProjectileTrailSystem
+--- @alias ProjectileType com.prineside.tdi2.enums.ProjectileType
+--- @alias Proximity com.badlogic.gdx.ai.steer.Proximity
+--- @alias ProximityBase com.badlogic.gdx.ai.steer.proximities.ProximityBase
+--- @alias ProximityCallback com.badlogic.gdx.ai.steer.Proximity_ProximityCallback
+--- @alias Proxy java.lang.reflect.Proxy
+--- @alias Pursue com.badlogic.gdx.ai.steer.behaviors.Pursue
+--- @alias Quad com.prineside.tdi2.utils.Quad
+--- @alias QuadActor com.prineside.tdi2.ui.actors.QuadActor
+--- @alias QuadActorConfig com.prineside.tdi2.utils.QuadDrawableStack_QuadActorConfig
+--- @alias QuadDrawable com.prineside.tdi2.utils.QuadDrawable
+--- @alias QuadDrawableStack com.prineside.tdi2.utils.QuadDrawableStack
+--- @alias QuadRegion com.prineside.tdi2.utils.QuadRegion
+--- @alias QuadTile com.prineside.tdi2.tiles.QuadTile
+--- @alias QuadTileFactory com.prineside.tdi2.tiles.QuadTile_QuadTileFactory
+--- @alias QuadTreeFloat com.badlogic.gdx.utils.QuadTreeFloat
+--- @alias Quaternion com.badlogic.gdx.math.Quaternion
+--- @alias Quest com.prineside.tdi2.systems.QuestSystem_Quest
+--- @alias QuestEntry com.prineside.tdi2.systems.QuestSystem_QuestEntry
+--- @alias QuestList com.prineside.tdi2.ui.components.QuestList
+--- @alias QuestListItem com.prineside.tdi2.ui.components.QuestList_QuestListItem
+--- @alias QuestPrestigeOverlay com.prineside.tdi2.ui.shared.QuestPrestigeOverlay
+--- @alias QuestSystem com.prineside.tdi2.systems.QuestSystem
+--- @alias QuestsPrestigeMilestone com.prineside.tdi2.managers.BasicLevelManager_QuestsPrestigeMilestone
+--- @alias QueueIterable com.badlogic.gdx.utils.Queue_QueueIterable
+--- @alias QueueIterator com.badlogic.gdx.utils.Queue_QueueIterator
+--- @alias QuickSelect com.badlogic.gdx.utils.QuickSelect
+--- @alias RED com.prineside.tdi2.utils.MaterialColor_RED
+--- @alias REGS com.prineside.tdi2.utils.REGS
+--- @alias RadialSprite com.prineside.tdi2.ui.actors.RadialSprite
+--- @alias RadiusProximity com.badlogic.gdx.ai.steer.proximities.RadiusProximity
+--- @alias RandomBarrierItem com.prineside.tdi2.items.RandomBarrierItem
+--- @alias RandomBarrierItemFactory com.prineside.tdi2.items.RandomBarrierItem_RandomBarrierItemFactory
+--- @alias RandomEncounterSystem com.prineside.tdi2.systems.RandomEncounterSystem
+--- @alias RandomSelector com.badlogic.gdx.ai.btree.branch.RandomSelector
+--- @alias RandomSequence com.badlogic.gdx.ai.btree.branch.RandomSequence
+--- @alias RandomTeleportItem com.prineside.tdi2.items.RandomTeleportItem
+--- @alias RandomTeleportItemFactory com.prineside.tdi2.items.RandomTeleportItem_RandomTeleportItemFactory
+--- @alias RandomTileItem com.prineside.tdi2.items.RandomTileItem
+--- @alias RandomTileItemFactory com.prineside.tdi2.items.RandomTileItem_RandomTileItemFactory
+--- @alias RandomXS128 com.badlogic.gdx.math.RandomXS128
+--- @alias RangeCircle com.prineside.tdi2.shapes.RangeCircle
+--- @alias RangeCircleFactory com.prineside.tdi2.shapes.RangeCircle_RangeCircleFactory
+--- @alias RarityBoostItem com.prineside.tdi2.items.RarityBoostItem
+--- @alias RarityBoostItemFactory com.prineside.tdi2.items.RarityBoostItem_RarityBoostItemFactory
+--- @alias RarityType com.prineside.tdi2.enums.RarityType
+--- @alias RatingForm com.prineside.tdi2.ui.components.RatingForm
+--- @alias RayCastResult com.badlogic.gdx.math.Octree_RayCastResult
+--- @alias RayConfiguration com.badlogic.gdx.ai.steer.utils.RayConfiguration
+--- @alias RayConfigurationBase com.badlogic.gdx.ai.steer.utils.rays.RayConfigurationBase
+--- @alias RaycastCollisionDetector com.badlogic.gdx.ai.utils.RaycastCollisionDetector
+--- @alias RaycastObstacleAvoidance com.badlogic.gdx.ai.steer.behaviors.RaycastObstacleAvoidance
+--- @alias ReRollBonusesAction com.prineside.tdi2.actions.ReRollBonusesAction
+--- @alias ReachOrientation com.badlogic.gdx.ai.steer.behaviors.ReachOrientation
+--- @alias Reader java.io.Reader
+--- @alias Reason com.prineside.tdi2.Map_InvalidMapException_Reason
+--- @alias ReceiveCoins com.prineside.tdi2.gameplayMods.mods.ReceiveCoins
+--- @alias ReceiveGreenPapers com.prineside.tdi2.gameplayMods.mods.ReceiveGreenPapers
+--- @alias RectButton com.prineside.tdi2.ui.actors.RectButton
+--- @alias Rectangle com.badlogic.gdx.math.Rectangle
+--- @alias RectangleMapObject com.badlogic.gdx.maps.objects.RectangleMapObject
+--- @alias RectangleSpawnShapeValue com.badlogic.gdx.graphics.g3d.particles.values.RectangleSpawnShapeValue
+--- @alias Reference java.lang.ref.Reference
+--- @alias ReflectionUtils com.prineside.tdi2.utils.ReflectionUtils
+--- @alias RegenerationBuff com.prineside.tdi2.buffs.RegenerationBuff
+--- @alias RegenerationBuffFactory com.prineside.tdi2.buffs.RegenerationBuff_RegenerationBuffFactory
+--- @alias RegenerationBuffProcessor com.prineside.tdi2.buffs.processors.RegenerationBuffProcessor
+--- @alias Region com.badlogic.gdx.graphics.g2d.TextureAtlas_TextureAtlasData_Region
+--- @alias RegionInfluencer com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer
+--- @alias Registrable com.prineside.tdi2.Registrable
+--- @alias RegularEmitter com.badlogic.gdx.graphics.g3d.particles.emitters.RegularEmitter
+--- @alias RegularEnemy com.prineside.tdi2.enemies.RegularEnemy
+--- @alias RegularEnemyFactory com.prineside.tdi2.enemies.RegularEnemy_RegularEnemyFactory
+--- @alias RegularHigh com.prineside.tdi2.waves.templates.RegularHigh
+--- @alias RegularLow com.prineside.tdi2.waves.templates.RegularLow
+--- @alias RegularMedium com.prineside.tdi2.waves.templates.RegularMedium
+--- @alias RegularQuest com.prineside.tdi2.systems.QuestSystem_RegularQuest
+--- @alias RelativeTemporalAction com.prineside.tdi2.scene2d.actions.RelativeTemporalAction
+--- @alias Remove com.prineside.tdi2.utils.mapeditor.tools.Remove
+--- @alias RemoveAction com.prineside.tdi2.scene2d.actions.RemoveAction
+--- @alias RemoveActorAction com.prineside.tdi2.scene2d.actions.RemoveActorAction
+--- @alias RemoveBuffFromEnemy com.prineside.tdi2.events.game.RemoveBuffFromEnemy
+--- @alias RemoveListenerAction com.prineside.tdi2.scene2d.actions.RemoveListenerAction
+--- @alias RenderContext com.badlogic.gdx.graphics.g3d.utils.RenderContext
+--- @alias RenderListener com.prineside.tdi2.systems.randomEncounter.type.starfall.StarfallEncounterHandler_RenderListener
+--- @alias RenderSystem com.prineside.tdi2.systems.RenderSystem
+--- @alias Renderable com.badlogic.gdx.graphics.g3d.Renderable
+--- @alias RenderableProvider com.badlogic.gdx.graphics.g3d.RenderableProvider
+--- @alias RenderableShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.RenderableShapeBuilder
+--- @alias RenderableSorter com.badlogic.gdx.graphics.g3d.utils.RenderableSorter
+--- @alias RenderingManager com.prineside.tdi2.managers.RenderingManager
+--- @alias Repeat com.badlogic.gdx.ai.btree.decorator.Repeat
+--- @alias RepeatAbilityFactory com.prineside.tdi2.abilities.LoopAbility_RepeatAbilityFactory
+--- @alias RepeatAction com.prineside.tdi2.scene2d.actions.RepeatAction
+--- @alias Repeatable java.lang.annotation.Repeatable
+--- @alias RepeatablePolygonSprite com.badlogic.gdx.graphics.g2d.RepeatablePolygonSprite
+--- @alias ReplayHeader com.prineside.tdi2.managers.ReplayManager_ReplayHeader
+--- @alias ReplayManager com.prineside.tdi2.managers.ReplayManager
+--- @alias ReplayRecord com.prineside.tdi2.managers.ReplayManager_ReplayRecord
+--- @alias ReplaySendStatus com.prineside.tdi2.managers.ReplayManager_ReplaySendStatus
+--- @alias ReplayValidationResult com.prineside.tdi2.systems.GameStateSystem_ReplayValidationResult
+--- @alias Requirement com.prineside.tdi2.Requirement
+--- @alias RequirementType com.prineside.tdi2.enums.RequirementType
+--- @alias Research com.prineside.tdi2.Research
+--- @alias ResearchCategory com.prineside.tdi2.ResearchCategory
+--- @alias ResearchCategoryType com.prineside.tdi2.enums.ResearchCategoryType
+--- @alias ResearchLevel com.prineside.tdi2.Research_ResearchLevel
+--- @alias ResearchLink com.prineside.tdi2.Research_ResearchLink
+--- @alias ResearchManager com.prineside.tdi2.managers.ResearchManager
+--- @alias ResearchManagerListener com.prineside.tdi2.managers.ResearchManager_ResearchManagerListener
+--- @alias ResearchManagerListenerAdapter com.prineside.tdi2.managers.ResearchManager_ResearchManagerListener_ResearchManagerListenerAdapter
+--- @alias ResearchMenu com.prineside.tdi2.ui.components.ResearchMenu
+--- @alias ResearchScreenInventory com.prineside.tdi2.ui.components.ResearchScreenInventory
+--- @alias ResearchTokenItem com.prineside.tdi2.items.ResearchTokenItem
+--- @alias ResearchTokenItemFactory com.prineside.tdi2.items.ResearchTokenItem_ResearchTokenItemFactory
+--- @alias ResearchTokenUsedItem com.prineside.tdi2.items.ResearchTokenUsedItem
+--- @alias ResearchTokenUsedItemFactory com.prineside.tdi2.items.ResearchTokenUsedItem_ResearchTokenUsedItemFactory
+--- @alias ResearchTreeMode com.prineside.tdi2.utils.simulation.TowerBenchmarkSim_ResearchTreeMode
+--- @alias ResearchType com.prineside.tdi2.enums.ResearchType
+--- @alias ResearchesScreen com.prineside.tdi2.screens.ResearchesScreen
+--- @alias ResearchesScreenListener com.prineside.tdi2.screens.ResearchesScreen_ResearchesScreenListener
+--- @alias ResearchesScreenListenerAdapter com.prineside.tdi2.screens.ResearchesScreen_ResearchesScreenListener_ResearchesScreenListenerAdapter
+--- @alias Resource com.prineside.tdi2.Resource
+--- @alias ResourceData com.badlogic.gdx.graphics.g3d.particles.ResourceData
+--- @alias ResourceItem com.prineside.tdi2.items.ResourceItem
+--- @alias ResourceItemFactory com.prineside.tdi2.items.ResourceItem_ResourceItemFactory
+--- @alias ResourceManager com.prineside.tdi2.managers.ResourceManager
+--- @alias ResourcePack com.prineside.tdi2.ResourcePack
+--- @alias ResourcePackBitmapFont com.prineside.tdi2.ResourcePack_ResourcePackBitmapFont
+--- @alias ResourceType com.prineside.tdi2.enums.ResourceType
+--- @alias ResourcesAndMoney com.prineside.tdi2.ui.shared.ResourcesAndMoney
+--- @alias Result com.prineside.tdi2.systems.GameStateSystem_ReplayValidationResult_Result
+--- @alias Retention java.lang.annotation.Retention
+--- @alias RetentionPolicy java.lang.annotation.RetentionPolicy
+--- @alias RewardType com.prineside.tdi2.systems.RandomEncounterSystem_RewardType
+--- @alias RewardingAdAction com.prineside.tdi2.actions.RewardingAdAction
+--- @alias RewardingAdBecameAvailable com.prineside.tdi2.events.game.RewardingAdBecameAvailable
+--- @alias RewardingAdRegistered com.prineside.tdi2.events.game.RewardingAdRegistered
+--- @alias RightSideMenuButton com.prineside.tdi2.ui.actors.RightSideMenuButton
+--- @alias RoadMenu com.prineside.tdi2.ui.components.RoadMenu
+--- @alias RoadTile com.prineside.tdi2.tiles.RoadTile
+--- @alias RoadTileFactory com.prineside.tdi2.tiles.RoadTile_RoadTileFactory
+--- @alias RotateByAction com.prineside.tdi2.scene2d.actions.RotateByAction
+--- @alias RotateToAction com.prineside.tdi2.scene2d.actions.RotateToAction
+--- @alias Rotation2dInitializer com.badlogic.gdx.graphics.g3d.particles.ParticleChannels_Rotation2dInitializer
+--- @alias Rotation3dInitializer com.badlogic.gdx.graphics.g3d.particles.ParticleChannels_Rotation3dInitializer
+--- @alias Rotational2D com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier_Rotational2D
+--- @alias Rotational3D com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier_Rotational3D
+--- @alias RoundingMode java.math.RoundingMode
+--- @alias Rules com.prineside.tdi2.screens.TicTacToeScreen_Rules
+--- @alias Runnable java.lang.Runnable
+--- @alias RunnableAction com.prineside.tdi2.scene2d.actions.RunnableAction
+--- @alias RunningSimCell com.prineside.tdi2.screens.SimulationScreen_RunningSimCell
+--- @alias RunningStarEncounter com.prineside.tdi2.systems.randomEncounter.type.RunningStarEncounter
+--- @alias RunningStarEncounterHandler com.prineside.tdi2.systems.randomEncounter.type.runningStar.RunningStarEncounterHandler
+--- @alias Runtime java.lang.Runtime
+--- @alias RuntimeException java.lang.RuntimeException
+--- @alias SFileHandle com.prineside.tdi2.managers.script.fs.SFileHandle
+--- @alias Sample com.prineside.tdi2.ibxm.Sample
+--- @alias SaveData com.badlogic.gdx.graphics.g3d.particles.ResourceData_SaveData
+--- @alias ScalarMiner com.prineside.tdi2.miners.ScalarMiner
+--- @alias ScalarMinerFactory com.prineside.tdi2.miners.ScalarMiner_ScalarMinerFactory
+--- @alias ScaleByAction com.prineside.tdi2.scene2d.actions.ScaleByAction
+--- @alias ScaleInfluencer com.badlogic.gdx.graphics.g3d.particles.influencers.ScaleInfluencer
+--- @alias ScaleInitializer com.badlogic.gdx.graphics.g3d.particles.ParticleChannels_ScaleInitializer
+--- @alias ScaleToAction com.prineside.tdi2.scene2d.actions.ScaleToAction
+--- @alias Scaling com.badlogic.gdx.utils.Scaling
+--- @alias ScalingViewport com.badlogic.gdx.utils.viewport.ScalingViewport
+--- @alias Scanner java.util.Scanner
+--- @alias Schedulable com.badlogic.gdx.ai.sched.Schedulable
+--- @alias Scheduler com.badlogic.gdx.ai.sched.Scheduler
+--- @alias SchedulerBase com.badlogic.gdx.ai.sched.SchedulerBase
+--- @alias ScissorStack com.prineside.tdi2.scene2d.utils.ScissorStack
+--- @alias ScoreChange com.prineside.tdi2.events.game.ScoreChange
+--- @alias ScreenAdapter com.badlogic.gdx.ScreenAdapter
+--- @alias ScreenBorderGradient com.prineside.tdi2.ui.actors.ScreenBorderGradient
+--- @alias ScreenManager com.prineside.tdi2.managers.ScreenManager
+--- @alias ScreenManagerListener com.prineside.tdi2.managers.ScreenManager_ScreenManagerListener
+--- @alias ScreenResize com.prineside.tdi2.events.global.ScreenResize
+--- @alias ScreenTitle com.prineside.tdi2.ui.shared.ScreenTitle
+--- @alias ScreenUtils com.badlogic.gdx.utils.ScreenUtils
+--- @alias ScreenViewport com.badlogic.gdx.utils.viewport.ScreenViewport
+--- @alias ScreenshotModeConfig com.prineside.tdi2.systems.GameUiSystem_ScreenshotModeConfig
+--- @alias ScriptAction com.prineside.tdi2.actions.ScriptAction
+--- @alias ScriptSystem com.prineside.tdi2.systems.ScriptSystem
+--- @alias ScriptTile com.prineside.tdi2.tiles.ScriptTile
+--- @alias ScriptTileFactory com.prineside.tdi2.tiles.ScriptTile_ScriptTileFactory
+--- @alias ScrollPane com.prineside.tdi2.scene2d.ui.ScrollPane
+--- @alias ScrollPaneStyle com.prineside.tdi2.scene2d.ui.ScrollPane_ScrollPaneStyle
+--- @alias SearchModifier com.prineside.tdi2.modifiers.SearchModifier
+--- @alias SearchModifierFactory com.prineside.tdi2.modifiers.SearchModifier_SearchModifierFactory
+--- @alias Seek com.badlogic.gdx.ai.steer.behaviors.Seek
+--- @alias Select com.badlogic.gdx.utils.Select
+--- @alias SelectBox com.prineside.tdi2.scene2d.ui.SelectBox
+--- @alias SelectBoxScrollPane com.prineside.tdi2.scene2d.ui.SelectBox_SelectBoxScrollPane
+--- @alias SelectBoxStyle com.prineside.tdi2.scene2d.ui.SelectBox_SelectBoxStyle
+--- @alias SelectGameplayBonusAction com.prineside.tdi2.actions.SelectGameplayBonusAction
+--- @alias SelectGlobalTowerAbilityAction com.prineside.tdi2.actions.SelectGlobalTowerAbilityAction
+--- @alias SelectRectangle com.prineside.tdi2.utils.mapeditor.tools.SelectRectangle
+--- @alias SelectTowerAbilityAction com.prineside.tdi2.actions.SelectTowerAbilityAction
+--- @alias SelectedAbilitiesConfiguration com.prineside.tdi2.ui.shared.AbilitySelectionOverlay_SelectedAbilitiesConfiguration
+--- @alias SelectionChange com.prineside.tdi2.events.mapEditor.SelectionChange
+--- @alias SelectionOutline com.prineside.tdi2.utils.mapeditor.SelectionOutline
+--- @alias Selector com.badlogic.gdx.ai.btree.branch.Selector
+--- @alias SellAllTowers com.prineside.tdi2.gameplayMods.mods.SellAllTowers
+--- @alias SellButton com.prineside.tdi2.ui.components.SellButton
+--- @alias SellMinerAction com.prineside.tdi2.actions.SellMinerAction
+--- @alias SellModifierAction com.prineside.tdi2.actions.SellModifierAction
+--- @alias SellTowerAction com.prineside.tdi2.actions.SellTowerAction
+--- @alias SemaphoreGuard com.badlogic.gdx.ai.btree.decorator.SemaphoreGuard
+--- @alias Separation com.badlogic.gdx.ai.steer.behaviors.Separation
+--- @alias Sequence com.badlogic.gdx.ai.btree.branch.Sequence
+--- @alias SequenceAction com.prineside.tdi2.scene2d.actions.SequenceAction
+--- @alias Set java.util.Set
+--- @alias Setter com.badlogic.gdx.graphics.g3d.shaders.BaseShader_Setter
+--- @alias SettingsManager com.prineside.tdi2.managers.SettingsManager
+--- @alias SettingsManagerListener com.prineside.tdi2.managers.SettingsManager_SettingsManagerListener
+--- @alias SettingsManagerListenerAdapter com.prineside.tdi2.managers.SettingsManager_SettingsManagerListener_SettingsManagerListenerAdapter
+--- @alias SettingsScreen com.prineside.tdi2.screens.SettingsScreen
+--- @alias Setup com.prineside.tdi2.GameSystemProvider_SystemsConfig_Setup
+--- @alias Shader com.badlogic.gdx.graphics.g3d.Shader
+--- @alias ShaderProgram com.badlogic.gdx.graphics.glutils.ShaderProgram
+--- @alias ShaderProvider com.badlogic.gdx.graphics.g3d.utils.ShaderProvider
+--- @alias ShadowMap com.badlogic.gdx.graphics.g3d.environment.ShadowMap
+--- @alias ShakeAnimation com.prineside.tdi2.CameraController_ShakeAnimation
+--- @alias Shape com.prineside.tdi2.Shape
+--- @alias Shape2D com.badlogic.gdx.math.Shape2D
+--- @alias ShapeCache com.badlogic.gdx.graphics.g3d.utils.ShapeCache
+--- @alias ShapeManager com.prineside.tdi2.managers.ShapeManager
+--- @alias ShapeRenderer com.badlogic.gdx.graphics.glutils.ShapeRenderer
+--- @alias SharpCornerSideFunction com.prineside.tdi2.pathfinding.SharpCornerSideFunction
+--- @alias ShopOffer com.prineside.tdi2.managers.ProgressManager_ShopOffer
+--- @alias ShopOfferValues com.prineside.tdi2.configs.ShopOfferValues
+--- @alias Short java.lang.Short
+--- @alias ShortArray com.badlogic.gdx.utils.ShortArray
+--- @alias ShortBuffer java.nio.ShortBuffer
+--- @alias Side com.prineside.tdi2.utils.mapeditor.SelectionOutline_Edge_Side
+--- @alias SideFunction com.prineside.tdi2.pathfinding.SideFunction
+--- @alias SideMenu com.prineside.tdi2.ui.actors.SideMenu
+--- @alias SideMenuContainer com.prineside.tdi2.ui.actors.SideMenu_SideMenuContainer
+--- @alias SideMenuListener com.prineside.tdi2.ui.actors.SideMenu_SideMenuListener
+--- @alias SideMenuListenerAdapter com.prineside.tdi2.ui.actors.SideMenu_SideMenuListener_SideMenuListenerAdapter
+--- @alias SideShift com.prineside.tdi2.pathfinding.SideShift
+--- @alias SignInStatus com.prineside.tdi2.managers.AuthManager_SignInStatus
+--- @alias SignalEvent com.prineside.tdi2.events.SignalEvent
+--- @alias SimConfig com.prineside.tdi2.utils.simulation.SimConfig
+--- @alias SimEntry com.prineside.tdi2.screens.SimulationScreen_SimEntry
+--- @alias SimLogListener com.prineside.tdi2.utils.simulation.SimLogListener
+--- @alias SimTypeProvider com.prineside.tdi2.utils.simulation.SimTypeProvider
+--- @alias SimpleEntry java.util.AbstractMap_SimpleEntry
+--- @alias SimpleImmutableEntry java.util.AbstractMap_SimpleImmutableEntry
+--- @alias SimpleInfluencer com.badlogic.gdx.graphics.g3d.particles.influencers.SimpleInfluencer
+--- @alias SimpleMeshPool com.badlogic.gdx.graphics.g3d.ModelCache_SimpleMeshPool
+--- @alias SimpleNonBlockingSemaphore com.badlogic.gdx.ai.utils.SimpleNonBlockingSemaphore
+--- @alias SimpleOrthoGroupStrategy com.badlogic.gdx.graphics.g3d.decals.SimpleOrthoGroupStrategy
+--- @alias Simulation com.prineside.tdi2.utils.simulation.Simulation
+--- @alias SimulationScreen com.prineside.tdi2.screens.SimulationScreen
+--- @alias SingleCornerColor com.prineside.tdi2.utils.QuadRegion_SingleCornerColor
+--- @alias SingleRayConfiguration com.badlogic.gdx.ai.steer.utils.rays.SingleRayConfiguration
+--- @alias SingleRunningChildBranch com.badlogic.gdx.ai.btree.SingleRunningChildBranch
+--- @alias SizeByAction com.prineside.tdi2.scene2d.actions.SizeByAction
+--- @alias SizeToAction com.prineside.tdi2.scene2d.actions.SizeToAction
+--- @alias SkillPointItem com.prineside.tdi2.items.SkillPointItem
+--- @alias SkillPointItemFactory com.prineside.tdi2.items.SkillPointItem_SkillPointItemFactory
+--- @alias SkillPointsLeaderboardsRank com.prineside.tdi2.managers.LeaderBoardManager_SkillPointsLeaderboardsRank
+--- @alias SkillPointsLeaderboardsResult com.prineside.tdi2.managers.LeaderBoardManager_SkillPointsLeaderboardsResult
+--- @alias SkylineStrategy com.badlogic.gdx.graphics.g2d.PixmapPacker_SkylineStrategy
+--- @alias Slider com.prineside.tdi2.scene2d.ui.Slider
+--- @alias SliderStyle com.prineside.tdi2.scene2d.ui.Slider_SliderStyle
+--- @alias SlippingBuff com.prineside.tdi2.buffs.SlippingBuff
+--- @alias SlippingBuffFactory com.prineside.tdi2.buffs.SlippingBuff_SlippingBuffFactory
+--- @alias SlippingBuffProcessor com.prineside.tdi2.buffs.processors.SlippingBuffProcessor
+--- @alias SlotAssignment com.badlogic.gdx.ai.fma.SlotAssignment
+--- @alias SlotAssignmentStrategy com.badlogic.gdx.ai.fma.SlotAssignmentStrategy
+--- @alias SlotCostProvider com.badlogic.gdx.ai.fma.SoftRoleSlotAssignmentStrategy_SlotCostProvider
+--- @alias SmokeBombAbility com.prineside.tdi2.abilities.SmokeBombAbility
+--- @alias SmokeBombAbilityFactory com.prineside.tdi2.abilities.SmokeBombAbility_SmokeBombAbilityFactory
+--- @alias SmoothableGraphPath com.badlogic.gdx.ai.pfa.SmoothableGraphPath
+--- @alias SnakeBossBodyEnemy com.prineside.tdi2.enemies.bosses.SnakeBossBodyEnemy
+--- @alias SnakeBossBodyEnemyFactory com.prineside.tdi2.enemies.bosses.SnakeBossBodyEnemy_SnakeBossBodyEnemyFactory
+--- @alias SnakeBossHeadEnemy com.prineside.tdi2.enemies.bosses.SnakeBossHeadEnemy
+--- @alias SnakeBossHeadEnemyFactory com.prineside.tdi2.enemies.bosses.SnakeBossHeadEnemy_SnakeBossHeadEnemyFactory
+--- @alias SnakeBossTailEnemy com.prineside.tdi2.enemies.bosses.SnakeBossTailEnemy
+--- @alias SnakeBossTailEnemyFactory com.prineside.tdi2.enemies.bosses.SnakeBossTailEnemy_SnakeBossTailEnemyFactory
+--- @alias SnakeBossWaveProcessor com.prineside.tdi2.waves.processors.SnakeBossWaveProcessor
+--- @alias SnakeBossWaveProcessorFactory com.prineside.tdi2.waves.processors.SnakeBossWaveProcessor_SnakeBossWaveProcessorFactory
+--- @alias SnapshotArray com.badlogic.gdx.utils.SnapshotArray
+--- @alias SniperTower com.prineside.tdi2.towers.SniperTower
+--- @alias SniperTowerFactory com.prineside.tdi2.towers.SniperTower_SniperTowerFactory
+--- @alias SnowballBuff com.prineside.tdi2.buffs.SnowballBuff
+--- @alias SnowballBuffFactory com.prineside.tdi2.buffs.SnowballBuff_SnowballBuffFactory
+--- @alias SnowballBuffProcessor com.prineside.tdi2.buffs.processors.SnowballBuffProcessor
+--- @alias SnowballUnit com.prineside.tdi2.units.SnowballUnit
+--- @alias SnowballUnitFactory com.prineside.tdi2.units.SnowballUnit_SnowballUnitFactory
+--- @alias SoftRoleSlotAssignmentStrategy com.badlogic.gdx.ai.fma.SoftRoleSlotAssignmentStrategy
+--- @alias Sort com.badlogic.gdx.utils.Sort
+--- @alias SortedIntList com.badlogic.gdx.utils.SortedIntList
+--- @alias SortedMap java.util.SortedMap
+--- @alias SortedSet java.util.SortedSet
+--- @alias Sorter com.badlogic.gdx.graphics.g3d.ModelCache_Sorter
+--- @alias Sound com.badlogic.gdx.audio.Sound
+--- @alias SoundManager com.prineside.tdi2.managers.SoundManager
+--- @alias SoundSystem com.prineside.tdi2.systems.SoundSystem
+--- @alias SoundType com.prineside.tdi2.enums.SoundType
+--- @alias SourceTile com.prineside.tdi2.tiles.SourceTile
+--- @alias SourceTileFactory com.prineside.tdi2.tiles.SourceTile_SourceTileFactory
+--- @alias SpaceTileBonus com.prineside.tdi2.SpaceTileBonus
+--- @alias SpaceTileBonusType com.prineside.tdi2.enums.SpaceTileBonusType
+--- @alias SpaceTileFactory com.prineside.tdi2.tiles.PlatformTile_SpaceTileFactory
+--- @alias SpawnEllipseSide com.badlogic.gdx.graphics.g2d.ParticleEmitter_SpawnEllipseSide
+--- @alias SpawnEnemyGroup com.prineside.tdi2.EnemyGroup_SpawnEnemyGroup
+--- @alias SpawnInfluencer com.badlogic.gdx.graphics.g3d.particles.influencers.SpawnInfluencer
+--- @alias SpawnMenu com.prineside.tdi2.ui.components.SpawnMenu
+--- @alias SpawnShape com.badlogic.gdx.graphics.g2d.ParticleEmitter_SpawnShape
+--- @alias SpawnSide com.badlogic.gdx.graphics.g3d.particles.values.PrimitiveSpawnShapeValue_SpawnSide
+--- @alias SpawnTile com.prineside.tdi2.tiles.SpawnTile
+--- @alias SpawnTileFactory com.prineside.tdi2.tiles.SpawnTile_SpawnTileFactory
+--- @alias SpawnZombiesFromBase com.prineside.tdi2.gameplayMods.mods.SpawnZombiesFromBase
+--- @alias SpecialDamageType com.prineside.tdi2.enums.SpecialDamageType
+--- @alias SpectrumConfig com.prineside.tdi2.managers.MusicManager_SpectrumConfig
+--- @alias Sphere com.badlogic.gdx.math.collision.Sphere
+--- @alias SphereShapeBuilder com.badlogic.gdx.graphics.g3d.utils.shapebuilders.SphereShapeBuilder
+--- @alias SphericalHarmonics com.badlogic.gdx.graphics.g3d.environment.SphericalHarmonics
+--- @alias SplashProjectile com.prineside.tdi2.projectiles.SplashProjectile
+--- @alias SplashProjectileFactory com.prineside.tdi2.projectiles.SplashProjectile_SplashProjectileFactory
+--- @alias SplashTower com.prineside.tdi2.towers.SplashTower
+--- @alias SplashTowerFactory com.prineside.tdi2.towers.SplashTower_SplashTowerFactory
+--- @alias SplinterProjectile com.prineside.tdi2.projectiles.SplinterProjectile
+--- @alias SplinterProjectileFactory com.prineside.tdi2.projectiles.SplinterProjectile_SplinterProjectileFactory
+--- @alias SplitPane com.prineside.tdi2.scene2d.ui.SplitPane
+--- @alias SplitPaneStyle com.prineside.tdi2.scene2d.ui.SplitPane_SplitPaneStyle
+--- @alias SplitTriangle com.badlogic.gdx.math.Intersector_SplitTriangle
+--- @alias SpotLight com.badlogic.gdx.graphics.g3d.environment.SpotLight
+--- @alias SpotLightsAttribute com.badlogic.gdx.graphics.g3d.attributes.SpotLightsAttribute
+--- @alias Sprite com.badlogic.gdx.graphics.g2d.Sprite
+--- @alias SpriteBatch com.badlogic.gdx.graphics.g2d.SpriteBatch
+--- @alias SpriteCache com.badlogic.gdx.graphics.g2d.SpriteCache
+--- @alias SpriteCacheExtended com.prineside.tdi2.utils.SpriteCacheExtended
+--- @alias SpriteDrawable com.prineside.tdi2.scene2d.utils.SpriteDrawable
+--- @alias SpriteMode com.badlogic.gdx.graphics.g2d.ParticleEmitter_SpriteMode
+--- @alias Stack com.prineside.tdi2.scene2d.ui.Stack
+--- @alias StackStateMachine com.badlogic.gdx.ai.fsm.StackStateMachine
+--- @alias StackTraceElement java.lang.StackTraceElement
+--- @alias Stage com.prineside.tdi2.scene2d.Stage
+--- @alias Star com.prineside.tdi2.systems.randomEncounter.type.starfall.StarfallEncounterHandler_Star
+--- @alias StarItem com.prineside.tdi2.items.StarItem
+--- @alias StarItemFactory com.prineside.tdi2.items.StarItem_StarItemFactory
+--- @alias StarfallEncounter com.prineside.tdi2.systems.randomEncounter.type.StarfallEncounter
+--- @alias StarfallEncounterHandler com.prineside.tdi2.systems.randomEncounter.type.starfall.StarfallEncounterHandler
+--- @alias StartRender com.prineside.tdi2.events.global.StartRender
+--- @alias StartResearchFailReason com.prineside.tdi2.managers.ResearchManager_StartResearchFailReason
+--- @alias StartResearchingException com.prineside.tdi2.managers.ResearchManager_StartResearchingException
+--- @alias StateDebugger com.prineside.tdi2.ui.shared.StateDebugger
+--- @alias StateMachine com.badlogic.gdx.ai.fsm.StateMachine
+--- @alias StateSystem com.prineside.tdi2.systems.StateSystem
+--- @alias StaticSound com.prineside.tdi2.StaticSound
+--- @alias StaticSoundType com.prineside.tdi2.enums.StaticSoundType
+--- @alias StatisticsChart com.prineside.tdi2.ui.components.StatisticsChart
+--- @alias StatisticsManager com.prineside.tdi2.managers.StatisticsManager
+--- @alias StatisticsScreen com.prineside.tdi2.screens.StatisticsScreen
+--- @alias StatisticsSystem com.prineside.tdi2.systems.StatisticsSystem
+--- @alias StatisticsType com.prineside.tdi2.enums.StatisticsType
+--- @alias StdoutLogger com.badlogic.gdx.ai.StdoutLogger
+--- @alias Steerable com.badlogic.gdx.ai.steer.Steerable
+--- @alias SteerableAdapter com.badlogic.gdx.ai.steer.SteerableAdapter
+--- @alias SteeringAcceleration com.badlogic.gdx.ai.steer.SteeringAcceleration
+--- @alias SteeringBehavior com.badlogic.gdx.ai.steer.SteeringBehavior
+--- @alias StoppableEvent com.prineside.tdi2.events.StoppableEvent
+--- @alias StorylineMessages com.prineside.tdi2.ui.components.StorylineMessages
+--- @alias StraightMultiLine com.prineside.tdi2.shapes.StraightMultiLine
+--- @alias StraightMultiLineFactory com.prineside.tdi2.shapes.StraightMultiLine_StraightMultiLineFactory
+--- @alias StreamUtils com.badlogic.gdx.utils.StreamUtils
+--- @alias Strength com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier_Strength
+--- @alias StretchViewport com.badlogic.gdx.utils.viewport.StretchViewport
+--- @alias StrictMath java.lang.StrictMath
+--- @alias String java.lang.String
+--- @alias StringBuffer java.lang.StringBuffer
+--- @alias StringBufferInputStream java.io.StringBufferInputStream
+--- @alias StringFormatter com.prineside.tdi2.utils.StringFormatter
+--- @alias StringReader java.io.StringReader
+--- @alias StringWriter java.io.StringWriter
+--- @alias StrongEnemy com.prineside.tdi2.enemies.StrongEnemy
+--- @alias StrongEnemyFactory com.prineside.tdi2.enemies.StrongEnemy_StrongEnemyFactory
+--- @alias StrongLow com.prineside.tdi2.waves.templates.StrongLow
+--- @alias StrongMedium com.prineside.tdi2.waves.templates.StrongMedium
+--- @alias StunBuff com.prineside.tdi2.buffs.StunBuff
+--- @alias StunBuffFactory com.prineside.tdi2.buffs.StunBuff_StunBuffFactory
+--- @alias StunBuffProcessor com.prineside.tdi2.buffs.processors.StunBuffProcessor
+--- @alias StunDebuffStats com.prineside.tdi2.components.StunDebuffStats
+--- @alias Subset java.lang.Character_Subset
+--- @alias Subtitles com.prineside.tdi2.ui.components.Subtitles
+--- @alias Success com.badlogic.gdx.ai.btree.leaf.Success
+--- @alias SummonLootBoss com.prineside.tdi2.gameplayMods.mods.SummonLootBoss
+--- @alias SuppressWarnings java.lang.SuppressWarnings
+--- @alias Swing com.badlogic.gdx.math.Interpolation_Swing
+--- @alias SwingIn com.badlogic.gdx.math.Interpolation_SwingIn
+--- @alias SwingOut com.badlogic.gdx.math.Interpolation_SwingOut
+--- @alias SyncCheckSim com.prineside.tdi2.utils.simulation.SyncCheckSim
+--- @alias SyncCheckSimProvider com.prineside.tdi2.utils.simulation.providers.SyncCheckSimProvider
+--- @alias SyncExecutionListener com.prineside.tdi2.utils.GameSyncLoader_SyncExecutionListener
+--- @alias SynthesizerStatus com.prineside.tdi2.managers.music.LiveMusicManager_SynthesizerStatus
+--- @alias System java.lang.System
+--- @alias SystemCursor com.badlogic.gdx.graphics.Cursor_SystemCursor
+--- @alias SystemOutPlatformLogger com.prineside.tdi2.utils.logging.SystemOutPlatformLogger
+--- @alias SystemsConfig com.prineside.tdi2.GameSystemProvider_SystemsConfig
+--- @alias SystemsDispose com.prineside.tdi2.events.game.SystemsDispose
+--- @alias SystemsPostSetup com.prineside.tdi2.events.game.SystemsPostSetup
+--- @alias SystemsSetup com.prineside.tdi2.events.game.SystemsSetup
+--- @alias SystemsStateRestore com.prineside.tdi2.events.game.SystemsStateRestore
+--- @alias TEAL com.prineside.tdi2.utils.MaterialColor_TEAL
+--- @alias TLog com.prineside.tdi2.utils.logging.TLog
+--- @alias TabType com.prineside.tdi2.ui.shared.InventoryOverlay_TabType
+--- @alias Table com.prineside.tdi2.scene2d.ui.Table
+--- @alias TableButton com.prineside.tdi2.ui.actors.TableButton
+--- @alias TangentialAcceleration com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier_TangentialAcceleration
+--- @alias TargetMenu com.prineside.tdi2.ui.components.TargetMenu
+--- @alias TargetTile com.prineside.tdi2.tiles.TargetTile
+--- @alias TargetTileFactory com.prineside.tdi2.tiles.TargetTile_TargetTileFactory
+--- @alias TaskAttribute com.badlogic.gdx.ai.btree.annotation.TaskAttribute
+--- @alias TaskCloner com.badlogic.gdx.ai.btree.TaskCloner
+--- @alias TaskConstraint com.badlogic.gdx.ai.btree.annotation.TaskConstraint
+--- @alias Telegram com.badlogic.gdx.ai.msg.Telegram
+--- @alias TelegramProvider com.badlogic.gdx.ai.msg.TelegramProvider
+--- @alias Telegraph com.badlogic.gdx.ai.msg.Telegraph
+--- @alias TeleportGate com.prineside.tdi2.gates.TeleportGate
+--- @alias TeleportGateFactory com.prineside.tdi2.gates.TeleportGate_TeleportGateFactory
+--- @alias TemporalAction com.prineside.tdi2.scene2d.actions.TemporalAction
+--- @alias TensorMiner com.prineside.tdi2.miners.TensorMiner
+--- @alias TensorMinerFactory com.prineside.tdi2.miners.TensorMiner_TensorMinerFactory
+--- @alias TeslaTower com.prineside.tdi2.towers.TeslaTower
+--- @alias TeslaTowerFactory com.prineside.tdi2.towers.TeslaTower_TeslaTowerFactory
+--- @alias TestAnnotationClassRetention com.prineside.tdi2.utils.luaTests.TestAnnotationClassRetention
+--- @alias TestAnnotationRuntimeRetention com.prineside.tdi2.utils.luaTests.TestAnnotationRuntimeRetention
+--- @alias TestClass com.prineside.tdi2.utils.luaTests.TestClass
+--- @alias TestClassWithSubclass com.prineside.tdi2.utils.luaTests.TestClassWithSubclass
+--- @alias TestComplexInterface com.prineside.tdi2.utils.luaTests.TestComplexInterface
+--- @alias TestFunctionalInterface com.prineside.tdi2.utils.luaTests.TestFunctionalInterface
+--- @alias TestFunctionalVarargsInterfaceA com.prineside.tdi2.utils.luaTests.TestFunctionalVarargsInterfaceA
+--- @alias TestFunctionalVarargsInterfaceB com.prineside.tdi2.utils.luaTests.TestFunctionalVarargsInterfaceB
+--- @alias TestInterfaceWithBlacklistedMethod com.prineside.tdi2.utils.luaTests.TestInterfaceWithBlacklistedMethod
+--- @alias TestInterfaceWithDefaults com.prineside.tdi2.utils.luaTests.TestInterfaceWithDefaults
+--- @alias TestSubclass com.prineside.tdi2.utils.luaTests.TestClassWithSubclass_TestSubclass
+--- @alias TextArea com.prineside.tdi2.scene2d.ui.TextArea
+--- @alias TextAreaListener com.prineside.tdi2.scene2d.ui.TextArea_TextAreaListener
+--- @alias TextButton com.prineside.tdi2.scene2d.ui.TextButton
+--- @alias TextButtonStyle com.prineside.tdi2.scene2d.ui.TextButton_TextButtonStyle
+--- @alias TextField com.prineside.tdi2.scene2d.ui.TextField
+--- @alias TextFieldClickListener com.prineside.tdi2.scene2d.ui.TextField_TextFieldClickListener
+--- @alias TextFieldFilter com.prineside.tdi2.scene2d.ui.TextField_TextFieldFilter
+--- @alias TextFieldListener com.prineside.tdi2.scene2d.ui.TextField_TextFieldListener
+--- @alias TextFieldStyle com.prineside.tdi2.scene2d.ui.TextField_TextFieldStyle
+--- @alias TextFieldXPlatform com.prineside.tdi2.ui.actors.TextFieldXPlatform
+--- @alias TextInputListener com.badlogic.gdx.Input_TextInputListener
+--- @alias TextInputOverlay com.prineside.tdi2.ui.shared.TextInputOverlay
+--- @alias TextInputWrapper com.badlogic.gdx.input.TextInputWrapper
+--- @alias TextTooltip com.prineside.tdi2.scene2d.ui.TextTooltip
+--- @alias TextTooltipStyle com.prineside.tdi2.scene2d.ui.TextTooltip_TextTooltipStyle
+--- @alias Texture com.badlogic.gdx.graphics.Texture
+--- @alias Texture3D com.badlogic.gdx.graphics.Texture3D
+--- @alias Texture3DData com.badlogic.gdx.graphics.Texture3DData
+--- @alias TextureArray com.badlogic.gdx.graphics.TextureArray
+--- @alias TextureArrayData com.badlogic.gdx.graphics.TextureArrayData
+--- @alias TextureAtlas com.badlogic.gdx.graphics.g2d.TextureAtlas
+--- @alias TextureAtlasData com.badlogic.gdx.graphics.g2d.TextureAtlas_TextureAtlasData
+--- @alias TextureAttribute com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute
+--- @alias TextureBinder com.badlogic.gdx.graphics.g3d.utils.TextureBinder
+--- @alias TextureData com.badlogic.gdx.graphics.TextureData
+--- @alias TextureDataType com.badlogic.gdx.graphics.TextureData_TextureDataType
+--- @alias TextureDescriptor com.badlogic.gdx.graphics.g3d.utils.TextureDescriptor
+--- @alias TextureFilter com.badlogic.gdx.graphics.Texture_TextureFilter
+--- @alias TextureMapObject com.badlogic.gdx.maps.objects.TextureMapObject
+--- @alias TextureProvider com.badlogic.gdx.graphics.g3d.utils.TextureProvider
+--- @alias TextureRegion com.badlogic.gdx.graphics.g2d.TextureRegion
+--- @alias TextureRegionConfig com.prineside.tdi2.utils.TextureRegionConfig
+--- @alias TextureRegionDrawable com.prineside.tdi2.scene2d.utils.TextureRegionDrawable
+--- @alias TextureRegionInitializer com.badlogic.gdx.graphics.g3d.particles.ParticleChannels_TextureRegionInitializer
+--- @alias TextureRegions com.prineside.tdi2.managers.AssetManager_TextureRegions
+--- @alias TextureWrap com.badlogic.gdx.graphics.Texture_TextureWrap
+--- @alias Thread java.lang.Thread
+--- @alias ThreadFactory java.util.concurrent.ThreadFactory
+--- @alias ThreadSafeSharedHelpers com.prineside.tdi2.GameSystemProvider_ThreadSafeSharedHelpers
+--- @alias Threads com.prineside.tdi2.Threads
+--- @alias ThrowBackBuff com.prineside.tdi2.buffs.ThrowBackBuff
+--- @alias ThrowBackBuffProcessor com.prineside.tdi2.buffs.processors.ThrowBackBuffProcessor
+--- @alias Throwable java.lang.Throwable
+--- @alias ThunderAbility com.prineside.tdi2.abilities.ThunderAbility
+--- @alias ThunderAbilityFactory com.prineside.tdi2.abilities.ThunderAbility_ThunderAbilityFactory
+--- @alias TicTacToeScreen com.prineside.tdi2.screens.TicTacToeScreen
+--- @alias Tier com.prineside.tdi2.tiles.CoreTile_Tier
+--- @alias TightMeshPool com.badlogic.gdx.graphics.g3d.ModelCache_TightMeshPool
+--- @alias Tile com.prineside.tdi2.Tile
+--- @alias TileChange com.prineside.tdi2.events.game.TileChange
+--- @alias TileItem com.prineside.tdi2.items.TileItem
+--- @alias TileItemFactory com.prineside.tdi2.items.TileItem_TileItemFactory
+--- @alias TileManager com.prineside.tdi2.managers.TileManager
+--- @alias TileResources com.prineside.tdi2.ui.components.TileResources
+--- @alias TileType com.prineside.tdi2.enums.TileType
+--- @alias TiledDrawable com.prineside.tdi2.scene2d.utils.TiledDrawable
+--- @alias TimeAccumulatorForGameplay com.prineside.tdi2.utils.TimeAccumulatorForGameplay
+--- @alias TimeScaleAction com.prineside.tdi2.scene2d.actions.TimeScaleAction
+--- @alias TimeUnit java.util.concurrent.TimeUnit
+--- @alias TimeUtils com.badlogic.gdx.utils.TimeUtils
+--- @alias Timepiece com.badlogic.gdx.ai.Timepiece
+--- @alias Timer com.badlogic.gdx.utils.Timer
+--- @alias ToggleTowerEnabledAction com.prineside.tdi2.actions.ToggleTowerEnabledAction
+--- @alias Tool com.prineside.tdi2.systems.MapEditorSystem_Tool
+--- @alias ToolButton com.prineside.tdi2.ui.components.MapEditorUi_ToolButton
+--- @alias TooltipManager com.prineside.tdi2.scene2d.ui.TooltipManager
+--- @alias TooltipsOverlay com.prineside.tdi2.ui.shared.TooltipsOverlay
+--- @alias TouchFocus com.prineside.tdi2.scene2d.Stage_TouchFocus
+--- @alias Touchable com.prineside.tdi2.scene2d.Touchable
+--- @alias TouchableAction com.prineside.tdi2.scene2d.actions.TouchableAction
+--- @alias Touchpad com.prineside.tdi2.scene2d.ui.Touchpad
+--- @alias TouchpadStyle com.prineside.tdi2.scene2d.ui.Touchpad_TouchpadStyle
+--- @alias Tower com.prineside.tdi2.Tower
+--- @alias TowerAbilityButton com.prineside.tdi2.ui.components.TowerAbilityButton
+--- @alias TowerAbilityCategoryRule com.prineside.tdi2.systems.TowerSystem_TowerAbilityCategoryRule
+--- @alias TowerAbilityChange com.prineside.tdi2.events.game.TowerAbilityChange
+--- @alias TowerAimStrategyChange com.prineside.tdi2.events.game.TowerAimStrategyChange
+--- @alias TowerBenchmarkSim com.prineside.tdi2.utils.simulation.TowerBenchmarkSim
+--- @alias TowerBenchmarkSimProvider com.prineside.tdi2.utils.simulation.providers.TowerBenchmarkSimProvider
+--- @alias TowerBenchmarkXpConfig com.prineside.tdi2.utils.simulation.TowerBenchmarkSim_TowerBenchmarkXpConfig
+--- @alias TowerBuild com.prineside.tdi2.events.game.TowerBuild
+--- @alias TowerCustomButtonPress com.prineside.tdi2.events.game.TowerCustomButtonPress
+--- @alias TowerExperienceChange com.prineside.tdi2.events.game.TowerExperienceChange
+--- @alias TowerLevelUp com.prineside.tdi2.events.game.TowerLevelUp
+--- @alias TowerManager com.prineside.tdi2.managers.TowerManager
+--- @alias TowerMenu com.prineside.tdi2.ui.components.TowerMenu
+--- @alias TowerPlace com.prineside.tdi2.events.game.TowerPlace
+--- @alias TowerPreSell com.prineside.tdi2.events.game.TowerPreSell
+--- @alias TowerSell com.prineside.tdi2.events.game.TowerSell
+--- @alias TowerStat com.prineside.tdi2.managers.TowerStatManager_TowerStat
+--- @alias TowerStatConfig com.prineside.tdi2.managers.TowerManager_TowerStatConfig
+--- @alias TowerStatManager com.prineside.tdi2.managers.TowerStatManager
+--- @alias TowerStatType com.prineside.tdi2.enums.TowerStatType
+--- @alias TowerSystem com.prineside.tdi2.systems.TowerSystem
+--- @alias TowerType com.prineside.tdi2.enums.TowerType
+--- @alias TowerUpgrade com.prineside.tdi2.events.game.TowerUpgrade
+--- @alias TowersAttackSpeed com.prineside.tdi2.gameplayMods.mods.TowersAttackSpeed
+--- @alias TowersBenchmarkScenario com.prineside.tdi2.utils.simulation.TowersBenchmarkScenario
+--- @alias TowersDamage com.prineside.tdi2.gameplayMods.mods.TowersDamage
+--- @alias TowersDefaultAimStrategyChange com.prineside.tdi2.events.game.TowersDefaultAimStrategyChange
+--- @alias ToxicArmored com.prineside.tdi2.waves.templates.ToxicArmored
+--- @alias ToxicEnemy com.prineside.tdi2.enemies.ToxicEnemy
+--- @alias ToxicEnemyFactory com.prineside.tdi2.enemies.ToxicEnemy_ToxicEnemyFactory
+--- @alias ToxicHigh com.prineside.tdi2.waves.templates.ToxicHigh
+--- @alias ToxicMedium com.prineside.tdi2.waves.templates.ToxicMedium
+--- @alias TrackInfoEntry com.prineside.tdi2.ibxm.Module_TrackInfoEntry
+--- @alias Trail com.prineside.tdi2.towers.GaussTower_Trail
+--- @alias TrailMultiLine com.prineside.tdi2.shapes.TrailMultiLine
+--- @alias TrailMultiLineFactory com.prineside.tdi2.shapes.TrailMultiLine_TrailMultiLineFactory
+--- @alias TrailMultilineActor com.prineside.tdi2.ui.actors.TrailMultilineActor
+--- @alias Transform com.badlogic.gdx.graphics.g3d.utils.BaseAnimationController_Transform
+--- @alias TransformDrawable com.prineside.tdi2.scene2d.utils.TransformDrawable
+--- @alias Transformer com.prineside.tdi2.ui.actors.ModelView_Transformer
+--- @alias Tree com.prineside.tdi2.scene2d.ui.Tree
+--- @alias TreeStyle com.prineside.tdi2.scene2d.ui.Tree_TreeStyle
+--- @alias Triangle com.badlogic.gdx.graphics.g3d.particles.values.MeshSpawnShapeValue_Triangle
+--- @alias TriangularDoubleDistribution com.badlogic.gdx.ai.utils.random.TriangularDoubleDistribution
+--- @alias TriangularFloatDistribution com.badlogic.gdx.ai.utils.random.TriangularFloatDistribution
+--- @alias TriangularIntegerDistribution com.badlogic.gdx.ai.utils.random.TriangularIntegerDistribution
+--- @alias TriangularLongDistribution com.badlogic.gdx.ai.utils.random.TriangularLongDistribution
+--- @alias TriggerRandomAbility com.prineside.tdi2.gameplayMods.mods.TriggerRandomAbility
+--- @alias TriggeredActionManager com.prineside.tdi2.managers.TriggeredActionManager
+--- @alias TriggeredActionType com.prineside.tdi2.enums.TriggeredActionType
+--- @alias TrophiesListOverlay com.prineside.tdi2.ui.shared.TrophiesListOverlay
+--- @alias TrophyConfig com.prineside.tdi2.managers.TrophyManager_TrophyConfig
+--- @alias TrophyItem com.prineside.tdi2.items.TrophyItem
+--- @alias TrophyItemFactory com.prineside.tdi2.items.TrophyItem_TrophyItemFactory
+--- @alias TrophyManager com.prineside.tdi2.managers.TrophyManager
+--- @alias TrophyType com.prineside.tdi2.enums.TrophyType
+--- @alias TrophyViewOverlay com.prineside.tdi2.ui.shared.TrophyViewOverlay
+--- @alias TypeVariable java.lang.reflect.TypeVariable
+--- @alias UBJsonReader com.badlogic.gdx.utils.UBJsonReader
+--- @alias UBJsonWriter com.badlogic.gdx.utils.UBJsonWriter
+--- @alias UIUtils com.prineside.tdi2.scene2d.utils.UIUtils
+--- @alias UUID java.util.UUID
+--- @alias UiComponent com.prineside.tdi2.managers.UiManager_UiComponent
+--- @alias UiElementsEmphasizer com.prineside.tdi2.ui.components.UiElementsEmphasizer
+--- @alias UiLayer com.prineside.tdi2.managers.UiManager_UiLayer
+--- @alias UiManager com.prineside.tdi2.managers.UiManager
+--- @alias UiUtils com.prineside.tdi2.utils.UiUtils
+--- @alias UncaughtExceptionHandler java.lang.Thread_UncaughtExceptionHandler
+--- @alias UnicodeBlock java.lang.Character_UnicodeBlock
+--- @alias UnicodeScript java.lang.Character_UnicodeScript
+--- @alias Uniform com.badlogic.gdx.graphics.g3d.shaders.BaseShader_Uniform
+--- @alias UniformDoubleDistribution com.badlogic.gdx.ai.utils.random.UniformDoubleDistribution
+--- @alias UniformFloatDistribution com.badlogic.gdx.ai.utils.random.UniformFloatDistribution
+--- @alias UniformIntegerDistribution com.badlogic.gdx.ai.utils.random.UniformIntegerDistribution
+--- @alias UniformLongDistribution com.badlogic.gdx.ai.utils.random.UniformLongDistribution
+--- @alias Unit com.prineside.tdi2.Unit
+--- @alias UnitDespawn com.prineside.tdi2.events.game.UnitDespawn
+--- @alias UnitDie com.prineside.tdi2.events.game.UnitDie
+--- @alias UnitManager com.prineside.tdi2.managers.UnitManager
+--- @alias UnitSpawn com.prineside.tdi2.events.game.UnitSpawn
+--- @alias UnitSystem com.prineside.tdi2.systems.UnitSystem
+--- @alias UnitType com.prineside.tdi2.enums.UnitType
+--- @alias UnsafeByteBufferInput com.esotericsoftware.kryo.unsafe.UnsafeByteBufferInput
+--- @alias UnsafeByteBufferOutput com.esotericsoftware.kryo.unsafe.UnsafeByteBufferOutput
+--- @alias UnsafeInput com.esotericsoftware.kryo.unsafe.UnsafeInput
+--- @alias UnsafeOutput com.esotericsoftware.kryo.unsafe.UnsafeOutput
+--- @alias UnsafeUtil com.esotericsoftware.kryo.unsafe.UnsafeUtil
+--- @alias UntilFail com.badlogic.gdx.ai.btree.decorator.UntilFail
+--- @alias UntilSuccess com.badlogic.gdx.ai.btree.decorator.UntilSuccess
+--- @alias UnweightedMeshSpawnShapeValue com.badlogic.gdx.graphics.g3d.particles.values.UnweightedMeshSpawnShapeValue
+--- @alias Upgrade com.prineside.tdi2.tiles.CoreTile_Upgrade
+--- @alias UpgradeAllTowersReward com.prineside.tdi2.systems.randomEncounter.reward.UpgradeAllTowersReward
+--- @alias UpgradeLevel com.prineside.tdi2.tiles.CoreTile_Upgrade_UpgradeLevel
+--- @alias UpgradeMinerAction com.prineside.tdi2.actions.UpgradeMinerAction
+--- @alias UpgradeSubmenu com.prineside.tdi2.ui.components.UpgradeSubmenu
+--- @alias UpgradeSubmenuListener com.prineside.tdi2.ui.components.UpgradeSubmenu_UpgradeSubmenuListener
+--- @alias UpgradeTowerAction com.prineside.tdi2.actions.UpgradeTowerAction
+--- @alias UsableItem com.prineside.tdi2.Item_UsableItem
+--- @alias Usage com.badlogic.gdx.graphics.VertexAttributes_Usage
+--- @alias UseAbilityAction com.prineside.tdi2.actions.UseAbilityAction
+--- @alias UserMap com.prineside.tdi2.UserMap
+--- @alias UserMapManager com.prineside.tdi2.managers.UserMapManager
+--- @alias UtilitiesView com.prineside.tdi2.ui.shared.stateDebugger.UtilitiesView
+--- @alias Validator com.badlogic.gdx.graphics.g3d.shaders.BaseShader_Validator
+--- @alias Value com.prineside.tdi2.scene2d.ui.Value
+--- @alias ValueType com.badlogic.gdx.utils.JsonValue_ValueType
+--- @alias ValueUnits com.prineside.tdi2.managers.GameValueManager_ValueUnits
+--- @alias Variants com.prineside.tdi2.utils.MaterialColor_Variants
+--- @alias Vector com.badlogic.gdx.math.Vector
+--- @alias Vector2 com.badlogic.gdx.math.Vector2
+--- @alias Vector3 com.badlogic.gdx.math.Vector3
+--- @alias Vector4 com.badlogic.gdx.math.Vector4
+--- @alias VectorMiner com.prineside.tdi2.miners.VectorMiner
+--- @alias VectorMinerFactory com.prineside.tdi2.miners.VectorMiner_VectorMinerFactory
+--- @alias VenomProjectile com.prineside.tdi2.projectiles.VenomProjectile
+--- @alias VenomProjectileFactory com.prineside.tdi2.projectiles.VenomProjectile_VenomProjectileFactory
+--- @alias VenomTower com.prineside.tdi2.towers.VenomTower
+--- @alias VenomTowerFactory com.prineside.tdi2.towers.VenomTower_VenomTowerFactory
+--- @alias Version com.badlogic.gdx.Version
+--- @alias VertexArray com.badlogic.gdx.graphics.glutils.VertexArray
+--- @alias VertexAttribute com.badlogic.gdx.graphics.VertexAttribute
+--- @alias VertexAttributes com.badlogic.gdx.graphics.VertexAttributes
+--- @alias VertexBufferObject com.badlogic.gdx.graphics.glutils.VertexBufferObject
+--- @alias VertexBufferObjectSubData com.badlogic.gdx.graphics.glutils.VertexBufferObjectSubData
+--- @alias VertexBufferObjectWithVAO com.badlogic.gdx.graphics.glutils.VertexBufferObjectWithVAO
+--- @alias VertexData com.badlogic.gdx.graphics.glutils.VertexData
+--- @alias VertexDataType com.badlogic.gdx.graphics.Mesh_VertexDataType
+--- @alias VertexInfo com.badlogic.gdx.graphics.g3d.utils.MeshPartBuilder_VertexInfo
+--- @alias VerticalGroup com.prineside.tdi2.scene2d.ui.VerticalGroup
+--- @alias VibrationType com.badlogic.gdx.Input_VibrationType
+--- @alias VideoAdViewBonus com.prineside.tdi2.managers.ProgressManager_VideoAdViewBonus
+--- @alias Viewport com.badlogic.gdx.utils.viewport.Viewport
+--- @alias VisibleAction com.prineside.tdi2.scene2d.actions.VisibleAction
+--- @alias VisibleDisplayFrameChange com.prineside.tdi2.events.global.VisibleDisplayFrameChange
+--- @alias VisibleDisplayFrameDebugFeature com.prineside.tdi2.ui.shared.VisibleDisplayFrameDebugFeature
+--- @alias Void java.lang.Void
+--- @alias VulnerabilityBuff com.prineside.tdi2.buffs.VulnerabilityBuff
+--- @alias VulnerabilityBuffFactory com.prineside.tdi2.buffs.VulnerabilityBuff_VulnerabilityBuffFactory
+--- @alias VulnerabilityBuffProcessor com.prineside.tdi2.buffs.processors.VulnerabilityBuffProcessor
+--- @alias Wait com.badlogic.gdx.ai.btree.leaf.Wait
+--- @alias Wander com.badlogic.gdx.ai.steer.behaviors.Wander
+--- @alias WavInputStream com.prineside.tdi2.ibxm.WavInputStream
+--- @alias Wave com.prineside.tdi2.Wave
+--- @alias WaveBossSupplier com.prineside.tdi2.utils.WaveBossSupplier
+--- @alias WaveCache com.prineside.tdi2.systems.WaveSystem_WaveCache
+--- @alias WaveComplete com.prineside.tdi2.events.game.WaveComplete
+--- @alias WaveDifficultyProvider com.prineside.tdi2.utils.WaveDifficultyProvider
+--- @alias WaveDifficultyProviderOld com.prineside.tdi2.utils.WaveDifficultyProviderOld
+--- @alias WaveGenerator com.prineside.tdi2.systems.WaveSystem_WaveGenerator
+--- @alias WaveProcessor com.prineside.tdi2.WaveProcessor
+--- @alias WaveProcessorFactory com.prineside.tdi2.WaveProcessor_WaveProcessorFactory
+--- @alias WaveQuest com.prineside.tdi2.BasicLevel_WaveQuest
+--- @alias WaveStart com.prineside.tdi2.events.game.WaveStart
+--- @alias WaveStatusChange com.prineside.tdi2.events.game.WaveStatusChange
+--- @alias WaveSystem com.prineside.tdi2.systems.WaveSystem
+--- @alias WaveTemplate com.prineside.tdi2.WaveTemplates_WaveTemplate
+--- @alias WaveTemplates com.prineside.tdi2.WaveTemplates
+--- @alias WavesConfiguration com.prineside.tdi2.ui.shared.WavesTimelineOverlay_WavesConfiguration
+--- @alias WavesTimelineOverlay com.prineside.tdi2.ui.shared.WavesTimelineOverlay
+--- @alias WeakHashMap java.util.WeakHashMap
+--- @alias WeakReference java.lang.ref.WeakReference
+--- @alias WeightMeshSpawnShapeValue com.badlogic.gdx.graphics.g3d.particles.values.WeightMeshSpawnShapeValue
+--- @alias WheelOption com.prineside.tdi2.ui.shared.LuckyWheelOverlay_WheelOption
+--- @alias WheelOptionConfig com.prineside.tdi2.ui.shared.LuckyWheelOverlay_WheelOptionConfig
+--- @alias Widget com.prineside.tdi2.scene2d.ui.Widget
+--- @alias WidgetGroup com.prineside.tdi2.scene2d.ui.WidgetGroup
+--- @alias WildcardType java.lang.reflect.WildcardType
+--- @alias Window com.prineside.tdi2.ui.actors.Window
+--- @alias WindowListener com.prineside.tdi2.ui.actors.Window_WindowListener
+--- @alias WindowStyle com.prineside.tdi2.ui.actors.Window_WindowStyle
+--- @alias WindowedMean com.badlogic.gdx.math.WindowedMean
+--- @alias WindstormAbility com.prineside.tdi2.abilities.WindstormAbility
+--- @alias WindstormAbilityFactory com.prineside.tdi2.abilities.WindstormAbility_WindstormAbilityFactory
+--- @alias Writer java.io.Writer
+--- @alias XmMusicTrackMenu com.prineside.tdi2.ui.components.XmMusicTrackMenu
+--- @alias XmMusicTrackTile com.prineside.tdi2.tiles.XmMusicTrackTile
+--- @alias XmMusicTrackTileFactory com.prineside.tdi2.tiles.XmMusicTrackTile_XmMusicTrackTileFactory
+--- @alias XmlReader com.badlogic.gdx.utils.XmlReader
+--- @alias XmlWriter com.badlogic.gdx.utils.XmlWriter
+--- @alias YELLOW com.prineside.tdi2.utils.MaterialColor_YELLOW
+
+-- Classes with the same name which has not received an alias:
+
+-- AbstractFactory (3 usages):
+-- - com.prineside.tdi2.Gate_Factory_AbstractFactory:
+-- - com.prineside.tdi2.Item_Factory_AbstractFactory:
+-- - com.prineside.tdi2.Tile_Factory_AbstractFactory:
+
+-- Action (2 usages):
+-- - com.prineside.tdi2.Action:
+-- - com.prineside.tdi2.scene2d.Action:
+
+-- Adapter (4 usages):
+-- - com.badlogic.gdx.ai.btree.utils.DistributionAdapters_Adapter:
+-- - com.prineside.tdi2.managers.UiManager_UiComponent_Adapter:
+-- - com.prineside.tdi2.ui.actors.Window_WindowListener_Adapter:
+-- - com.prineside.tdi2.ui.components.MapEditorInventoryMenu_MapEditorInventoryMenuListener_Adapter:
+
+-- Animation (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.Animation:
+-- - com.badlogic.gdx.graphics.g3d.model.Animation:
+
+-- Array (2 usages):
+-- - com.badlogic.gdx.utils.Array:
+-- - java.lang.reflect.Array:
+
+-- BonusProvider (40 usages):
+-- - com.prineside.tdi2.gameplayMods.mods.AddAllAbilityCharges_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.AddRandomCoreTile_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.AddRandomPlatform_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.AllAbilitiesForRandomTower_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.BaseExplodesOnEnemyPass_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.BoostExistingEnemiesWithLoot_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.BuildRandomMiner_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.CriticalDamage_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.DebuffsLastLonger_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.DepositCoinsGeneration_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.DoubleMiningSpeed_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.EnemiesDropResources_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.ExtraDamagePerBuff_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.FirstEnemiesInWaveExplode_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.GV_AbilitiesEnergy_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.GV_AbilitiesMaxEnergy_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.GV_BountiesNearby_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.GV_DisableBountyModifierHarm_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.GV_MinersMaxUpgradeLevel_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.GV_TowersMaxExpLevel_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.IncreaseSelectedBonusesPower_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.IncreasedTowerToEnemyEfficiency_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.LastEnemiesInWaveDealNoDamage_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.LightningStrikeOnTowerLevelUp_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.LowHpEnemiesDealNoDamage_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.MineLegendaryItems_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.MinedItemsTurnIntoDust_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.MinersSpawnEnemies_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.MoreBonusVariantsNextTime_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.MultiplyLootedItems_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.MultiplyMdps_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.NukeOnBonusStage_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.ReceiveCoins_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.ReceiveGreenPapers_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.SellAllTowers_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.SpawnZombiesFromBase_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.SummonLootBoss_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.TowersAttackSpeed_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.TowersDamage_BonusProvider:
+-- - com.prineside.tdi2.gameplayMods.mods.TriggerRandomAbility_BonusProvider:
+
+-- CRC (2 usages):
+-- - com.badlogic.gdx.utils.compression.CRC:
+-- - com.prineside.tdi2.utils.CRC:
+
+-- Channel (2 usages):
+-- - com.badlogic.gdx.graphics.g3d.particles.ParallelArray_Channel:
+-- - com.prineside.tdi2.ibxm.Channel:
+
+-- Circle (2 usages):
+-- - com.badlogic.gdx.math.Circle:
+-- - com.prineside.tdi2.shapes.Circle:
+
+-- Collections (2 usages):
+-- - com.badlogic.gdx.utils.Collections:
+-- - java.util.Collections:
+
+-- Colors (2 usages):
+-- - com.badlogic.gdx.graphics.Colors:
+-- - com.prineside.tdi2.utils.MaterialColor_Colors:
+
+-- Config (4 usages):
+-- - com.badlogic.gdx.graphics.g3d.particles.ParticleShader_Config:
+-- - com.badlogic.gdx.graphics.g3d.particles.batches.BillboardParticleBatch_Config:
+-- - com.badlogic.gdx.graphics.g3d.shaders.DefaultShader_Config:
+-- - com.badlogic.gdx.graphics.g3d.shaders.DepthShader_Config:
+
+-- DataInput (2 usages):
+-- - com.badlogic.gdx.utils.DataInput:
+-- - java.io.DataInput:
+
+-- DataOutput (2 usages):
+-- - com.badlogic.gdx.utils.DataOutput:
+-- - java.io.DataOutput:
+
+-- Direction (2 usages):
+-- - com.prineside.tdi2.pathfinding.PathSegmentForRendering_Direction:
+-- - com.prineside.tdi2.ui.components.MapShiftButtons_Direction:
+
+-- EnemyDespawnListener (2 usages):
+-- - com.prineside.tdi2.systems.randomEncounter.type.runningStar.RunningStarEncounterHandler_EnemyDespawnListener:
+-- - com.prineside.tdi2.systems.randomEncounter.type.starfall.StarfallEncounterHandler_EnemyDespawnListener:
+
+-- Entries (9 usages):
+-- - com.badlogic.gdx.utils.ArrayMap_Entries:
+-- - com.badlogic.gdx.utils.IntFloatMap_Entries:
+-- - com.badlogic.gdx.utils.IntIntMap_Entries:
+-- - com.badlogic.gdx.utils.IntMap_Entries:
+-- - com.badlogic.gdx.utils.LongMap_Entries:
+-- - com.badlogic.gdx.utils.ObjectFloatMap_Entries:
+-- - com.badlogic.gdx.utils.ObjectIntMap_Entries:
+-- - com.badlogic.gdx.utils.ObjectLongMap_Entries:
+-- - com.badlogic.gdx.utils.ObjectMap_Entries:
+
+-- Entry (14 usages):
+-- - com.badlogic.gdx.utils.IntFloatMap_Entry:
+-- - com.badlogic.gdx.utils.IntIntMap_Entry:
+-- - com.badlogic.gdx.utils.IntMap_Entry:
+-- - com.badlogic.gdx.utils.LongMap_Entry:
+-- - com.badlogic.gdx.utils.ObjectFloatMap_Entry:
+-- - com.badlogic.gdx.utils.ObjectIntMap_Entry:
+-- - com.badlogic.gdx.utils.ObjectLongMap_Entry:
+-- - com.badlogic.gdx.utils.ObjectMap_Entry:
+-- - com.prineside.tdi2.components.PowerBonuses_Entry:
+-- - com.prineside.tdi2.events.EventListeners_Entry:
+-- - com.prineside.tdi2.ui.shared.TooltipsOverlay_Entry:
+-- - com.prineside.tdi2.utils.MultiReasonBool_Entry:
+-- - com.prineside.tdi2.utils.ParallelBatchStack_Entry:
+-- - java.util.Map_Entry:
+
+-- Event (2 usages):
+-- - com.prineside.tdi2.events.Event:
+-- - com.prineside.tdi2.scene2d.Event:
+
+-- Factories (12 usages):
+-- - com.prineside.tdi2.managers.AbilityManager_Factories:
+-- - com.prineside.tdi2.managers.BuffManager_Factories:
+-- - com.prineside.tdi2.managers.EnemyManager_Factories:
+-- - com.prineside.tdi2.managers.GateManager_Factories:
+-- - com.prineside.tdi2.managers.MinerManager_Factories:
+-- - com.prineside.tdi2.managers.ModifierManager_Factories:
+-- - com.prineside.tdi2.managers.ShapeManager_Factories:
+-- - com.prineside.tdi2.managers.TileManager_Factories:
+-- - com.prineside.tdi2.managers.TowerManager_Factories:
+-- - com.prineside.tdi2.managers.UnitManager_Factories:
+-- - com.prineside.tdi2.systems.ExplosionSystem_Factories:
+-- - com.prineside.tdi2.systems.ProjectileSystem_Factories:
+
+-- Factory (16 usages):
+-- - com.badlogic.gdx.ai.utils.NonBlockingSemaphore_Factory:
+-- - com.badlogic.gdx.ai.utils.SimpleNonBlockingSemaphore_Factory:
+-- - com.prineside.tdi2.Ability_Factory:
+-- - com.prineside.tdi2.Buff_Factory:
+-- - com.prineside.tdi2.Enemy_Factory:
+-- - com.prineside.tdi2.Explosion_Factory:
+-- - com.prineside.tdi2.Gate_Factory:
+-- - com.prineside.tdi2.Item_Factory:
+-- - com.prineside.tdi2.Miner_Factory:
+-- - com.prineside.tdi2.Modifier_Factory:
+-- - com.prineside.tdi2.Projectile_Factory:
+-- - com.prineside.tdi2.Shape_Factory:
+-- - com.prineside.tdi2.Tile_Factory:
+-- - com.prineside.tdi2.Tower_Factory:
+-- - com.prineside.tdi2.Unit_Factory:
+-- - com.prineside.tdi2.utils.AABB_Factory:
+
+-- FlowField (2 usages):
+-- - com.badlogic.gdx.ai.steer.behaviors.FollowFlowField_FlowField:
+-- - com.prineside.tdi2.utils.FlowField:
+
+-- Game (1 usages):
+-- - com.badlogic.gdx.Game:
+
+-- GradientColorValue (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.ParticleEmitter_GradientColorValue:
+-- - com.badlogic.gdx.graphics.g3d.particles.values.GradientColorValue:
+
+-- I18NBundle (2 usages):
+-- - com.badlogic.gdx.utils.I18NBundle:
+-- - com.prineside.tdi2.utils.I18NBundle:
+
+-- Input (2 usages):
+-- - com.badlogic.gdx.Input:
+-- - com.esotericsoftware.kryo.io.Input:
+
+-- Inputs (2 usages):
+-- - com.badlogic.gdx.graphics.g3d.particles.ParticleShader_Inputs:
+-- - com.badlogic.gdx.graphics.g3d.shaders.DefaultShader_Inputs:
+
+-- Intersector (2 usages):
+-- - com.badlogic.gdx.math.Intersector:
+-- - com.prineside.tdi2.utils.Intersector:
+
+-- Iterator (2 usages):
+-- - com.badlogic.gdx.utils.SortedIntList_Iterator:
+-- - java.util.Iterator:
+
+-- Keys (10 usages):
+-- - com.badlogic.gdx.Input_Keys:
+-- - com.badlogic.gdx.utils.ArrayMap_Keys:
+-- - com.badlogic.gdx.utils.IntFloatMap_Keys:
+-- - com.badlogic.gdx.utils.IntIntMap_Keys:
+-- - com.badlogic.gdx.utils.IntMap_Keys:
+-- - com.badlogic.gdx.utils.LongMap_Keys:
+-- - com.badlogic.gdx.utils.ObjectFloatMap_Keys:
+-- - com.badlogic.gdx.utils.ObjectIntMap_Keys:
+-- - com.badlogic.gdx.utils.ObjectLongMap_Keys:
+-- - com.badlogic.gdx.utils.ObjectMap_Keys:
+
+-- List (2 usages):
+-- - com.prineside.tdi2.scene2d.ui.List:
+-- - java.util.List:
+
+-- Listener (1 usages):
+-- - com.badlogic.gdx.ai.btree.BehaviorTree_Listener:
+
+-- Locale (2 usages):
+-- - com.prineside.tdi2.managers.LocaleManager_Locale:
+-- - java.util.Locale:
+
+-- Logger (2 usages):
+-- - com.badlogic.gdx.utils.Logger:
+-- - com.prineside.tdi2.utils.logging.Logger:
+
+-- Map (3 usages):
+-- - com.badlogic.gdx.maps.Map:
+-- - com.prineside.tdi2.Map:
+-- - java.util.Map:
+
+-- MessageManager (2 usages):
+-- - com.badlogic.gdx.ai.msg.MessageManager:
+-- - com.prineside.tdi2.managers.MessageManager:
+
+-- Mode (3 usages):
+-- - com.prineside.tdi2.ibxm.WavInputStream_Mode:
+-- - com.prineside.tdi2.modifiers.BalanceModifier_Mode:
+-- - com.prineside.tdi2.systems.WaveSystem_Mode:
+
+-- Modifier (2 usages):
+-- - com.prineside.tdi2.Modifier:
+-- - java.lang.reflect.Modifier:
+
+-- MultishotProjectileFactory (2 usages):
+-- - com.prineside.tdi2.projectiles.BulletWallProjectile_MultishotProjectileFactory:
+-- - com.prineside.tdi2.projectiles.MultishotProjectile_MultishotProjectileFactory:
+
+-- Node (4 usages):
+-- - com.badlogic.gdx.graphics.g3d.model.Node:
+-- - com.badlogic.gdx.utils.BinaryHeap_Node:
+-- - com.badlogic.gdx.utils.SortedIntList_Node:
+-- - com.prineside.tdi2.scene2d.ui.Tree_Node:
+
+-- NumericValue (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.ParticleEmitter_NumericValue:
+-- - com.badlogic.gdx.graphics.g3d.particles.values.NumericValue:
+
+-- Page (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.PixmapPacker_Page:
+-- - com.badlogic.gdx.graphics.g2d.TextureAtlas_TextureAtlasData_Page:
+
+-- Particle (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.ParticleEmitter_Particle:
+-- - com.prineside.tdi2.tiles.EqualizerTile_Particle:
+
+-- ParticleEffect (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.ParticleEffect:
+-- - com.badlogic.gdx.graphics.g3d.particles.ParticleEffect:
+
+-- ParticleSystem (2 usages):
+-- - com.badlogic.gdx.graphics.g3d.particles.ParticleSystem:
+-- - com.prineside.tdi2.systems.ParticleSystem:
+
+-- ParticleValue (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.ParticleEmitter_ParticleValue:
+-- - com.badlogic.gdx.graphics.g3d.particles.values.ParticleValue:
+
+-- Path (3 usages):
+-- - com.badlogic.gdx.ai.steer.utils.Path:
+-- - com.badlogic.gdx.math.Path:
+-- - com.prineside.tdi2.pathfinding.Path:
+
+-- Pattern (2 usages):
+-- - com.prineside.tdi2.ibxm.Pattern:
+-- - java.util.regex.Pattern:
+
+-- Pos (2 usages):
+-- - com.prineside.tdi2.Gate_Pos:
+-- - com.prineside.tdi2.Tile_Pos:
+
+-- Predicate (2 usages):
+-- - com.badlogic.gdx.utils.Predicate:
+-- - com.prineside.tdi2.utils.Predicate:
+
+-- Queue (2 usages):
+-- - com.badlogic.gdx.utils.Queue:
+-- - java.util.Queue:
+
+-- Random (6 usages):
+-- - com.badlogic.gdx.ai.btree.decorator.Random:
+-- - com.badlogic.gdx.graphics.g3d.particles.influencers.ColorInfluencer_Random:
+-- - com.badlogic.gdx.graphics.g3d.particles.influencers.ModelInfluencer_Random:
+-- - com.badlogic.gdx.graphics.g3d.particles.influencers.ParticleControllerInfluencer_Random:
+-- - com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer_Random:
+-- - java.util.Random:
+
+-- RangedNumericValue (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.ParticleEmitter_RangedNumericValue:
+-- - com.badlogic.gdx.graphics.g3d.particles.values.RangedNumericValue:
+
+-- Ray (2 usages):
+-- - com.badlogic.gdx.ai.utils.Ray:
+-- - com.badlogic.gdx.math.collision.Ray:
+
+-- Render (2 usages):
+-- - com.prineside.tdi2.events.game.Render:
+-- - com.prineside.tdi2.events.global.Render:
+
+-- ScaledNumericValue (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.ParticleEmitter_ScaledNumericValue:
+-- - com.badlogic.gdx.graphics.g3d.particles.values.ScaledNumericValue:
+
+-- Scenario (2 usages):
+-- - com.prineside.tdi2.ui.shared.CameraTools_Scenario:
+-- - com.prineside.tdi2.utils.simulation.Scenario:
+
+-- Screen (2 usages):
+-- - com.badlogic.gdx.Screen:
+-- - com.prineside.tdi2.Screen:
+
+-- Segment (2 usages):
+-- - com.badlogic.gdx.ai.steer.utils.paths.LinePath_Segment:
+-- - com.badlogic.gdx.math.collision.Segment:
+
+-- Selection (2 usages):
+-- - com.prineside.tdi2.scene2d.utils.Selection:
+-- - com.prineside.tdi2.utils.mapeditor.Selection:
+
+-- Setters (2 usages):
+-- - com.badlogic.gdx.graphics.g3d.particles.ParticleShader_Setters:
+-- - com.badlogic.gdx.graphics.g3d.shaders.DefaultShader_Setters:
+
+-- ShapeType (2 usages):
+-- - com.badlogic.gdx.graphics.glutils.ShapeRenderer_ShapeType:
+-- - com.prineside.tdi2.enums.ShapeType:
+
+-- Single (4 usages):
+-- - com.badlogic.gdx.graphics.g3d.particles.influencers.ColorInfluencer_Single:
+-- - com.badlogic.gdx.graphics.g3d.particles.influencers.ModelInfluencer_Single:
+-- - com.badlogic.gdx.graphics.g3d.particles.influencers.ParticleControllerInfluencer_Single:
+-- - com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer_Single:
+
+-- Source (2 usages):
+-- - com.prineside.tdi2.managers.GameValueManager_GameValueEffect_Source:
+-- - com.prineside.tdi2.scene2d.utils.DragAndDrop_Source:
+
+-- SpawnShapeValue (2 usages):
+-- - com.badlogic.gdx.graphics.g2d.ParticleEmitter_SpawnShapeValue:
+-- - com.badlogic.gdx.graphics.g3d.particles.values.SpawnShapeValue:
+
+-- State (3 usages):
+-- - com.badlogic.gdx.ai.fsm.State:
+-- - com.prineside.tdi2.towers.BlastTower_State:
+-- - java.lang.Thread_State:
+
+-- StateRestoreListener (2 usages):
+-- - com.prineside.tdi2.systems.randomEncounter.type.runningStar.RunningStarEncounterHandler_StateRestoreListener:
+-- - com.prineside.tdi2.systems.randomEncounter.type.starfall.StarfallEncounterHandler_StateRestoreListener:
+
+-- Status (2 usages):
+-- - com.badlogic.gdx.ai.btree.Task_Status:
+-- - com.prineside.tdi2.systems.WaveSystem_Status:
+
+-- StringBuilder (2 usages):
+-- - com.badlogic.gdx.utils.StringBuilder:
+-- - java.lang.StringBuilder:
+
+-- Target (2 usages):
+-- - com.prineside.tdi2.scene2d.utils.DragAndDrop_Target:
+-- - java.lang.annotation.Target:
+
+-- Task (3 usages):
+-- - com.badlogic.gdx.ai.btree.Task:
+-- - com.badlogic.gdx.utils.Timer_Task:
+-- - com.prineside.tdi2.utils.GameSyncLoader_Task:
+
+-- Tooltip (2 usages):
+-- - com.prineside.tdi2.scene2d.ui.Tooltip:
+-- - com.prineside.tdi2.ui.components.Tooltip:
+
+-- Type (5 usages):
+-- - com.badlogic.gdx.graphics.glutils.GLVersion_Type:
+-- - com.prineside.tdi2.managers.GameValueManager_GvSnapDiff_Type:
+-- - com.prineside.tdi2.scene2d.InputEvent_Type:
+-- - com.prineside.tdi2.scene2d.utils.FocusListener_FocusEvent_Type:
+-- - java.lang.reflect.Type:
+
+-- Values (9 usages):
+-- - com.badlogic.gdx.utils.ArrayMap_Values:
+-- - com.badlogic.gdx.utils.IntFloatMap_Values:
+-- - com.badlogic.gdx.utils.IntIntMap_Values:
+-- - com.badlogic.gdx.utils.IntMap_Values:
+-- - com.badlogic.gdx.utils.LongMap_Values:
+-- - com.badlogic.gdx.utils.ObjectFloatMap_Values:
+-- - com.badlogic.gdx.utils.ObjectIntMap_Values:
+-- - com.badlogic.gdx.utils.ObjectLongMap_Values:
+-- - com.badlogic.gdx.utils.ObjectMap_Values:
+
+-- View (2 usages):
+-- - com.prineside.tdi2.ui.shared.StateDebugger_View:
+-- - com.prineside.tdi2.utils.mapeditor.tools.View:
